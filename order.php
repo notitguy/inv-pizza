@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="cs" data-wf-page="6125d18e93fe65dbd434b43c">
+<html lang="cs">
 
 <head>
   <meta charset="utf-8" />
-  <title>Menu</title>
+  <title>Reserve a table</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
@@ -34,7 +34,7 @@
   </style>
 </head>
 
-<body class="body--dark is--home">
+<body class="body--dark">
 
   <?php 
     include 'blocks/header.php';
@@ -58,21 +58,21 @@
                 </div>
                 <div class="col-md-6">
                   <label>Number of people</label>
-                  <input type="number" max="20" placeholder="max 20" required />
+                  <input type="number" min="1" max="20" placeholder="1" required />
                 </div>
 
                 <div class="col-md-6">
                   <label>Name</label>
-                  <input type="text" placeholder="Name.." required/>
+                  <input type="text" placeholder="Name" required/>
                 </div>
                 <div class="col-md-6">
                   <label>Surname</label>
-                  <input type="text" placeholder="Surname.." required />
+                  <input type="text" placeholder="Surname" required />
                 </div>
 
                 <div class="col-md-6">
                   <label>Phone</label>
-                  <input id="phone" type="text" placeholder="Phone" required />
+                  <input id="phone" type="tel" placeholder="Phone" />
                 </div>
 
                 <div class="col-md-6">
@@ -80,9 +80,17 @@
                   <input type="email" placeholder="Email" required />
                 </div>
                 <div class="col-md-12">
-                  <label>Reason</label>
-                  <input class="w-90" type="text" name="reason" placeholder="Reason" required>
-                  <label>Сomment</label>
+                  <label>Occasion</label>
+                  <select class="w-90">
+                    <option value="">-- Your occasion (optional) --</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="business">Business meal</option>
+                    <option value="dating">Dating</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="anniversary">Anniversary</option>
+                    <option value="celebration">Celebration</option>
+                  </select>
+                  <label>Add a special request</label>
                   <textarea class="w-90" rows="5"></textarea>
                   <button class="send_form" type="submit" name="send_order">Send</button>
                 </div>
@@ -140,7 +148,6 @@
   ?>
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
       <script src="assets/js/main.js"></script>
       <script type="text/javascript">
         $(document).ready(function() {
@@ -158,9 +165,7 @@
               window.location = url
             }, 1100, this.href);
           });
-          $('#phone').inputmask("+420 (999) 999-999");
         });
-
       </script>
 
       <script src="assets/js/animate.js"></script>
