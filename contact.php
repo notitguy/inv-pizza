@@ -111,13 +111,13 @@
     include 'blocks/footer.php';
   ?>
 
-     
 
-    <div class="S_massage">
-      <div class="close">
-        <p id="close_mass">x</p>
-      </div>
-      <h6>We will soon contact you.</h6>
+    <div class="notify success">
+      <img src="/assets/img/icons/check-mark-circle-thin.svg" alt="icon" >
+      <span>Thank you! Your message has been sent.</span>
+      <button>
+        <svg aria-hidden="true" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7.71 8.23l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75L1 11.98l3.75-3.75L1 4.48 2.48 3l3.75 3.75L9.98 3l1.48 1.48-3.75 3.75z"></path></svg>
+      </button>
     </div>
 
   <!--   <div class="E_massage">
@@ -134,43 +134,47 @@
         margin-bottom: 6px;
         display: none;
       }
-      .S_massage{
-        width: 300px;
-        position: fixed;
-        z-index: 9999 !important;
-        height: 75px;
-        background: #E0EFCB;
-        top: 90%;
-        right: 15px;
-        border-radius: 4px;
-        display: none;
-      }
-
-      .close{
-        width: 100%;
-        height: 30px  !important;
+      .notify {
         display: flex;
-        justify-content: flex-end;
         align-items: center;
+        min-width: 300px;
+        min-height: 6rem;
+        padding: 1.5rem;
+        position: fixed;
+        bottom: 2rem;
+        right: 0;
+        border-radius: 5px;
+        /* for animations */
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(2rem);
+        transition: all 0.3s ease-in-out;
       }
+        .notify.visible {
+          visibility: visible;
+          opacity:1;
+          transform: translateY(0)
+        }
+        .notify.success {
+          background-color: #E0EFCB;
+        }
 
-      .close p{
-        margin-right: 10px;
-        color: #008080;
-        height: inherit !important;
-        cursor: pointer;
-        margin-bottom: 0px;
-        font-weight: 200;
-        font-size: 20px;
+      .notify span {
+        flex: 1 1 auto;
+        color: #222;
+        margin: 0 1rem;
       }
-
-      .S_massage h6{
-        width: 100%;
-        text-align: left;
-        color: #008080;
-        margin: 0px 0px 0px 10px;
-        font-size: 16px;
-        padding: 0px;
+      .notify button {
+        align-self: flex-start;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        background-color: transparent;
+        opacity: 0.4;
+      }
+      .notify button svg {
+        width: 2rem;
+        height: 2rem;
       }
     </style>
 
@@ -209,7 +213,10 @@
               },
               success: function (data) {
                 if(data = "success"){
-                    $(".S_massage").fadeIn("slow");
+                    $(".notify").addClass("visible");
+                      setTimeout(function () {
+                        $(".notify").removeClass("visible");
+                      }, 5000);
                     $(".error").slideUp(300);
                     $("#send_form").prop("disabled", false);
                     $("#name").val("");
@@ -230,8 +237,8 @@
              
    
 
-          $("#close_mass").click(function(){
-            $(".S_massage").fadeOut("slow");
+          $(".notify button").click(function(){
+            $(".notify").removeClass("visible");
           });
 
             $("#name").val("");
