@@ -18,6 +18,7 @@
 
 		$email = Clean($_POST['email']);
 		$name = Clean($_POST['name']);
+		$phone = Clean($_POST['phone']);
 		$messagefild = Clean($_POST['message']);
 
 		$headers= "MIME-Version: 1.0\r\n";
@@ -26,7 +27,7 @@
 
 		$subject = "Appeal from the site " . $today;
 		$to = "erkinoov20@gmail.com";
-		$message = 'Name: '.$name.'<br>'.'Email: '.$email.'<br>'.'Message:'.$messagefild;
+		$message = 'Name: '.$name.'<br>'.'Phone: '.$phone.'<br>'.'Email: '.$email.'<br>'.'Message:'.$messagefild;
 		$success =  mail($to, $subject, $message, $headers);
 
 		if ($success) {
