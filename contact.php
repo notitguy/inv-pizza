@@ -88,12 +88,14 @@
               <div class="col-md-12 d_center">
                 <input type="email" id="email" required="" name="email" placeholder="Email">
               </div>
-
+              <div class="col-md-12 d_center">
+                <input type="number" id="phone" required="" name="phone" placeholder="Phone">
+              </div>
               <div class="col-md-12 d_center ">
                 <textarea rows="7" id="message" required="" name="message" placeholder="Message"></textarea>
               </div>
               <div class="col-md-12 d_center">
-                <p class="error">Fill in all the fields</p>
+                <p class="error"></p>
               </div>
               
               <div class="col-md-12 d_center ">
@@ -113,19 +115,13 @@
 
 
     <div class="notify success">
-      <img src="/assets/img/icons/check-mark-circle-thin.svg" alt="icon" >
+      <img src="assets/img/icons/check-mark-circle-thin.svg" alt="icon" >
       <span>Thank you! Your message has been sent.</span>
       <button>
         <svg aria-hidden="true" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7.71 8.23l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75L1 11.98l3.75-3.75L1 4.48 2.48 3l3.75 3.75L9.98 3l1.48 1.48-3.75 3.75z"></path></svg>
       </button>
     </div>
 
-  <!--   <div class="E_massage">
-      <div class="close">
-        <p>x</p>
-      </div>
-      <h6>We will soon contact you.</h6>
-    </div> -->
 
 
     <style type="text/css">
@@ -179,6 +175,7 @@
     </style>
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
       <script src="assets/js/main.js"></script>
       <script>
 
@@ -186,20 +183,46 @@
 
 
           $("#send_form").click(function () {
+
+
+
             
+
             var name = $("#name").val();
             var email = $("#email").val();
             var message = $("#message").val();
+            var phone = $("#phone").val();
 
+    
             if (name == "") {
-              (".error").slideDown(300);
-              return false;
-            }else if(email == ""){
-              (".error").slideDown(300);
-              return false;
-            }else if(message == ""){
-              $(".error").slideDown(300);
-              return false;
+              $(".error").text("Fill in all the fields");
+              $(".error").fadeIn();
+              return false
+            }else if (email == "") {
+              $(".error").text("Fill in all the fields");
+              $(".error").fadeIn();
+               return false
+            }else if (phone == "") {
+              $(".error").text("Fill in all the fields");
+              $(".error").fadeIn();
+               return false
+            }else if (message == "") {
+              $(".error").text("Fill in all the fields");
+              $(".error").fadeIn();
+               return false
+            }
+
+            if (email.length > 0
+            && (email.match(/.+?\@.+/g) || []).length !== 1) {
+            console.log('invalid');
+            $(".error").text("You entered incorrect email");
+            $(".error").fadeIn();
+            return false;
+            } else {
+              
+
+
+
             }
 
 
@@ -221,6 +244,7 @@
                     $("#send_form").prop("disabled", false);
                     $("#name").val("");
                     $("#email").val("");
+                    $("#phone").val("");
                     $("#message").val("");
                 }else{
                     alert("errpr");
@@ -228,6 +252,8 @@
                 
               }
             });
+
+
           });
 
 
@@ -241,10 +267,7 @@
             $(".notify").removeClass("visible");
           });
 
-            $("#name").val("");
-            $("#email").val("");
-            $("#date").val("");
-            $("#massage").val("");
+       
     
         
        $("header").addClass("header_down");
