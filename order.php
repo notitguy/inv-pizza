@@ -102,7 +102,7 @@
               </div>
 
               <div class="change_step">
-                <img id="change_step_" style="margin: 20px auto;" src="assets/img/right.png" width="80" height="80">
+                <button id="change_step_"type="button">Continue</button>
               </div>
 
             </form>
@@ -114,6 +114,9 @@
     </main>
 
     <style type="text/css">
+
+
+
       .change_step {
         width: 100%;
         height: auto;
@@ -127,10 +130,7 @@
         transform: rotate(90deg);
       }
       
-      .rigt_deg {
-        transform: rotate(-90deg) !important;
-        transition: transform 0.5s;
-      }
+     
       
       .order_form {
         padding: 50px;
@@ -201,10 +201,19 @@
       <script src="assets/js/main.js"></script>
       <script type="text/javascript">
         $(document).ready(function() {
+
+
+          
           $("#change_step_").click(function() {
-            $(this).toggleClass("rigt_deg");
+            $(this).text("Back");
+
+         
+
             $(".step_2").toggle("slide");
             $(".step_1").toggle("slide");
+
+
+
           });
           const picker = new Litepicker({
             element: document.getElementById('litepicker'),
@@ -224,6 +233,16 @@
               window.location = url
             }, 1100, this.href);
           });
+
+
+
+            if($(".step_2").is(":hidden")){
+                alert("The paragraph  is hidden.");
+            } else{
+                alert("The paragraph  is visible.");
+            }
+           
+
         });
       </script>
 
