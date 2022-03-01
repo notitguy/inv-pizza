@@ -7,6 +7,7 @@
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/litepicker/dist/css/litepicker.css" />
   <style type="text/css">
     .plate-slider__image {
       transform: rotate(0deg);
@@ -43,18 +44,18 @@
     <main>
 
       <section class="order_ main_wrapper">
-        <div class="row" style="width: 100%;">
-          <div class="col-xl-6">
+        <div class="row main_row">
+          <div class="col-xl-6 left_div">
             <div class="rigt_img"></div>
           </div>
           <div class="col-xl-6 d_center">
             <form class="order_form" action="#" method="POST">
-              <div class="row">
 
+              <div class="row step_1">
                 <div class="col-md-6">
 
-                  <label>Date and time</label>
-                  <input type="datetime-local" required>
+                  <label>Date</label>
+                  <input id="litepicker" type="text" required>
                 </div>
                 <div class="col-md-6">
                   <label>Number of people</label>
@@ -69,6 +70,9 @@
                   <label>Surname</label>
                   <input type="text" placeholder="Surname" required />
                 </div>
+              </div>
+
+              <div class="row step_2" style="display: none;">
 
                 <div class="col-md-6">
                   <label>Phone</label>
@@ -94,6 +98,11 @@
                   <textarea class="w-90" rows="5"></textarea>
                   <button class="send_form" type="submit" name="send_order">Send</button>
                 </div>
+
+              </div>
+
+              <div class="change_step">
+                <img id="change_step_" style="margin: 20px auto;" src="assets/img/right.png" width="80" height="80">
               </div>
 
             </form>
@@ -105,13 +114,31 @@
     </main>
 
     <style type="text/css">
-      .order_form{
+      .change_step {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .change_step img {
+        cursor: pointer;
+        transition: transform 0.5s;
+        transform: rotate(90deg);
+      }
+      
+      .rigt_deg {
+        transform: rotate(-90deg) !important;
+        transition: transform 0.5s;
+      }
+      
+      .order_form {
         padding: 50px;
       }
+      
       .rigt_img {
         width: 100%;
         min-height: 100%;
-        background: red;
         background-image: url(assets/img/food/about.jpg);
         background-position: bottom;
         background-size: cover;
@@ -119,28 +146,48 @@
       }
       
       input {
-        
         box-sizing: border-box;
         width: 100%;
         height: 45px;
       }
-
-      textarea{
+      
+      select {
+        box-sizing: border-box;
+        width: 100%;
+        height: 45px;
+      }
+      
+      textarea {
         width: 100%;
         box-sizing: border-box;
       }
-
-      .send_form{
+      
+      .send_form {
         width: 100%;
       }
-
+      
+      .main_row {
+        height: 700px;
+        overflow: hidden;
+      }
+      
       @media only screen and (max-width: 700px) {
-
-        .send_form{
+        .send_form {
           margin-top: 40px;
         }
-}
-
+        .main_row {
+          padding: 40px 0px;
+        }
+        .order_form {
+          padding: 30px;
+        }
+      }
+      
+      @media only screen and (max-width: 1200px) {
+        .left_div {
+          display: none;
+        }
+      }
     </style>
 
     <?php 
@@ -148,9 +195,20 @@
   ?>
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/litepicker.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/plugins/mobilefriendly.js"></script>
       <script src="assets/js/main.js"></script>
       <script type="text/javascript">
         $(document).ready(function() {
+          $("#change_step_").click(function() {
+            $(this).toggleClass("rigt_deg");
+            $(".step_2").toggle("slide");
+            $(".step_1").toggle("slide");
+          });
+          const picker = new Litepicker({
+            element: document.getElementById('litepicker'),
+            plugins: ['mobilefriendly'],
+          });
           $("header").addClass("header_down");
           $(".plate-slider__title").addClass("title_show");
           setTimeout(function() {
