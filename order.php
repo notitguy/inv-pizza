@@ -53,7 +53,6 @@
 
               <div class="row step_1">
                 <div class="col-md-6">
-
                   <label>Date</label>
                   <input id="litepicker" type="text" required>
                 </div>
@@ -95,15 +94,13 @@
                     <option value="celebration">Celebration</option>
                   </select>
                   <label>Add a special request</label>
-                  <textarea class="w-90" rows="5"></textarea>
+                  <textarea class="w-90" rows="3"></textarea>
                   <button class="send_form" type="submit" name="send_order">Send</button>
                 </div>
 
               </div>
 
-              <div class="change_step">
-                <button id="change_step_"type="button">Continue</button>
-              </div>
+                <button class="step" type="button">Continue</button>
 
             </form>
           </div>
@@ -115,28 +112,6 @@
 
     <style type="text/css">
 
-
-
-      .change_step {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-      }
-      
-      .change_step img {
-        cursor: pointer;
-        transition: transform 0.5s;
-        transform: rotate(90deg);
-      }
-      
-     
-      
-      .order_form {
-        padding: 50px;
-      }
-
-
       .rigt_img {
         width: 100%;
         min-height: 100%;
@@ -145,43 +120,10 @@
         background-size: cover;
         background-repeat: no-repeat;
       }
-      
-      input {
-        box-sizing: border-box;
-        width: 100%;
-        height: 55px;
-      }
-      
-      select {
-        box-sizing: border-box;
-        width: 100%;
-      
-      }
-      
-      textarea {
-        width: 100%;
-        box-sizing: border-box;
-      }
-      
-      .send_form {
-        width: 100%;
-      }
-      
+    
       .main_row {
         height: 820px;
         overflow: hidden;
-      }
-      
-      @media only screen and (max-width: 700px) {
-        .send_form {
-          margin-top: 40px;
-        }
-        .main_row {
-          padding: 40px 0px;
-        }
-        .order_form {
-          padding: 30px;
-        }
       }
       
       @media only screen and (max-width: 1200px) {
@@ -202,10 +144,18 @@
       <script type="text/javascript">
         $(document).ready(function() {
 
+          // Function to change button text
+          $.fn.toggleText = function(text1, text2) {
+            if(this.text() == text1){
+              this.text(text2);
+            } else {                   
+              this.text(text1);
+            }
+            return this;
+          };
 
-          
-          $("#change_step_").click(function() {
-            $(this).text("Back");
+          $(".step").click(function() {
+            $(this).toggleText("Continue","Back").toggleClass("back");
 
          
 
@@ -237,9 +187,9 @@
 
 
             if($(".step_2").is(":hidden")){
-                alert("The paragraph  is hidden.");
+                console.log("The paragraph  is hidden.");
             } else{
-                alert("The paragraph  is visible.");
+              console.log("The paragraph  is visible.");
             }
            
 

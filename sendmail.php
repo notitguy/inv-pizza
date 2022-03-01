@@ -28,7 +28,7 @@
 	
 
 		$subject = "Appeal from the site " . $today;
-		$to = "erkinoov20@gmail.com"; // Mail adress
+		$to = "1erkinoov20@gmail.com"; // Mail adress
 		$message = 'Name: '.$name.'<br>'.'Phone: '.$phone.'<br>'.'Email: '.$email.'<br>'.'Message:'.$messagefild;
 		$success =  mail($to, $subject, $message, $headers);
 

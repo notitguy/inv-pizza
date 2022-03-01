@@ -107,13 +107,13 @@
           </div>
           <div class="col-md-6">
             <h3>Send us a message</h3>
-            <form action="sendmail.php" method="POST" id="contact-form" class="row">
+            <form action="sendmail.php" method="POST" id="contact-form" class="row no-labels">
               <input type="text" id="name" required name="name" placeholder="Name">
               <input type="email" id="email" required name="email" placeholder="Email">
               <input type="tel" id="phone" name="phone" placeholder="Phone">
-              <textarea rows="7" id="message" required name="message" placeholder="Message"></textarea>
+              <textarea rows="3" id="message" required name="message" placeholder="Message"></textarea>
               <p class="error"></p>
-              <button type="button" id="send_form" name="send_form">Send</button>
+              <button type="submit" id="send_form" name="send_form">Send</button>
             </form>
           </div>
         </div>
@@ -176,19 +176,19 @@
           }
           
           // Validate phone
-          // $('#phone').on("input blur", function(e) {
-          //     validatePhone(e);
-          // });
+          $('#phone').on("input blur", function(e) {
+              validatePhone(e);
+          });
 
-          // function validatePhone() {
-          //   const phone = $("#phone").val();
-          //   if ( phone.length > 9 && phone.match(/^[\d\.\-]+$/) ) {
-          //       $("#phone").removeClass("error-field")
-          //     return false;
-          //   } else {
-          //     $("#phone").addClass("error-field")
-          //   }
-          // }
+          function validatePhone() {
+            const phone = $("#phone").val();
+            if ( !(phone.length == 0 || /^[0-9 ()+-]{9,12}$/.test(phone)) ) {
+                $("#phone").addClass("error-field")
+              return false;
+            } else {
+              $("#phone").removeClass("error-field")
+            }
+          }
 
           // Validate textarea
           $('#message').on("input blur", function(e) {
@@ -222,16 +222,17 @@
               $(".error").fadeIn();
               $("#name").addClass("error-field").removeClass("valid")
               return false
-            }else if (email == "") {
+            } else if (email == "") {
               $(".error").text("Missing email");
               $(".error").fadeIn();
               $("#email").addClass("error-field").removeClass("valid")
                return false
-            }else if ( !$(phone.length == 0 && phone.match(/^[\d\.\-]+$/)) ) {
-              $(".error").text("Incorrect phone");
+            } else if ( !(phone.length == 0 || /^[0-9 ()+-]{9,12}$/.test(phone)) ) {
+              $(".error").text("Incorrect phone format");
               $(".error").fadeIn();
+              $("#phone").addClass("error-field").removeClass("valid")
                return false
-            }else if (message == "") {
+            } else if (message == "") {
               $(".error").text("Please, write your message.");
               $(".error").fadeIn();
               $("#message").addClass("error-field").removeClass("valid")

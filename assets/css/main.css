@@ -4952,8 +4952,11 @@ body:hover .cursor  {
     padding: 5vw 10vw;
     overflow-x: hidden;
 }
-
-.col-md-6 {
+.col-md-12 {
+    width: 100%;
+}
+.col-md-6,
+.col-xl-6 {
     padding: 0 var(--gutter);
 }
 
@@ -5390,11 +5393,11 @@ section address a {
 }
 @media only screen and (max-width: 560px)  {
     .modal_content  {
-    width:  90%;
-}
-.modal_content h3  {
-    margin-top:  80px;
-}
+        width:  90%;
+    }
+    .modal_content h3  {
+        margin-top:  80px;
+    }
 }
 
 
@@ -5411,7 +5414,12 @@ section address a {
 form button[disabled] {
     background-color: #282828;
 }
-input, select, textarea, form button {
+
+form .col-md-6 {
+    padding-left: 0;
+}
+
+input, select, textarea, form button[type=submit] {
     width: 100%;
     border: none;
     border-bottom: 1px solid #919191;
@@ -5420,16 +5428,47 @@ input, select, textarea, form button {
     padding: var(--gutter);
     transition: all ease-in-out 0.3s;
 }
-form button {
+
+form button[type=submit] {
     border: none;
     background-color: var(--accent-color-dark);
     text-transform: uppercase;
 }
 form button[disabled] {
     color: #bbb;
+    background-color: #282828;
 }
-form button:not([disabled]):hover  {
+form button[type=submit]:not([disabled]):hover  {
     filter: brightness(1.2);
+}
+form button.step {
+    background-color: transparent;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    /* padding: var(--gutter); */
+    margin-top: var(--gutter);
+}
+form button.step::before,
+form button.step::after {
+    content: "";
+    width: 50px;
+    height: 20px;
+    background-image: url(/assets/img/icons/arrow--green.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+form button.step::after {
+    transform: rotate(180deg);
+}
+
+form button.step::before,
+form button.step.back::after {
+    display: none;
+}
+form button.step.back::before {
+    display: inline-block;
 }
 
 input:focus-visible,
@@ -5538,9 +5577,15 @@ header {
 }
 @media only screen and (max-width: 767px)  {
 
-    .col-md-6 {
+    .col-md-6,
+    .col-xl-6 {
         padding: var(--gutter) 0;
+        width: 100%;
     }
+    form .col-md-6 {
+        padding: 0;
+    }
+
     .footer_logo_img  {
         margin:  0 !important;
     }
