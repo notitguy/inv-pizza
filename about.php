@@ -48,7 +48,7 @@
           <div class="plate-slider__slider" >
             <div class="swiper-wrapper is--plate-slider" style="justify-content: center;">
               <div class="swiper-slide is--plate-slider">
-                <a href="#" class="link plate-slider__content-block is--plate-slider w-inline-block">
+                <a href="javascript:void(0);" class=" plate-slider__content-block is--plate-slider w-inline-block">
                   <div class="text--mask">
                   </div>
                   <div class="text--mask">

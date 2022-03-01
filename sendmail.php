@@ -1,7 +1,9 @@
 <?php 
-	
 	date_default_timezone_set('Europe/Prague');
 	$today = date("F j, Y, g:i a");
+
+	if(isset($_POST['name'])){
+
 	// var_dump($_POST);
 
 	function Clean($text)
@@ -26,7 +28,7 @@
 	
 
 		$subject = "Appeal from the site " . $today;
-		$to = "1erkinoov20@gmail.com";
+		$to = "erkinoov20@gmail.com"; // Mail adress
 		$message = 'Name: '.$name.'<br>'.'Phone: '.$phone.'<br>'.'Email: '.$email.'<br>'.'Message:'.$messagefild;
 		$success =  mail($to, $subject, $message, $headers);
 
@@ -36,6 +38,8 @@
 			echo "";
 		}
 
-
+	}else{
+		header("Location: index");
+	}
 
 ?>
