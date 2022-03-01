@@ -117,7 +117,7 @@
 
       setTimeout(function(){
         $(".plate-slider__image-wrapper").addClass("change_right");
-      }, 700);
+      }, 200);
 
 
       $('.link ').click(function(e) {

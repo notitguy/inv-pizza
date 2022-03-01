@@ -73,38 +73,50 @@
 
       </section>
 
-      <section class="section--three-elements-layout wf-section main_wrapper" style="background-color: #212121;">
-
+      <section class="main_wrapper">
         <div class="row">
-          <div class="col-md-6 m-0-p-0">
-            <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=INVITALY%20Pizza%20%D0%BF%D1%80%D0%B0%D0%B3%D0%B0%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <div class="col-md-6">
+            <h1 class="heading--xlarge">Come and enjoy true Italian Food</h1>
           </div>
-          <div class="col-md-6 m-0-p-0 d_center flex_d_c">
-            <h3 class="title_c_form">Contact form</h3>
-            <form action="sendmail.php" method="POST" class="myform form row">
-              <div class="col-md-12 d_center">
-                <input type="text" id="name" required="" name="name" placeholder="Name">
-              </div>
-              <div class="col-md-12 d_center">
-                <input type="email" id="email" required="" name="email" placeholder="Email">
-              </div>
-              <div class="col-md-12 d_center">
-                <input type="number" id="phone" required="" name="phone" placeholder="Phone">
-              </div>
-              <div class="col-md-12 d_center ">
-                <textarea rows="7" id="message" required="" name="message" placeholder="Message"></textarea>
-              </div>
-              <div class="col-md-12 d_center">
-                <p class="error"></p>
-              </div>
-              
-              <div class="col-md-12 d_center ">
-                <button type="button" class="send_form" id="send_form" name="send_form">Send</button>
-              </div>
+          <div class="col-md-6 row p-0">
+            <div class="col-md-6">
+              <h3>Invitaly EnoTrattoria<br></h3>
+              <address>
+                <div>Vězeňská 4, 110 00 Praha</div>
+                <div>Otevírací doba: 11:00 - 22:00 (Út-So)</div>
+                <div>Tel: +420 222 313 185</div>
+                <a href="https://goo.gl/maps/QFHo98UqRi7Puspj6" target="_blank">View on Google Maps</a>
+              </address>
+            </div>
+            <div class="col-md-6">
+            <h3>Invitaly Pizzeria</h3>
+              <address>
+                <div>Vladislavova 26, 110 00 Praha</div>
+                <div>Otevírací doba: 11:00 - 22:00 (Po-Pá)</div>
+                <div>Tel: +420 773 060 490</div>
+                <a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank">View on Google Maps</a>
+              </address>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main_wrapper">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=INVITALY%20Pizza%20%D0%BF%D1%80%D0%B0%D0%B3%D0%B0%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
+          </div>
+          <div class="col-md-6">
+            <h3>Send us a message</h3>
+            <form action="sendmail.php" method="POST" id="contact-form" class="row">
+              <input type="text" id="name" required name="name" placeholder="Name">
+              <input type="email" id="email" required name="email" placeholder="Email">
+              <input type="tel" id="phone" name="phone" placeholder="Phone">
+              <textarea rows="7" id="message" required name="message" placeholder="Message"></textarea>
+              <p class="error"></p>
+              <button type="button" id="send_form" name="send_form">Send</button>
             </form>
           </div>
         </div>
-
       </section>
 
     </main>
@@ -116,63 +128,11 @@
 
     <div class="notify success">
       <img src="assets/img/icons/check-mark-circle-thin.svg" alt="icon" >
-      <span>Thank you! Your message has been sent.</span>
+      <div>Thank you! Your message has been sent.</div>
       <button>
         <svg aria-hidden="true" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7.71 8.23l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75L1 11.98l3.75-3.75L1 4.48 2.48 3l3.75 3.75L9.98 3l1.48 1.48-3.75 3.75z"></path></svg>
       </button>
     </div>
-
-
-
-    <style type="text/css">
-      .error{
-        color: red;
-        margin-bottom: 6px;
-        display: none;
-      }
-      .notify {
-        display: flex;
-        align-items: center;
-        min-width: 300px;
-        min-height: 6rem;
-        padding: 1.5rem;
-        position: fixed;
-        bottom: 2rem;
-        right: 0;
-        border-radius: 5px;
-        /* for animations */
-        visibility: hidden;
-        opacity: 0;
-        transform: translateY(2rem);
-        transition: all 0.3s ease-in-out;
-      }
-        .notify.visible {
-          visibility: visible;
-          opacity:1;
-          transform: translateY(0)
-        }
-        .notify.success {
-          background-color: #E0EFCB;
-        }
-
-      .notify span {
-        flex: 1 1 auto;
-        color: #222;
-        margin: 0 1rem;
-      }
-      .notify button {
-        align-self: flex-start;
-        margin: 0;
-        padding: 0;
-        width: auto;
-        background-color: transparent;
-        opacity: 0.4;
-      }
-      .notify button svg {
-        width: 2rem;
-        height: 2rem;
-      }
-    </style>
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
@@ -181,6 +141,69 @@
 
         $( document ).ready(function() {
 
+
+          // Disable "send" button on start
+          $("#send_form").prop( "disabled", true );
+
+          // Validate name
+          $('#name').on("input blur", function(e) {
+              validateName(e);
+          });
+
+          function validateName() {
+            const name = $("#name").val();
+            if (name.length < 1 ) {
+              $("#name").addClass("error-field").removeClass("valid")
+              return false;
+            } else {
+              $("#name").removeClass("error-field").addClass("valid")
+            }
+          }
+
+          // Validate email
+          $('#email').on("input blur", function(e) {
+              validateEmail(e);
+          });
+
+          function validateEmail() {
+            const email = $("#email").val();
+            if ( email.length > 0 && email.match(/^\S+@\S+\.\S+$/) ) {
+                $("#email").removeClass("error-field").addClass("valid")
+              return false;
+            } else {
+              $("#email").addClass("error-field").removeClass("valid")
+            }
+          }
+          
+          // Validate phone
+          // $('#phone').on("input blur", function(e) {
+          //     validatePhone(e);
+          // });
+
+          // function validatePhone() {
+          //   const phone = $("#phone").val();
+          //   if ( phone.length > 9 && phone.match(/^[\d\.\-]+$/) ) {
+          //       $("#phone").removeClass("error-field")
+          //     return false;
+          //   } else {
+          //     $("#phone").addClass("error-field")
+          //   }
+          // }
+
+          // Validate textarea
+          $('#message').on("input blur", function(e) {
+              validateMessage(e);
+          });
+          function validateMessage() {
+            const message = $("#message").val();
+            if ( message.length > 10 ) {
+              $("#send_form").prop( "disabled", false );
+              $("#message").removeClass("error-field")
+              return false;
+            } else {
+              $("#message").addClass("error-field")
+            }
+          }
 
           $("#send_form").click(function () {
 
@@ -195,20 +218,23 @@
 
     
             if (name == "") {
-              $(".error").text("Fill in all the fields");
+              $(".error").text("Missing name");
               $(".error").fadeIn();
+              $("#name").addClass("error-field").removeClass("valid")
               return false
             }else if (email == "") {
-              $(".error").text("Fill in all the fields");
+              $(".error").text("Missing email");
               $(".error").fadeIn();
+              $("#email").addClass("error-field").removeClass("valid")
                return false
-            }else if (phone == "") {
-              $(".error").text("Fill in all the fields");
+            }else if ( !$(phone.length == 0 && phone.match(/^[\d\.\-]+$/)) ) {
+              $(".error").text("Incorrect phone");
               $(".error").fadeIn();
                return false
             }else if (message == "") {
-              $(".error").text("Fill in all the fields");
+              $(".error").text("Please, write your message.");
               $(".error").fadeIn();
+              $("#message").addClass("error-field").removeClass("valid")
                return false
             }
 
@@ -230,7 +256,7 @@
               url: 'sendmail.php',
               type: 'POST',
               chache: false,
-              data: $('.myform').serialize(),
+              data: $('#contact-form').serialize(),
               beforeSend: function () {
                 $("#send_form").prop("disabled", true);
               },
@@ -275,7 +301,7 @@
 
       setTimeout(function(){
         $(".plate-slider__image-wrapper").addClass("change_right");
-      }, 700);
+      }, 200);
 
 
       $('.link ').click(function(e) {
