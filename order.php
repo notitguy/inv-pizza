@@ -83,7 +83,7 @@
                   <label>Email</label>
                   <input type="email" placeholder="Email" required />
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 ">
                   <label>Occasion</label>
                   <select class="w-90">
                     <option value="">-- Your occasion (optional) --</option>
@@ -135,7 +135,8 @@
       .order_form {
         padding: 50px;
       }
-      
+
+
       .rigt_img {
         width: 100%;
         min-height: 100%;
@@ -148,13 +149,13 @@
       input {
         box-sizing: border-box;
         width: 100%;
-        height: 45px;
+        height: 55px;
       }
       
       select {
         box-sizing: border-box;
         width: 100%;
-        height: 45px;
+      
       }
       
       textarea {
@@ -167,7 +168,7 @@
       }
       
       .main_row {
-        height: 700px;
+        height: 820px;
         overflow: hidden;
       }
       
