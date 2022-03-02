@@ -85,7 +85,7 @@
                 <div>Vězeňská 4, 110 00 Praha</div>
                 <div>Otevírací doba: 11:00 - 22:00 (Út-So)</div>
                 <div>Tel: +420 222 313 185</div>
-                <a href="https://goo.gl/maps/QFHo98UqRi7Puspj6" target="_blank">View on Google Maps</a>
+                <a href="https://goo.gl/maps/QFHo98UqRi7Puspj6" target="_blank" class="highlight">View on Google Maps</a>
               </address>
             </div>
             <div class="col-md-6">
@@ -94,7 +94,7 @@
                 <div>Vladislavova 26, 110 00 Praha</div>
                 <div>Otevírací doba: 11:00 - 22:00 (Po-Pá)</div>
                 <div>Tel: +420 773 060 490</div>
-                <a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank">View on Google Maps</a>
+                <a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank" class="highlight">View on Google Maps</a>
               </address>
             </div>
           </div>
@@ -127,7 +127,7 @@
 
 
     <div class="notify success">
-      <img src="assets/img/icons/check-mark-circle-thin.svg" alt="icon" >
+      <img src="assets/img/icons/gg-check-o.svg" alt="icon" >
       <div>Thank you! Your message has been sent.</div>
       <button>
         <svg aria-hidden="true" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7.71 8.23l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75L1 11.98l3.75-3.75L1 4.48 2.48 3l3.75 3.75L9.98 3l1.48 1.48-3.75 3.75z"></path></svg>
@@ -135,7 +135,7 @@
     </div>
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+      <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script> -->
       <script src="assets/js/main.js"></script>
       <script>
 
@@ -205,18 +205,14 @@
             }
           }
 
+          // Validation on submit
           $("#send_form").click(function () {
 
+            let name = $("#name").val();
+            let email = $("#email").val();
+            let phone = $("#phone").val();
+            let message = $("#message").val();
 
-
-            
-
-            var name = $("#name").val();
-            var email = $("#email").val();
-            var message = $("#message").val();
-            var phone = $("#phone").val();
-
-    
             if (name == "") {
               $(".error").text("Missing name");
               $(".error").fadeIn();
@@ -247,12 +243,9 @@
             return false;
             } else {
               
-
-
-
             }
 
-
+            // Send with Ajax
             $.ajax({
               url: 'sendmail.php',
               type: 'POST',
@@ -281,15 +274,9 @@
             });
 
 
-          });
+          })
 
-
-
-
-
-             
-   
-
+        // Notification
           $(".notify button").click(function(){
             $(".notify").removeClass("visible");
           });

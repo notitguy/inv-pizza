@@ -7,7 +7,6 @@ setTimeout(function() {
  $("#burger").click(function(){
     $(this).toggleClass("change");
     $( ".mobile-menu" ).toggleClass( "mobile-menu-show");
-    $( "header" ).toggleClass( "background_y");
     $(".menu").toggleClass("show")  ;
     $( "header" ).toggleClass( "br_bottom");
     $(".menu ul li a:visible").hide(30);
@@ -20,7 +19,6 @@ setTimeout(function() {
   $(".overlay_").click(function(){
      $("#burger").toggleClass("change");
     $( ".mobile-menu" ).toggleClass( "mobile-menu-show");
-    $( "header" ).toggleClass( "background_y");
     $(".menu").toggleClass("show")  ;
     $( "header" ).toggleClass( "br_bottom");
     $(".menu ul li a:visible").hide(30);
@@ -32,7 +30,6 @@ setTimeout(function() {
     $(".m_link__").click(function(){
      $("#burger").toggleClass("change");
     $( ".mobile-menu" ).toggleClass( "mobile-menu-show");
-    $( "header" ).toggleClass( "background_y");
     $(".menu").toggleClass("show")  ;
     $( "header" ).toggleClass( "br_bottom");
     $(".menu ul li a:visible").hide(30);
