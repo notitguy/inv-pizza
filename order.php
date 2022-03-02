@@ -204,6 +204,11 @@
           // Litepicker
           const picker = new Litepicker({
             element: document.getElementById('litepicker'),
+            lockDaysFilter: (day) => {
+                const d = day.getDay();
+
+                return [0, 1].includes(d);
+              },
             plugins: ['mobilefriendly'],
             format: {
                 parse(date) {
