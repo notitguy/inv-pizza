@@ -1,7 +1,7 @@
  <header class="br_bottom">
     <div class="logo">
       <a href="/" class="link">
-        <img src="assets/img/logo.png" alt="Logo" width="100px" height="auto">
+        <img src="assets/img/logo.png" alt="Logo" width="100px" height="auto"/>
       </a>
     </div>
     <nav class="menu">
