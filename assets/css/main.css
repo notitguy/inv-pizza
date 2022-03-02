@@ -5495,10 +5495,7 @@ select {
     right: 2rem;
     top: 5rem;
 }
-/* .order_form textarea {
-    height: 5rem;
-    padding-top: 0.9rem;
-} */
+
 form button[type=submit] {
     border: none;
     background-color: var(--accent-color-dark);
@@ -5568,6 +5565,10 @@ textarea:not(.error-field):focus-visible {
 }
 .litepicker .container__days .day-item.is-today {
     background-color: var(--body-dark-bg-3rd);
+}
+.litepicker .container__days .day-item.is-locked,
+.litepicker .container__days .day-item.is-locked:hover {
+    color: hsl(0deg 0% 40%);
 }
 
 /* Form notifications */

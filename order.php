@@ -222,7 +222,12 @@
                   return luxon.DateTime.fromJSDate(date)
                       .toFormat('ccc, LLL dd');
                 }
-              }
+              },
+              lockDaysFilter: (day) => {
+                const d = day.getDay();
+
+                return [0, 1].includes(d);
+              },
           });
 
 
