@@ -27,8 +27,6 @@
       <li><a class="link m_link__" href="about">About</a></li>
       <li><a class="link m_link__" href="contact">Contact</a></li>
 
-      <li class="order_link m_hide"><a class="link link__" href="order">Order</a></li>
-
       <li class="lang_">
         <a href="/">EN</a>
         <a href="#">IT</a>
@@ -60,23 +58,6 @@
       transition: all ease-in-out 0.3s;
     }
     
-    .mobile-menu_list .order_link{
-      width: 100px !important;
-      display: flex;
-      justify-items: center;
-      align-items: center;
-      padding-left: 0px;
-      position: relative;
-      left: 30px;
-    }
 
-    .mobile-menu_list .order_link a{
-      text-align: center;
-    }
-
-    .mobile-menu_list .order_link:hover{
-      padding-left: 0px !important;
-
-    }
 
   </style>
