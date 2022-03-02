@@ -57,7 +57,5 @@
       color: #212121;
       transition: all ease-in-out 0.3s;
     }
-    
-
-
+   
   </style>
