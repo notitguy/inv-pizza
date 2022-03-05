@@ -37,13 +37,11 @@
 
 <body class="body--dark">
 
-  <?php 
-    include 'blocks/header.php';
-  ?>
+  <?php include 'blocks/header.php'; ?>
 
     <main>
 
-      <section class="order main_wrapper">
+      <section class="reservation main_wrapper">
         <div class="row main_row">
           <div class="col-xl-6 left_div">
             <div class="rigt_img"></div>
@@ -170,9 +168,7 @@
       }
     </style>
 
-    <?php 
-    include 'blocks/footer.php';
-  ?>
+    <?php include 'blocks/footer.php'; ?>
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/litepicker@2.0.12/dist/nocss/litepicker.js"></script>

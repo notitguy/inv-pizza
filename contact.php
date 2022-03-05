@@ -42,14 +42,13 @@
   date_default_timezone_set('Europe/Prague');
   $today = date("F j, Y, g:i a");
 
-
-    include 'blocks/header.php';
+  include 'blocks/header.php';
   ?>
 
   
     <main>
 
-     <section class="section--plate-slider wf-section" style="background-color: #526774;">
+     <section class="section--plate-slider" style="background-color: #526774;">
         <div class="plate-slider">
           <div class="plate-slider__slider" >
             <div class="is--plate-slider" style="justify-content: center;">
@@ -85,7 +84,7 @@
                 <div>Vězeňská 4, 110 00 Praha</div>
                 <div>Otevírací doba: 11:00 - 22:00 (Út-So)</div>
                 <div>Tel: +420 222 313 185</div>
-                <a href="https://goo.gl/maps/QFHo98UqRi7Puspj6" target="_blank" class="highlight">View on Google Maps</a>
+                <a href="https://goo.gl/maps/QFHo98UqRi7Puspj6" target="_blank" class="bottomline">View on Google Maps</a>
               </address>
             </div>
             <div class="col-md-6">
@@ -94,12 +93,13 @@
                 <div>Vladislavova 26, 110 00 Praha</div>
                 <div>Otevírací doba: 11:00 - 22:00 (Po-Pá)</div>
                 <div>Tel: +420 773 060 490</div>
-                <a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank" class="highlight">View on Google Maps</a>
+                <a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank" class="bottomline">View on Google Maps</a>
               </address>
             </div>
           </div>
         </div>
       </section>
+
       <section class="main_wrapper">
         <div class="row">
           <div class="col-md-6">
@@ -121,9 +121,7 @@
 
     </main>
 
-    <?php 
-    include 'blocks/footer.php';
-  ?>
+    <?php include 'blocks/footer.php'; ?>
 
 
     <div class="notify success">

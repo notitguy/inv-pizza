@@ -36,14 +36,11 @@
 
 <body class="body--dark">
 
-  <?php 
-    include 'blocks/header.php';
-  ?>
-
+  <?php include 'blocks/header.php'; ?>
 
     <main>
 
-      <section class="section--plate-slider wf-section" style="background-color: #68746B;">
+      <section class="section--plate-slider" style="background-color: #68746B;">
         <div class="plate-slider">
           <div class="plate-slider__slider" >
             <div class="swiper-wrapper is--plate-slider" style="justify-content: center;">
@@ -67,29 +64,29 @@
       </section>
 
 
-      <section class="section--three-elements-layout wf-section main_wrapper">
+      <section class="main_wrapper">
         <div class="container--medium">
-          <div class="w-layout-grid three-elements-layout__grid">
-            <div id="w-node-_7a19be4c-ee46-9c40-5026-f66a25c78cda-1134b489" class="max-width--small">
+          <div class="grid three-elements-layout__grid">
+            <div class="three-elements-heading max-width--small">
               <h1 class="heading--xlarge">Lorem ipsum dolor sit amet, consectetur</h1></div>
             <div class="padding--large">
               <div class="small-divider bg-color--bege"></div>
-              <p class="p text-color--grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="three-elements-layout__image-wrapper padding-left--large"><img src="assets/img/food/photo_2022-02-19_10-16-17.jpg" loading="lazy" alt="" class="image__full" /></div>
           </div>
         </div>
       </section>
-      <section class="section--three-elements-layout wf-section main_wrapper" style="padding-bottom: 100px;">
+      <section class="main_wrapper" style="padding-bottom: 100px;">
 
         <div class="container--medium">
-          <div class="w-layout-grid three-elements-layout__grid is--reversed">
-            <div id="w-node-_7a19be4c-ee46-9c40-5026-f66a25c78ce9-1134b489" class="max-width--small">
+          <div class="grid three-elements-layout__grid is--reversed">
+            <div class="three-elements-heading max-width--small">
               <h1 class="heading--xlarge">Lorem ipsum dolor sit 2019 amet, nostrud. </h1></div>
             <div class="three-elements-layout__image-wrapper padding-left--large"><img src="assets/img/food/photo_2022-02-19_10-16-20.jpg" loading="lazy" alt="img" class="image__full" /></div>
             <div class="padding--large">
               <div class="small-divider bg-color--bege"></div>
-              <p class="p text-color--grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </div>
         </div>
@@ -97,9 +94,8 @@
       </section>
     </main>
 
-    <?php 
-    include 'blocks/footer.php';
-  ?>
+    <?php include 'blocks/footer.php'; ?>
+    
       <style type="text/css">
 
       </style>
