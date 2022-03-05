@@ -11,7 +11,7 @@
         <li class="m_hide"><a class="link link__" href="about">About</a></li>
         <li class="m_hide"><a class="link link__" href="contact">Contact</a></li>
 
-        <li class="order_link m_hide"><a class="link link__" href="order">Order</a></li>
+        <li class="m_hide"><a class="link link__ reservation" href="reservation">Reservation</a></li>
 
       </ul>
     </nav>
@@ -34,28 +34,3 @@
       </ul>
     </nav>
   </header>
-
-  <style type="text/css">
-    .order_link{
-      border: 1px solid #fff;
-      border-radius: 5px;
-      padding: 4px 5px;
-      transition: all ease-in-out 0.3s;
-    }
-
-    .order_link:hover{
-      border: 1px solid #fff;
-      background: #fff;
-      transition: all ease-in-out 0.3s;
-    }
-
-    .order_link a{
-      transition: all ease-in-out 0.3s;
-    }
-
-    .order_link:hover a{
-      color: #212121;
-      transition: all ease-in-out 0.3s;
-    }
-   
-  </style>

@@ -18,7 +18,7 @@
                 </a>
               </li>
               <li>
-                <a href="mailto: hello@invitaly.cz">
+                <a href="mailto:hello@invitaly.cz">
                   <img src="assets/img/icons/email.svg">
                 </a>
               </li>
