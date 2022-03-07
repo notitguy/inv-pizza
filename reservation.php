@@ -52,11 +52,11 @@
               <div class="row step_1">
                 <div class="col-md-4">
                   <label>Date</label>
-                  <input id="litepicker" type="text" placeholder="Choose a date" required>
+                  <input id="litepicker" name="date" type="text" placeholder="Choose a date" required>
                 </div>
                 <div class="col-md-4 select-container">
                   <label>Time</label>
-                  <select>
+                  <select name="time" id="time">
                     <option value="11">11:00</option>
                     <option value="11">11:30</option>
                     <option value="11">12:00</option>
@@ -88,31 +88,31 @@
                 </div>
                 <div class="col-md-4">
                   <label>Number of people</label>
-                  <input type="number" min="1" max="20" placeholder="1" required />
+                  <input type="number" name="number" id="number" value="1" min="1" max="20" placeholder="1" required />
                 </div>
 
                 <div class="col-md-6">
                   <label>Name</label>
-                  <input type="text" placeholder="Name" required/>
+                  <input type="text" name="name" id="name" placeholder="Name" required/>
                 </div>
                 <div class="col-md-6">
                   <label>Last name</label>
-                  <input type="text" placeholder="Last name" required />
+                  <input type="text" name="last_name" id="last_name" placeholder="Last name" required />
                 </div>
               </div>
 
               <div class="row step_2" style="display: none;">
                 <div class="col-md-6">
                   <label>Phone</label>
-                  <input id="phone" type="tel" placeholder="Phone" />
+                  <input name="phone" id="phone" type="tel" placeholder="Phone" />
                 </div>
                 <div class="col-md-6">
                   <label>Email</label>
-                  <input type="email" placeholder="Email" required />
+                  <input type="email" name="email" id="email" placeholder="Email" required />
                 </div>
                 <div class="col-md-6 select-container">
                   <label>Occasion</label>
-                  <select>
+                  <select name="occasion" id="occasion">
                     <option value="">-- Your occasion (optional) --</option>
                     <option value="lunch">Lunch</option>
                     <option value="business">Business meal</option>
@@ -130,8 +130,9 @@
                 </div>
                 <div class="col-md-6">
                   <label>Have a special request?</label>
-                  <textarea rows="1"></textarea>
+                  <textarea name="request" id="request" rows="1"></textarea>
                 </div>
+                <p class="error"></p>
                 <button class="send_form" type="submit" name="send_order">Send</button>
               </div>
 
@@ -177,6 +178,150 @@
       <script src="assets/js/main.js"></script>
       <script type="text/javascript">
         $(document).ready(function() {
+          // Disable "send" button on start
+          $(".send_form").prop( "disabled", true);
+          $(".step").prop( "disabled", true);
+
+          // Validate name
+          $('#name').on("input blur", function(e) {
+              validateName(e);
+          });
+
+          function validateName() {
+            const name = $("#name").val();
+            if (name.length < 1 ) {
+              $("#name").addClass("error-field").removeClass("valid")
+              return false;
+            } else {
+              $("#name").removeClass("error-field").addClass("valid")
+            }
+          }
+
+
+          // Validate last name
+          $('#last_name').on("input blur", function(e) {
+              validateLastName(e);
+          });
+
+          function validateLastName() {
+            const lastName = $("#last_name").val();
+            if (lastName.length < 1 ) {
+              $("#last_name").addClass("error-field").removeClass("valid")
+              $(".step").prop( "disabled", true);
+              return false;
+            } else {
+              $("#last_name").removeClass("error-field").addClass("valid")
+              $(".step").prop( "disabled", false);
+            }
+          }
+
+
+          // Validate email
+          $('#email').on("input blur", function(e) {
+              validateEmail(e);
+          });
+
+          function validateEmail() {
+            const email = $("#email").val();
+            if ( email.length > 0 && email.match(/^\S+@\S+\.\S+$/) ) {
+                $("#email").removeClass("error-field").addClass("valid")
+                $(".send_form").prop( "disabled", false);
+                return false;
+            } else {
+                $("#email").addClass("error-field").removeClass("valid")
+            }
+          }
+
+
+          // Validate phone
+          $('#phone').on("input blur", function(e) {
+              validatePhone(e);
+          });
+
+          function validatePhone() {
+            const phone = $("#phone").val();
+            if (phone.length > 0 && !/^[0-9 ()+-]{9,12}$/.test(phone)) {
+                $("#phone").addClass("error-field")
+              return false;
+            } else {
+              $("#phone").removeClass("error-field")
+            }
+          }
+
+
+          // Validation on submit
+          $(".send_form").click(function (e) {
+            e.preventDefault()
+            // let date = $("#litepicker").val();
+            // let time = $("#time").val();
+            // let number = $("#number").val();
+            // let occasion = $("#occasion").val();
+            // let request = $("#request").val();
+
+            let name = $("#name").val();
+            let lastName = $("#name").val();
+            let email = $("#email").val();
+            let phone = $("#phone").val();
+
+            if (name == "") {
+              $(".error").text("Missing name");
+              $(".error").fadeIn();
+              $("#name").addClass("error-field").removeClass("valid")
+              return false
+            } else if (lastName == "") {
+              $(".error").text("Missing Last Name");
+              $(".error").fadeIn();
+              $("#last_name").addClass("error-field").removeClass("valid")
+              return false
+            } else if (email == "") {
+              $(".error").text("Missing email");
+              $(".error").fadeIn();
+              $("#email").addClass("error-field").removeClass("valid")
+               return false
+            } else if (phone.length > 0 && !/^[0-9 ()+-]{9,12}$/.test(phone) ) {
+              $(".error").text("Incorrect phone format");
+              $(".error").fadeIn();
+              $("#phone").addClass("error-field").removeClass("valid")
+               return false
+            }
+
+            if (email.length > 0 && (email.match(/.+?\@.+/g) || []).length !== 1) {
+              $(".error").text("You entered incorrect email");
+              $(".error").fadeIn();
+              return false;
+            }
+
+            // Send with Ajax
+            $.ajax({
+              url: 'sendmail.php', // change to your handler Потом может  поменять  
+              type: 'POST',
+              chache: false,
+              data: $('.order_form').serialize(),
+              beforeSend: function () {
+                $("#send_form").prop("disabled", true);
+              },
+              success: function (data) {
+                if(data = "success"){
+                    $(".notify").addClass("visible");
+                      setTimeout(function () {
+                        $(".notify").removeClass("visible");
+                      }, 5000);
+                    $(".error").slideUp(300);
+                    $("#send_form").prop("disabled", false);
+                    $("#name").val("");
+                    $("#email").val("");
+                    $("#phone").val("");
+                    $("#message").val("");
+                }else{
+                    alert("errpr");
+                }
+                
+              }
+            });
+
+
+          })
+
 
           // Function to change button text
           $.fn.toggleText = function(text1, text2) {
@@ -200,11 +345,12 @@
           // Litepicker
           const picker = new Litepicker({
             element: document.getElementById('litepicker'),
+            minDate: new Date(Date.now() - 1000 * 60 * 60 * 24), // yesterday
+            startDate: new Date(),
             lockDaysFilter: (day) => {
                 const d = day.getDay();
-
                 return [0, 1].includes(d);
-              },
+            },
             plugins: ['mobilefriendly'],
             format: {
                 parse(date) {
@@ -226,7 +372,6 @@
               },
               lockDaysFilter: (day) => {
                 const d = day.getDay();
-
                 return [0, 1].includes(d);
               },
           });
