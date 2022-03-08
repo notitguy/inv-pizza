@@ -5634,7 +5634,7 @@ textarea:not(.error-field):focus-visible {
         padding: 10vw 6vw;
     }
     header {
-        padding:  0px 6vw !important;
+        padding:  0px 6vw;
     }
     .swiper-slide.is--plate-slider {
         height: 100vh;
@@ -5691,7 +5691,6 @@ textarea:not(.error-field):focus-visible {
     }
     .three-elements-heading {
         grid-row-start: span 1;
-        -ms-grid-row-span: 1;
         grid-row-end: span 1;
         grid-column-start: span 1;
         grid-column-end: span 1;
