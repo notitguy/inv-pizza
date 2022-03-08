@@ -54,7 +54,7 @@
                     <h2 class="plate-slider__title is--slider-home">Menu</h2></div>
                   <div class="text--mask">
                     <div class="plate-slider__btn-block">
-                      <h2 class="plate-slider__btn">More</h2>
+                      <span class="plate-slider__btn">More</span>
                       <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" /></div>
                   </div>
                 </a>
@@ -70,7 +70,7 @@
                     <h2 class="plate-slider__title is--slider-home">About</h2></div>
                   <div class="text--mask">
                     <div class="plate-slider__btn-block">
-                      <h2 class="plate-slider__btn"></h2>
+                      <span class="plate-slider__btn"></span>
                       <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" /></div>
                   </div>
                 </a>
@@ -86,7 +86,7 @@
                     <h2 class="plate-slider__title is--slider-home">Contact</h2></div>
                   <div class="text--mask">
                     <div class="plate-slider__btn-block">
-                      <h2 class="plate-slider__btn"></h2>
+                      <span class="plate-slider__btn"></span>
                       <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" /></div>
                   </div>
                 </a>

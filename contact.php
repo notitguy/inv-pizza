@@ -5,7 +5,14 @@
   <meta charset="utf-8" />
   <title>Contact</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
   <style type="text/css">
+
+  .plate-slider__image{
+      transform: rotate(0deg);
+    }
+
   .plate-slider__title{
     transform: translateY(200px);
     transition: transform ease-in-out 0.7s;
@@ -25,14 +32,6 @@
     transition: transform ease-in-out 0.7s;
   }
 </style>
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
-  <style type="text/css">
-    .plate-slider__image{
-      transform: rotate(0deg);
-      position: relative;
-    }
-  </style>
 </head>
 
 <body class="body--dark">
@@ -51,19 +50,14 @@
      <section class="section--plate-slider" style="background-color: #526774;">
         <div class="plate-slider">
           <div class="plate-slider__slider" >
-            <div class="is--plate-slider" style="justify-content: center;">
+            <div class="swiper-wrapper is--plate-slider" style="justify-content: center;">
               <div class="swiper-slide is--plate-slider">
-                <a href="javascript:void(0);" class=" plate-slider__content-block is--plate-slider w-inline-block">
-                  <div class="text--mask">
-                  </div>
+                <div class="plate-slider__content-block is--plate-slider w-inline-block">
                   <div class="text--mask">
                     <h2 class="plate-slider__title is--slider-home">Contact</h2></div>
-                  <div class="text--mask">
-                    <div  class="plate-slider__btn-block">
-                  </div>
-                </a>
-                <div class="plate-slider__image-wrapper">
-                  <img style="margin-top: -9vh;" sizes="100vw" srcset="assets/img/611373bdc832dc0f1c380f47_rijks-p-500.png 500w, assets/img/611373bdc832dc0f1c380f47_rijks-p-800.png 800w, assets/img/611373bdc832dc0f1c380f47_rijks.png 1566w" src="assets/img/611373bdc832dc0f1c380f47_rijks.png" alt="" class="plate-slider__image" /></div>
+              </div>
+                <div style="margin-top: -9px;" class="plate-slider__image-wrapper">
+                  <img sizes="100vw" srcset="assets/img/611373bdc832dc0f1c380f47_rijks-p-500.png 500w, assets/img/611373bdc832dc0f1c380f47_rijks-p-800.png 800w, assets/img/611373bdc832dc0f1c380f47_rijks.png 1566w" src="assets/img/611373bdc832dc0f1c380f47_rijks.png" alt="" class="plate-slider__image" /></div>
               </div>
 
             </div>

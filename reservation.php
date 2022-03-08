@@ -178,9 +178,11 @@
       <script src="assets/js/main.js"></script>
       <script type="text/javascript">
         $(document).ready(function() {
+
           // Disable "send" button on start
           $(".send_form").prop( "disabled", true);
           $(".step").prop( "disabled", true);
+
 
           // Validate name
           $('#name').on("input blur", function(e) {
@@ -196,7 +198,6 @@
               $("#name").removeClass("error-field").addClass("valid")
             }
           }
-
 
           // Validate last name
           $('#last_name').on("input blur", function(e) {
@@ -215,7 +216,6 @@
             }
           }
 
-
           // Validate email
           $('#email').on("input blur", function(e) {
               validateEmail(e);
@@ -232,7 +232,6 @@
             }
           }
 
-
           // Validate phone
           $('#phone').on("input blur", function(e) {
               validatePhone(e);
@@ -248,7 +247,6 @@
             }
           }
 
-
           // Validation on submit
           $(".send_form").click(function (e) {
             e.preventDefault()
@@ -259,7 +257,7 @@
             // let request = $("#request").val();
 
             let name = $("#name").val();
-            let lastName = $("#name").val();
+            let lastName = $("#last_name").val();
             let email = $("#email").val();
             let phone = $("#phone").val();
 
@@ -309,6 +307,7 @@
                     $(".error").slideUp(300);
                     $("#send_form").prop("disabled", false);
                     $("#name").val("");
+                    $("#last_name").val("");
                     $("#email").val("");
                     $("#phone").val("");
                     $("#message").val("");
@@ -346,7 +345,7 @@
           const picker = new Litepicker({
             element: document.getElementById('litepicker'),
             minDate: new Date(Date.now() - 1000 * 60 * 60 * 24), // yesterday
-            startDate: new Date(),
+            startDate: new Date().setDate(new Date().getDate() + 1),
             lockDaysFilter: (day) => {
                 const d = day.getDay();
                 return [0, 1].includes(d);
