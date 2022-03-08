@@ -44,11 +44,13 @@
           <div class="plate-slider__slider" >
             <div class="is--plate-slider" style="justify-content: center;">
               <div class="swiper-slide is--plate-slider">
-                <div class="plate-slider__content-block is--plate-slider w-inline-block">
+                <div class="plate-slider__content-block is--plate-slider">
                   <div class="text--mask">
                     <h2 class="plate-slider__title">Menu</h2></div>
                 </div>
-                <div style="top: -9px;" class="plate-slider__image-wrapper"><img sizes="100vw" srcset="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-500.png 500w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-800.png 800w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-1080.png 1080w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png 1566w" src="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png" alt="" class="plate-slider__image" /></div>
+                <div style="top: -9px;" class="plate-slider__image-wrapper">
+                  <img sizes="100vw" srcset="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-500.png 500w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-800.png 800w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-1080.png 1080w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png 1566w" src="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png" alt="" class="plate-slider__image" />
+                </div>
               </div>
 
             </div>
@@ -59,34 +61,34 @@
 
 
       <section class="main_wrapper">
-        <div class="container--medium">
-          <div class="grid three-elements-layout__grid">
-            <div class="three-elements-heading max-width--small">
-              <h1 class="heading--xlarge">Lorem ipsum dolor sit amet, consectetur</h1></div>
-            <div class="padding--large">
-              <div class="small-divider bg-color--bege"></div>
+        <div class="grid three-elements-layout__grid">
+            <div class="three-elements-heading">
+              <h1 class="heading--xlarge">Lorem ipsum dolor sit amet, consectetur</h1>
+            </div>
+            <div>
+              <div class="small-divider"></div>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-            <div class="three-elements-layout__image-wrapper padding-left--large"><img src="assets/img/food/photo_2022-02-19_10-16-17.jpg" loading="lazy" alt="" class="image__full" /></div>
-          </div>
+            <div class="three-elements-layout__image-wrapper">
+              <img src="assets/img/food/photo_2022-02-19_10-16-17.jpg" loading="lazy" alt="" />
+            </div>
         </div>
       </section>
       <section class="main_wrapper">
-
-        <div class="container--medium">
-          <div class="grid three-elements-layout__grid is--reversed">
-            <div class="three-elements-heading max-width--small">
-              <h1 class="heading--xlarge">Lorem ipsum dolor sit 2019 amet, nostrud. </h1>
-            </div>
-            <div class="three-elements-layout__image-wrapper padding-left--large"><img src="assets/img/food/photo_2022-02-19_10-16-20.jpg" loading="lazy" alt="img" class="image__full" /></div>
-            <div class="padding--large">
-              <div class="small-divider bg-color--bege"></div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
+        <div class="grid three-elements-layout__grid is--reversed">
+          <div class="three-elements-heading">
+            <h1 class="heading--xlarge">Lorem ipsum dolor sit 2019 amet, nostrud</h1>
+          </div>
+          <div class="three-elements-layout__image-wrapper">
+              <img src="assets/img/food/photo_2022-02-19_10-16-20.jpg" loading="lazy" alt="img" />
+              </div>
+          <div>
+            <div class="small-divider"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
-
       </section>
+
     </main>
 
     <?php include 'blocks/footer.php'; ?>

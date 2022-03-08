@@ -43,10 +43,10 @@
 
       <section class="reservation main_wrapper">
         <div class="row main_row">
-          <div class="col-xl-6 left_div">
+          <div class="col-md-6 left_div">
             <div class="rigt_img"></div>
           </div>
-          <div class="col-xl-6 d_center">
+          <div class="col-md-6 d_center">
             <form class="order_form" action="#" method="POST">
 
               <div class="row step_1">
