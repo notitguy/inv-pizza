@@ -1,7 +1,7 @@
- <header class="br_bottom">
+ <header>
     <div class="logo">
       <a href="/" class="link">
-        <img src="assets/img/logo.png" alt="Logo" width="100px" height="auto"/>
+        <img src="assets/img/invitaly_logo.png" alt="Invitaly" width="100px" />
       </a>
     </div>
     <nav class="menu">
@@ -15,7 +15,7 @@
 
       </ul>
     </nav>
-    <div class="overlay_"></div>
+    <div class="overlay"></div>
     <div class="button__" id="burger">
         <div class="line_1"></div>
         <div class="line_3"></div>

@@ -46,10 +46,7 @@
           <div class="plate-slider__slider">
             <div class="swiper-wrapper is--plate-slider">
               <div class="swiper-slide is--plate-slider">
-                <a href="menu" class="link plate-slider__content-block is--plate-slider w-inline-block">
-                  <div class="text--mask">
-                    <div class="plate-slider__number">01</div>
-                  </div>
+                <a href="menu" class="link plate-slider__content-block is--plate-slider">
                   <div class="text--mask">
                     <h2 class="plate-slider__title is--slider-home">Menu</h2></div>
                   <div class="text--mask">
@@ -62,10 +59,7 @@
                   <img sizes="100vw" srcset="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-500.png 500w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-800.png 800w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-1080.png 1080w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png 1566w" src="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png" alt="" class="plate-slider__image" /></div>
               </div>
               <div class="swiper-slide is--plate-slider">
-                <a href="about" class="link plate-slider__content-block is--plate-slider w-inline-block">
-                  <div class="text--mask">
-                    <div class="plate-slider__number">02</div>
-                  </div>
+                <a href="about" class="link plate-slider__content-block is--plate-slider">
                   <div class="text--mask">
                     <h2 class="plate-slider__title is--slider-home">About</h2></div>
                   <div class="text--mask">
@@ -78,10 +72,7 @@
                   <img sizes="100vw" srcset="assets/img/611373bcf89e750ff7d38421_wills-p-500.png 500w, assets/img/611373bcf89e750ff7d38421_wills.png 1566w" src="assets/img/611373bcf89e750ff7d38421_wills.png" alt="" class="plate-slider__image is--rijks" /></div>
               </div>
               <div class="swiper-slide is--plate-slider">
-                <a href="contact" class="link plate-slider__content-block is--plate-slider w-inline-block">
-                  <div class="text--mask">
-                    <div class="plate-slider__number">03</div>
-                  </div>
+                <a href="contact" class="link plate-slider__content-block is--plate-slider">
                   <div class="text--mask">
                     <h2 class="plate-slider__title is--slider-home">Contact</h2></div>
                   <div class="text--mask">

@@ -1,42 +1,34 @@
-
-
+"use strict";
 
 setTimeout(function() { 
    $('.banner_content h2').slideDown('slow');
 }, 300);
+
  $("#burger").click(function(){
     $(this).toggleClass("change");
     $( ".mobile-menu" ).toggleClass( "mobile-menu-show");
-    $(".menu").toggleClass("show")  ;
-    $( "header" ).toggleClass( "br_bottom");
-    $(".menu ul li a:visible").hide(30);
-    $(".menu ul li a:hidden").show(30);;
-    $(".overlay_:visible").hide(1);
-    $(".overlay_:hidden").show(1);
+    $( ".overlay" ).toggleClass( "overlay-show");
+    // $(".menu").toggleClass("show");
+    // $( "header" ).toggleClass( "br_bottom");
+    // $(".menu ul li a:visible").hide(300);
+    // $(".menu ul li a:hidden").show(300);;
+    // $(".overlay:visible").hide(1000);
+    // $(".overlay:hidden").show(1000);
 });
 
 
-  $(".overlay_").click(function(){
+  $(".overlay, .m_link__").click(function(){
      $("#burger").toggleClass("change");
     $( ".mobile-menu" ).toggleClass( "mobile-menu-show");
-    $(".menu").toggleClass("show")  ;
-    $( "header" ).toggleClass( "br_bottom");
-    $(".menu ul li a:visible").hide(30);
-    $(".menu ul li a:hidden").show(30);;
-    $(".overlay_:visible").hide(1);
-    $(".overlay_:hidden").show(1);
+    $( ".overlay" ).toggleClass( "overlay-show");
+    // $(".menu").toggleClass("show");
+    // $( "header" ).toggleClass( "br_bottom");
+    // $(".menu ul li a:visible").hide(300);
+    // $(".menu ul li a:hidden").show(300);;
+    // $(".overlay:visible").hide(100);
+    // $(".overlay:hidden").show(100);
 });
 
-    $(".m_link__").click(function(){
-     $("#burger").toggleClass("change");
-    $( ".mobile-menu" ).toggleClass( "mobile-menu-show");
-    $(".menu").toggleClass("show")  ;
-    $( "header" ).toggleClass( "br_bottom");
-    $(".menu ul li a:visible").hide(30);
-    $(".menu ul li a:hidden").show(30);;
-    $(".overlay_:visible").hide(1);
-    $(".overlay_:hidden").show(1);
-});
 
 
 
