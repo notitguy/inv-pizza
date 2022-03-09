@@ -41,64 +41,9 @@
     <div class="page-transition"></div>
   </div> -->
     <main class="main-wrapper">
-      <section class="section--plate-slider">
-        <div class="plate-slider">
-          <div class="plate-slider__slider">
-            <div class="swiper-wrapper is--plate-slider">
-              <div class="swiper-slide is--plate-slider">
-                <a href="menu" class="link plate-slider__content-block is--plate-slider">
-                  <div class="text--mask">
-                    <h2 class="plate-slider__title is--slider-home">Menu</h2></div>
-                  <div class="text--mask">
-                    <div class="plate-slider__btn-block">
-                      <span class="plate-slider__btn">More</span>
-                      <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" /></div>
-                  </div>
-                </a>
-                <div class="plate-slider__image-wrapper">
-                  <img sizes="100vw" srcset="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-500.png 500w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-800.png 800w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-1080.png 1080w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png 1566w" src="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png" alt="" class="plate-slider__image" /></div>
-              </div>
-              <div class="swiper-slide is--plate-slider">
-                <a href="about" class="link plate-slider__content-block is--plate-slider">
-                  <div class="text--mask">
-                    <h2 class="plate-slider__title is--slider-home">About</h2></div>
-                  <div class="text--mask">
-                    <div class="plate-slider__btn-block">
-                      <span class="plate-slider__btn"></span>
-                      <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" /></div>
-                  </div>
-                </a>
-                <div class="plate-slider__image-wrapper">
-                  <img sizes="100vw" srcset="assets/img/611373bcf89e750ff7d38421_wills-p-500.png 500w, assets/img/611373bcf89e750ff7d38421_wills.png 1566w" src="assets/img/611373bcf89e750ff7d38421_wills.png" alt="" class="plate-slider__image is--rijks" /></div>
-              </div>
-              <div class="swiper-slide is--plate-slider">
-                <a href="contact" class="link plate-slider__content-block is--plate-slider">
-                  <div class="text--mask">
-                    <h2 class="plate-slider__title is--slider-home">Contact</h2></div>
-                  <div class="text--mask">
-                    <div class="plate-slider__btn-block">
-                      <span class="plate-slider__btn"></span>
-                      <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" /></div>
-                  </div>
-                </a>
-                <div class="plate-slider__image-wrapper"><img sizes="100vw" srcset="assets/img/611373bdc832dc0f1c380f47_rijks-p-500.png 500w, assets/img/611373bdc832dc0f1c380f47_rijks-p-800.png 800w, assets/img/611373bdc832dc0f1c380f47_rijks.png 1566w" src="assets/img/611373bdc832dc0f1c380f47_rijks.png" alt="" class="plate-slider__image" /></div>
-              </div>
-            </div>
-          </div>
-         
-          <div class="slider_buttons_">
-             <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-          </div>  
-          <aside class="plate-slider-pagination">
-            <div class="plate-slider-pagination__count-wrapper">
-              <div id="numberSlides" class="plate-slider-pagination__number is--active">01</div>
-              <div id="totalSlides" class="plate-slider-pagination__number is--secondary">03</div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </aside>
-        </div>
-        <div class="bg-slider">
+      <section>
+
+      <div class="bg-slider">
           <div class="bg-slider__container">
             <div class="swiper-wrapper is--bg-slider">
               <div class="swiper-slide is--bg-slider">
@@ -113,6 +58,76 @@
             </div>
           </div>
         </div>
+
+        <div class="plate-slider">
+          <div class="plate-slider__slider">
+            <div class="swiper-wrapper is--plate-slider">
+
+              <div class="swiper-slide is--plate-slider">
+                <div class="plate-slider__image-wrapper">
+                  <img sizes="100vw" srcset="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-500.png 500w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-800.png 800w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-1080.png 1080w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png 1566w" src="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png" alt="" class="plate-slider__image" />
+                </div>
+                <a href="menu" class="link plate-slider__content-block is--plate-slider">
+                  <div class="text--mask">
+                    <h2 class="plate-slider__title is--slider-home">Menu</h2></div>
+                  <div class="text--mask">
+                    <div class="plate-slider__btn-block">
+                      <span class="plate-slider__btn">More</span>
+                      <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" /></div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="swiper-slide is--plate-slider">
+                <div class="plate-slider__image-wrapper">
+                  <img sizes="100vw" srcset="assets/img/611373bcf89e750ff7d38421_wills-p-500.png 500w, assets/img/611373bcf89e750ff7d38421_wills.png 1566w" src="assets/img/611373bcf89e750ff7d38421_wills.png" alt="" class="plate-slider__image is--rijks" />
+                </div>
+                <a href="about" class="link plate-slider__content-block is--plate-slider">
+                  <div class="text--mask">
+                    <h2 class="plate-slider__title is--slider-home">About</h2>
+                  </div>
+                  <div class="text--mask">
+                    <div class="plate-slider__btn-block">
+                      <span class="plate-slider__btn"></span>
+                      <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" />
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="swiper-slide is--plate-slider">
+                <div class="plate-slider__image-wrapper">
+                  <img sizes="100vw" srcset="assets/img/611373bdc832dc0f1c380f47_rijks-p-500.png 500w, assets/img/611373bdc832dc0f1c380f47_rijks-p-800.png 800w, assets/img/611373bdc832dc0f1c380f47_rijks.png 1566w" src="assets/img/611373bdc832dc0f1c380f47_rijks.png" alt="" class="plate-slider__image" />
+                </div>
+                <a href="contact" class="link plate-slider__content-block is--plate-slider">
+                  <div class="text--mask">
+                    <h2 class="plate-slider__title is--slider-home">Contact</h2>
+                  </div>
+                  <div class="text--mask">
+                    <div class="plate-slider__btn-block">
+                      <span class="plate-slider__btn"></span>
+                      <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" />
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+         
+          <div class="slider_buttons_">
+             <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>  
+          <aside class="plate-slider-pagination">
+            <div class="plate-slider-pagination__count-wrapper">
+              <div id="numberSlides" class="plate-slider-pagination__number is--active">01</div>
+              <div id="totalSlides" class="plate-slider-pagination__number is--secondary">03</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </aside>
+        </div>
+
       </section>
 
       <section class="main_wrapper">
@@ -126,7 +141,7 @@
           </div>
           <div class="three-elements-layout__image-wrapper">
             <img src="assets/img/616fcd16cb902a14e81c1acf_rijks-diner-wit-bord-groen-sausje1-1.jpg" loading="lazy" alt="" />
-        </div>
+          </div>
       </div>
 
       </section>

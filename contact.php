@@ -52,12 +52,14 @@
           <div class="plate-slider__slider" >
             <div class="swiper-wrapper is--plate-slider" style="justify-content: center;">
               <div class="swiper-slide is--plate-slider">
-                <div class="plate-slider__content-block is--plate-slider w-inline-block">
-                  <div class="text--mask">
-                    <h2 class="plate-slider__title is--slider-home">Contact</h2></div>
-              </div>
                 <div style="margin-top: -9px;" class="plate-slider__image-wrapper">
-                  <img sizes="100vw" srcset="assets/img/611373bdc832dc0f1c380f47_rijks-p-500.png 500w, assets/img/611373bdc832dc0f1c380f47_rijks-p-800.png 800w, assets/img/611373bdc832dc0f1c380f47_rijks.png 1566w" src="assets/img/611373bdc832dc0f1c380f47_rijks.png" alt="" class="plate-slider__image" /></div>
+                  <img sizes="100vw" srcset="assets/img/611373bdc832dc0f1c380f47_rijks-p-500.png 500w, assets/img/611373bdc832dc0f1c380f47_rijks-p-800.png 800w, assets/img/611373bdc832dc0f1c380f47_rijks.png 1566w" src="assets/img/611373bdc832dc0f1c380f47_rijks.png" alt="" class="plate-slider__image" />
+                </div>
+                <div class="plate-slider__content-block is--plate-slider">
+                  <div class="text--mask">
+                    <h2 class="plate-slider__title is--slider-home">Contact</h2>
+                  </div>
+                </div>
               </div>
 
             </div>

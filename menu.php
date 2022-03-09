@@ -42,14 +42,15 @@
       <section class="section--plate-slider">
         <div class="plate-slider">
           <div class="plate-slider__slider" >
-            <div class="is--plate-slider" style="justify-content: center;">
+            <div class="is--plate-slider">
               <div class="swiper-slide is--plate-slider">
-                <div class="plate-slider__content-block is--plate-slider">
-                  <div class="text--mask">
-                    <h2 class="plate-slider__title">Menu</h2></div>
-                </div>
                 <div style="top: -9px;" class="plate-slider__image-wrapper">
                   <img sizes="100vw" srcset="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-500.png 500w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-800.png 800w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-1080.png 1080w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png 1566w" src="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png" alt="" class="plate-slider__image" />
+                </div>
+                <div class="plate-slider__content-block is--plate-slider">
+                  <div class="text--mask">
+                    <h2 class="plate-slider__title">Menu</h2>
+                  </div>
                 </div>
               </div>
 
