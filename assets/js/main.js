@@ -59,9 +59,9 @@ if (
         //     i
         // );
     }),
-    $(window).on("beforeunload", function () {
-        $(window).scrollTop(0);
-    }),
+    // $(window).on("beforeunload", function () {
+    //     $(window).scrollTop(0);
+    // }),
     window.addEventListener(
         "pageshow",
         function (e) {

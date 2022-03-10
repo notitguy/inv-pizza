@@ -93,14 +93,14 @@
       <section class="d_center main_wrapper">
         <!-- En -->
         <h2 class="text-center">Daily menu En</h2>
-         <?php $menu = json_decode(file_get_contents("https://opensheet.elk.sh/1NAzk3LL_Co-AyhUvog7hz0uNLo-eJzR3LkilEtzu03w/menu"));?>
-                <ul class="dali_menu_list">
-                <?php foreach ($menu as $item) { ?>
-                    <li>
-                        <?php echo $item->name; ?>
-                        <?php echo $item->size; ?>
-                         <?php echo $item->price; ?>
-                    </li>
+         <?php $menu = json_decode(file_get_contents("https://opensheet.elk.sh/1NAzk3LL_Co-AyhUvog7hz0uNLo-eJzR3LkilEtzu03w/english"));?>
+            <ul class="daily_menu_list">
+            <?php foreach ($menu as $item) { ?>
+              <li>
+                <?php echo $item->name; ?>
+                <?php echo $item->size; ?>
+                <?php echo $item->price; ?>
+              </li>
           <?php } ?>
       </section>
 
@@ -108,12 +108,12 @@
         <!-- En -->
         <h2 class="text-center">Daily menu It</h2>
          <?php $menu = json_decode(file_get_contents("https://opensheet.elk.sh/1NAzk3LL_Co-AyhUvog7hz0uNLo-eJzR3LkilEtzu03w/italian"));?>
-                <ul class="dali_menu_list">
+                <ul class="daily_menu_list">
                 <?php foreach ($menu as $item) { ?>
                     <li>
                         <?php echo $item->name; ?>
                         <?php echo $item->size; ?>
-                         <?php echo $item->price; ?>
+                        <?php echo $item->price; ?>
                     </li>
           <?php } ?>
       </section>
@@ -122,14 +122,14 @@
 
     <?php include 'blocks/footer.php'; ?>
       <style type="text/css">
-        .dali_menu_list{
+        .daily_menu_list{
           border: 1px  dashed #fff;
           width: 420px;
           margin: 0px auto;
           padding: 17px;
         }
 
-        .dali_menu_list li{
+        .daily_menu_list li{
           text-align: center;
         }
       </style>

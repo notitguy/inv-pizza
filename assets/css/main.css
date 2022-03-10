@@ -1876,6 +1876,7 @@ blockquote {
     display: flex;
     overflow: hidden;
     width: 100vw;
+    height: 100vh;
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
@@ -5049,8 +5050,8 @@ html.wf-design-mode .swiper-wrapper  {
 /* Section layouts */
 
 .three-elements-layout__grid {
-    grid-column-gap: 4rem;
-    grid-row-gap: 4rem;
+    grid-column-gap: 6rem;
+    grid-row-gap: 6rem;
     grid-template-columns: 0.5fr 1fr;
 }
 
@@ -5076,7 +5077,7 @@ html.wf-design-mode .swiper-wrapper  {
     text-transform: uppercase;
 }
 .small-divider {
-    width: 4rem;
+    width: 10rem;
     height: 2px;
     margin-bottom: 2.4rem;
     background-color: var(--accent-color);
