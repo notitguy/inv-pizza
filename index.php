@@ -5,10 +5,13 @@
   <meta charset="utf-8" />
   <title>Title</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet"href="assets/css/swiper-bundle.min.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
-  <style>
+  <!-- <style>
         .plate-slider__title,
         .plate-slider__number,
         .plate-slider__btn-block{
@@ -28,7 +31,7 @@
         opacity: 0;
         transition: opacity ease-in-out 0.7s;
       }
-  </style>
+  </style> -->
 </head>
 
 
@@ -40,10 +43,10 @@
     <div class="css w-embed"></div>
     <div class="page-transition"></div>
   </div> -->
-    <main class="main-wrapper">
-      <section>
+    <main>
+      <section class="slider">
 
-      <div class="bg-slider">
+        <div class="bg-slider">
           <div class="bg-slider__container">
             <div class="swiper-wrapper is--bg-slider">
               <div class="swiper-slide is--bg-slider">
@@ -163,37 +166,30 @@
 
     <?php include 'blocks/footer.php'; ?>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <!-- <script src="assets/js/mainpage.js"></script> -->
-  <script src="assets/js/main.js"></script>
+  <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+  <!-- <script src="assets/js/main.js"></script> -->
   <script type="text/javascript">
 
+    // $( document ).ready(function() {
+        
+    //   $("header").addClass("header_down");
+    //   $("main").addClass("main_up");
+    //   $(".plate-slider__content-block").addClass("title_show");
 
+    // $('.link').click(function(e) {
 
+    // $("header").removeClass("header_down");
+    // $(".plate-slider__content-block").removeClass("title_show");
+    // $(".swiper-slide-next, .swiper-slide-prev, .slider_buttons_, .plate-slider-pagination").addClass("fade_out");
 
-
-
-$( document ).ready(function() {
-    
-  $("header").addClass("header_down");
-  $("main").addClass("main_up");
-  $(".plate-slider__content-block").addClass("title_show");
-
-$('.link ').click(function(e) {
-
-$("header").removeClass("header_down");
-$(".plate-slider__content-block").removeClass("title_show");
-$(".swiper-slide-next, .swiper-slide-prev, .slider_buttons_, .plate-slider-pagination").addClass("fade_out");
-
-    e.preventDefault();
-     setTimeout(function(url) {
-     
-        window.location = url
-    }, 1100, this.href);
-});
-     
-});
+    //     e.preventDefault();
+    //      setTimeout(function(url) {
+        
+    //         window.location = url
+    //     }, 1100, this.href);
+    // });
+        
+    // });
 
   </script>
 

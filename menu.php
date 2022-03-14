@@ -5,9 +5,12 @@
   <meta charset="utf-8" />
   <title>Menu</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
-  <style type="text/css">
+  <!-- <style type="text/css">
     .plate-slider__image{
       transform: rotate(0deg);
     }
@@ -15,25 +18,25 @@
     .plate-slider__title{
     transform: translateY(200px);
     transition: transform ease-in-out 0.7s;
-  }
+    }
 
-  .title_show{
-    transform: translateY(0px);
-    transition: transform ease-in-out 0.7s;
-  }
-  
-  .change_right{
-    transform: translateX(120px) !important;
-    transition: transform ease-in-out 0.7s;
-  }
+    .title_show{
+      transform: translateY(0px);
+      transition: transform ease-in-out 0.7s;
+    }
+    
+    .change_right{
+      transform: translateX(120px) !important;
+      transition: transform ease-in-out 0.7s;
+    }
 
-  .plate-slider__image-wrapper{
-    transition: transform ease-in-out 0.7s;
-  }
-  </style>
+    .plate-slider__image-wrapper{
+      transition: transform ease-in-out 0.7s;
+    }
+  </style> -->
 </head>
 
-<body class="body--dark">
+<body class="has--plate-header body--dark">
 
   <?php include 'blocks/header.php'; ?>
 
@@ -133,40 +136,38 @@
           text-align: center;
         }
       </style>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
    
-      <script src="assets/js/main.js"></script>
+      <!-- <script src="assets/js/main.js"></script> -->
       <script type="text/javascript">
 
-        $( document ).ready(function() {
+      //   $( document ).ready(function() {
 
 
 
-      $("header").addClass("header_down");
-      $(".plate-slider__title").addClass("title_show");
+      // $("header").addClass("header_down");
+      // $(".plate-slider__title").addClass("title_show");
 
-      setTimeout(function(){
-        $(".plate-slider__image-wrapper").addClass("change_right");
-      }, 200);
+      // setTimeout(function(){
+      //   $(".plate-slider__image-wrapper").addClass("change_right");
+      // }, 200);
 
 
-      $('.link ').click(function(e) {
+      // $('.link ').click(function(e) {
 
-      $("header").removeClass("header_down");
-      $(".plate-slider__title").removeClass("title_show");
-      $(".plate-slider__image-wrapper").removeClass("change_right");
+      // $("header").removeClass("header_down");
+      // $(".plate-slider__title").removeClass("title_show");
+      // $(".plate-slider__image-wrapper").removeClass("change_right");
         
-          e.preventDefault();
-           setTimeout(function(url) {
+      //     e.preventDefault();
+      //      setTimeout(function(url) {
            
-              window.location = url
-          }, 1100, this.href);
-      });
+      //         window.location = url
+      //     }, 1100, this.href);
+      // });
 
-      });
+      // });
       </script>
-
-      <script src="assets/js/animate.js"></script>
 </body>
 
 </html>

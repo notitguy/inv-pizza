@@ -38,11 +38,24 @@
           </ul>
         </div>
 
-        <div class="col-md-3 chain" style="padding: 0">
-          <div class="backdrop">
-            <h2>Pizzeria e Cucina Italiana</h2>
-            <p>Try delicious pizzas just like you are in Italy!</p>
-          </div>
+        <div class="col-md-3 chain">
+          <img class="backdrop" src="/assets/img/food/photo_2022-02-19_10-16-20.jpg" alt="Pizzeria">
+          <h2>Pizzeria e Cucina Italiana</h2>
+          <p class="m-b">Try delicious pizzas just like you are in Italy!</p>
+          <a href="#" class="primary">Visit Pizzeria</a>
         </div>
       </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <?php
+    if (stripos($_SERVER['PHP_SELF'], 'index.php')) {
+        echo '<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>';
+    }
+    elseif (stripos($_SERVER['PHP_SELF'], 'reservation.php')) {
+        echo '<script src="https://cdn.jsdelivr.net/npm/litepicker@2.0.12/dist/nocss/litepicker.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/plugins/mobilefriendly.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.1/build/global/luxon.min.js"></script>';
+    }
+  ?>
+  <script src="assets/js/main.js"></script>

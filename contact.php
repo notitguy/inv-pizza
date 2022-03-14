@@ -5,36 +5,39 @@
   <meta charset="utf-8" />
   <title>Contact</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
-  <style type="text/css">
+  <!-- <style type="text/css">
 
-  .plate-slider__image{
-      transform: rotate(0deg);
+    .plate-slider__image{
+        transform: rotate(0deg);
+      }
+
+    .plate-slider__title{
+      transform: translateY(200px);
+      transition: transform ease-in-out 0.7s;
     }
 
-  .plate-slider__title{
-    transform: translateY(200px);
-    transition: transform ease-in-out 0.7s;
-  }
+    .title_show{
+      transform: translateY(0px);
+      transition: transform ease-in-out 0.7s;
+    }
+    
+    .change_right{
+      transform: translateX(120px) !important;
+      transition: transform ease-in-out 0.7s;
+    }
 
-  .title_show{
-    transform: translateY(0px);
-    transition: transform ease-in-out 0.7s;
-  }
-  
-  .change_right{
-    transform: translateX(120px) !important;
-    transition: transform ease-in-out 0.7s;
-  }
-
-  .plate-slider__image-wrapper{
-    transition: transform ease-in-out 0.7s;
-  }
-</style>
+    .plate-slider__image-wrapper{
+      transition: transform ease-in-out 0.7s;
+    }
+</style> -->
 </head>
 
-<body class="body--dark">
+<body class="contact has--plate-header body--dark">
 
   <?php 
 
@@ -128,181 +131,181 @@
       </button>
     </div>
 
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
       <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script> -->
-      <script src="assets/js/main.js"></script>
+      <!-- <script src="assets/js/main.js"></script> -->
       <script>
 
-        $( document ).ready(function() {
+        // $( document ).ready(function() {
 
 
-          // Disable "send" button on start
-          $("#send_form").prop( "disabled", true );
+        //   // Disable "send" button on start
+        //   $("#send_form").prop( "disabled", true );
 
-          // Validate name
-          $('#name').on("input blur", function(e) {
-              validateName(e);
-          });
+        //   // Validate name
+        //   $('#name').on("input blur", function(e) {
+        //       validateName(e);
+        //   });
 
-          function validateName() {
-            const name = $("#name").val();
-            if (name.length < 1 ) {
-              $("#name").addClass("error-field").removeClass("valid")
-              return false;
-            } else {
-              $("#name").removeClass("error-field").addClass("valid")
-            }
-          }
+        //   function validateName() {
+        //     const name = $("#name").val();
+        //     if (name.length < 1 ) {
+        //       $("#name").addClass("error-field").removeClass("valid")
+        //       return false;
+        //     } else {
+        //       $("#name").removeClass("error-field").addClass("valid")
+        //     }
+        //   }
 
-          // Validate email
-          $('#email').on("input blur", function(e) {
-              validateEmail(e);
-          });
+        //   // Validate email
+        //   $('#email').on("input blur", function(e) {
+        //       validateEmail(e);
+        //   });
 
-          function validateEmail() {
-            const email = $("#email").val();
-            if ( email.length > 0 && email.match(/^\S+@\S+\.\S+$/) ) {
-                $("#email").removeClass("error-field").addClass("valid")
-              return false;
-            } else {
-              $("#email").addClass("error-field").removeClass("valid")
-            }
-          }
+        //   function validateEmail() {
+        //     const email = $("#email").val();
+        //     if ( email.length > 0 && email.match(/^\S+@\S+\.\S+$/) ) {
+        //         $("#email").removeClass("error-field").addClass("valid")
+        //       return false;
+        //     } else {
+        //       $("#email").addClass("error-field").removeClass("valid")
+        //     }
+        //   }
           
-          // Validate phone
-          $('#phone').on("input blur", function(e) {
-              validatePhone(e);
-          });
+        //   // Validate phone
+        //   $('#phone').on("input blur", function(e) {
+        //       validatePhone(e);
+        //   });
 
-          function validatePhone() {
-            const phone = $("#phone").val();
-            if ( !(phone.length == 0 || /^[0-9 ()+-]{9,12}$/.test(phone)) ) {
-                $("#phone").addClass("error-field")
-              return false;
-            } else {
-              $("#phone").removeClass("error-field")
-            }
-          }
+        //   function validatePhone() {
+        //     const phone = $("#phone").val();
+        //     if ( !(phone.length == 0 || /^[0-9 ()+-]{9,12}$/.test(phone)) ) {
+        //         $("#phone").addClass("error-field")
+        //       return false;
+        //     } else {
+        //       $("#phone").removeClass("error-field")
+        //     }
+        //   }
 
-          // Validate textarea
-          $('#message').on("input blur", function(e) {
-              validateMessage(e);
-          });
-          function validateMessage() {
-            const message = $("#message").val();
-            if ( message.length > 10 ) {
-              $("#send_form").prop( "disabled", false );
-              $("#message").removeClass("error-field")
-              return false;
-            } else {
-              $("#message").addClass("error-field")
-            }
-          }
+        //   // Validate textarea
+        //   $('#message').on("input blur", function(e) {
+        //       validateMessage(e);
+        //   });
+        //   function validateMessage() {
+        //     const message = $("#message").val();
+        //     if ( message.length > 10 ) {
+        //       $("#send_form").prop( "disabled", false );
+        //       $("#message").removeClass("error-field")
+        //       return false;
+        //     } else {
+        //       $("#message").addClass("error-field")
+        //     }
+        //   }
 
-          // Validation on submit
-          $("#send_form").click(function () {
+        //   // Validation on submit
+        //   $("#send_form").click(function () {
 
-            let name = $("#name").val();
-            let email = $("#email").val();
-            let phone = $("#phone").val();
-            let message = $("#message").val();
+        //     let name = $("#name").val();
+        //     let email = $("#email").val();
+        //     let phone = $("#phone").val();
+        //     let message = $("#message").val();
 
-            if (name == "") {
-              $(".error").text("Missing name");
-              $(".error").fadeIn();
-              $("#name").addClass("error-field").removeClass("valid")
-              return false
-            } else if (email == "") {
-              $(".error").text("Missing email");
-              $(".error").fadeIn();
-              $("#email").addClass("error-field").removeClass("valid")
-               return false
-            } else if ( !(phone.length == 0 || /^[0-9 ()+-]{9,12}$/.test(phone)) ) {
-              $(".error").text("Incorrect phone format");
-              $(".error").fadeIn();
-              $("#phone").addClass("error-field").removeClass("valid")
-               return false
-            } else if (message == "") {
-              $(".error").text("Please, write your message.");
-              $(".error").fadeIn();
-              $("#message").addClass("error-field").removeClass("valid")
-               return false
-            }
+        //     if (name == "") {
+        //       $(".error").text("Missing name");
+        //       $(".error").fadeIn();
+        //       $("#name").addClass("error-field").removeClass("valid")
+        //       return false
+        //     } else if (email == "") {
+        //       $(".error").text("Missing email");
+        //       $(".error").fadeIn();
+        //       $("#email").addClass("error-field").removeClass("valid")
+        //        return false
+        //     } else if ( !(phone.length == 0 || /^[0-9 ()+-]{9,12}$/.test(phone)) ) {
+        //       $(".error").text("Incorrect phone format");
+        //       $(".error").fadeIn();
+        //       $("#phone").addClass("error-field").removeClass("valid")
+        //        return false
+        //     } else if (message == "") {
+        //       $(".error").text("Please, write your message.");
+        //       $(".error").fadeIn();
+        //       $("#message").addClass("error-field").removeClass("valid")
+        //        return false
+        //     }
 
-            if (email.length > 0
-            && (email.match(/.+?\@.+/g) || []).length !== 1) {
-            console.log('invalid');
-            $(".error").text("You entered incorrect email");
-            $(".error").fadeIn();
-            return false;
-            } else {
+        //     if (email.length > 0
+        //     && (email.match(/.+?\@.+/g) || []).length !== 1) {
+        //     console.log('invalid');
+        //     $(".error").text("You entered incorrect email");
+        //     $(".error").fadeIn();
+        //     return false;
+        //     } else {
               
-            }
+        //     }
 
-            // Send with Ajax
-            $.ajax({
-              url: 'sendmail.php',
-              type: 'POST',
-              chache: false,
-              data: $('#contact-form').serialize(),
-              beforeSend: function () {
-                $("#send_form").prop("disabled", true);
-              },
-              success: function (data) {
-                if(data = "success"){
-                    $(".notify").addClass("visible");
-                      setTimeout(function () {
-                        $(".notify").removeClass("visible");
-                      }, 5000);
-                    $(".error").slideUp(300);
-                    $("#send_form").prop("disabled", false);
-                    $("#name").val("");
-                    $("#email").val("");
-                    $("#phone").val("");
-                    $("#message").val("");
-                }else{
-                    alert("errpr");
-                }
+        //     // Send with Ajax
+        //     $.ajax({
+        //       url: 'sendmail.php',
+        //       type: 'POST',
+        //       chache: false,
+        //       data: $('#contact-form').serialize(),
+        //       beforeSend: function () {
+        //         $("#send_form").prop("disabled", true);
+        //       },
+        //       success: function (data) {
+        //         if(data = "success"){
+        //             $(".notify").addClass("visible");
+        //               setTimeout(function () {
+        //                 $(".notify").removeClass("visible");
+        //               }, 5000);
+        //             $(".error").slideUp(300);
+        //             $("#send_form").prop("disabled", false);
+        //             $("#name").val("");
+        //             $("#email").val("");
+        //             $("#phone").val("");
+        //             $("#message").val("");
+        //         }else{
+        //             alert("errpr");
+        //         }
                 
-              }
-            });
+        //       }
+        //     });
 
 
-          })
+        //   })
 
-        // Notification
-          $(".notify button").click(function(){
-            $(".notify").removeClass("visible");
-          });
+        // // Notification
+        //   $(".notify button").click(function(){
+        //     $(".notify").removeClass("visible");
+        //   });
 
        
     
         
-       $("header").addClass("header_down");
-      $(".plate-slider__title").addClass("title_show");
+      //  $("header").addClass("header_down");
+      // $(".plate-slider__title").addClass("title_show");
 
-      setTimeout(function(){
-        $(".plate-slider__image-wrapper").addClass("change_right");
-      }, 200);
+      // setTimeout(function(){
+      //   $(".plate-slider__image-wrapper").addClass("change_right");
+      // }, 200);
 
 
-      $('.link ').click(function(e) {
+      // $('.link ').click(function(e) {
 
-      $("header").removeClass("header_down");
-      $(".plate-slider__title").removeClass("title_show");
-      $(".plate-slider__image-wrapper").removeClass("change_right");
+      // $("header").removeClass("header_down");
+      // $(".plate-slider__title").removeClass("title_show");
+      // $(".plate-slider__image-wrapper").removeClass("change_right");
         
-          e.preventDefault();
-           setTimeout(function(url) {
+      //     e.preventDefault();
+      //      setTimeout(function(url) {
            
-              window.location = url
-          }, 1100, this.href);
-      });
+      //         window.location = url
+      //     }, 1100, this.href);
+      // });
       
-});
+// });
         
       </script>
-      <script src="assets/js/animate.js"></script>
+      <!-- <script src="assets/js/animate.js"></script> -->
 </body>
 
 </html>

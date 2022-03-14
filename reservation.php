@@ -5,6 +5,9 @@
   <meta charset="utf-8" />
   <title>Reserve a table</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/litepicker/dist/css/litepicker.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
@@ -35,7 +38,7 @@
   </style>
 </head>
 
-<body class="body--dark">
+<body class="reservation body--dark">
 
   <?php include 'blocks/header.php'; ?>
 
@@ -171,11 +174,11 @@
 
     <?php include 'blocks/footer.php'; ?>
 
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/litepicker@2.0.12/dist/nocss/litepicker.js"></script>
+      <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+      <!-- <script src="https://cdn.jsdelivr.net/npm/litepicker@2.0.12/dist/nocss/litepicker.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/plugins/mobilefriendly.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.1/build/global/luxon.min.js"></script>
-      <script src="assets/js/main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.1/build/global/luxon.min.js"></script> -->
+      <!-- <script src="assets/js/main.js"></script> -->
       <script type="text/javascript">
         $(document).ready(function() {
 
@@ -376,25 +379,25 @@
           });
 
 
-          $("header").addClass("header_down");
-          $(".plate-slider__title").addClass("title_show");
-          setTimeout(function() {
-            $(".plate-slider__image-wrapper").addClass("change_right");
-          }, 700);
-          $('.link ').click(function(e) {
-            $("header").removeClass("header_down");
-            $(".plate-slider__title").removeClass("title_show");
-            $(".plate-slider__image-wrapper").removeClass("change_right");
-            e.preventDefault();
-            setTimeout(function(url) {
-              window.location = url
-            }, 1100, this.href);
-          });
+          // $("header").addClass("header_down");
+          // $(".plate-slider__title").addClass("title_show");
+          // setTimeout(function() {
+          //   $(".plate-slider__image-wrapper").addClass("change_right");
+          // }, 700);
+          // $('.link ').click(function(e) {
+          //   $("header").removeClass("header_down");
+          //   $(".plate-slider__title").removeClass("title_show");
+          //   $(".plate-slider__image-wrapper").removeClass("change_right");
+          //   e.preventDefault();
+          //   setTimeout(function(url) {
+          //     window.location = url
+          //   }, 1100, this.href);
+          // });
 
         });
       </script>
 
-      <script src="assets/js/animate.js"></script>
+      <!-- <script src="assets/js/animate.js"></script> -->
 </body>
 
 </html>
