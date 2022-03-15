@@ -270,7 +270,7 @@ $( document ).ready(function() {
 
           // Send with Ajax
           $.ajax({
-            url: 'sendmail.php',
+            url: 'contact_form.php',
             type: 'POST',
             chache: false,
             data: $('#contact-form').serialize(),
