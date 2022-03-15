@@ -11,6 +11,9 @@
   <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/litepicker/dist/css/litepicker.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/cookie/cookieconsent.css" media="print" onload="this.media='all'">
+  <script defer src="assets/cookie/cookieconsent.js"></script>
+  <script defer src="assets/cookie/cookieconsent-init.js"></script>
   <style type="text/css">
     .plate-slider__image {
       transform: rotate(0deg);
@@ -148,6 +151,14 @@
       </section>
 
     </main>
+
+    <div class="notify success">
+      <img src="assets/img/icons/gg-check-o.svg" alt="icon" >
+      <div>Thank you! Your message has been sent.</div>
+      <button>
+        <svg aria-hidden="true" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7.71 8.23l3.75 3.75-1.48 1.48-3.75-3.75-3.75 3.75L1 11.98l3.75-3.75L1 4.48 2.48 3l3.75 3.75L9.98 3l1.48 1.48-3.75 3.75z"></path></svg>
+      </button>
+    </div>
 
     <style type="text/css">
 
@@ -294,7 +305,7 @@
 
             // Send with Ajax
             $.ajax({
-              url: 'sendmail.php', // change to your handler Потом может  поменять  
+              url: 'reservation_form.php', // change to your handler Потом может  поменять  
               type: 'POST',
               chache: false,
               data: $('.order_form').serialize(),
@@ -303,9 +314,9 @@
               },
               success: function (data) {
                 if(data = "success"){
-                    $(".notify").addClass("visible");
+                    $(".notify").addClass("--visible");
                       setTimeout(function () {
-                        $(".notify").removeClass("visible");
+                        $(".notify").removeClass("--visible");
                       }, 5000);
                     $(".error").slideUp(300);
                     $("#send_form").prop("disabled", false);
@@ -314,6 +325,9 @@
                     $("#email").val("");
                     $("#phone").val("");
                     $("#message").val("");
+                    $("#request").val("");
+                    $("#occasion").val("");
+
                 }else{
                     alert("errpr");
                 }
