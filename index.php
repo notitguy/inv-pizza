@@ -11,6 +11,10 @@
   <link rel="stylesheet"href="assets/css/swiper-bundle.min.css"/>
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
+  <link rel="stylesheet" href="assets/cookie/cookieconsent.css" media="print" onload="this.media='all'">
+  <script defer src="assets/cookie/cookieconsent.js"></script>
+  <script defer src="assets/cookie/cookieconsent-init.js"></script>
+
   <!-- <style>
         .plate-slider__title,
         .plate-slider__number,
