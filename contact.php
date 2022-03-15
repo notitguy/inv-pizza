@@ -10,6 +10,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
+  <link rel="stylesheet" href="assets/cookie/cookieconsent.css" media="print" onload="this.media='all'">
+  <script defer src="assets/cookie/cookieconsent.js"></script>
+  <script defer src="assets/cookie/cookieconsent-init.js"></script>
+
   <!-- <style type="text/css">
 
     .plate-slider__image{
