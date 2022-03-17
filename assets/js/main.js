@@ -4,6 +4,19 @@
 //    $('.banner_content h2').slideDown('slow');
 // }, 300);
 
+// Reloads page, when it's served from cache. E.g. hitting "back" button
+    window.addEventListener(
+        "pageshow",
+        function (e) {
+            e.persisted &&
+                setTimeout(function () {
+                    window.location.reload();
+                }, 10);
+        },
+        !1
+    )
+
+ // Burger toggle   
  $("#burger").click(function(){
     $(this).toggleClass("change");
     $( ".mobile-menu" ).toggleClass( "mobile-menu--visible");
@@ -16,6 +29,7 @@
     // $(".overlay:hidden").show(1000);
 });
 
+ // Close overlay on click  
 $(".overlay, .mobile-menu a").click(function(){
     $("#burger").toggleClass("change");
     $( ".mobile-menu" ).toggleClass( "mobile-menu--visible");
@@ -30,7 +44,6 @@ $(".overlay, .mobile-menu a").click(function(){
 
 
 // Add class to header on scroll
-
 $(window).scroll(function() {
     var menutTop = 100;
 
@@ -90,7 +103,6 @@ $(window).scroll(function() {
 // }
 
 // Homepage slider
-
 if ($("body").hasClass("is--home")) {
 // const fullWidthSlider = new Swiper(".full-width-slider", { slidesPerView: 1, speed: 1200, loop: !0, breakpoints: { 0: { shortSwipes: !1, speed: 500 }, 991: { shortSwipes: !1, speed: 1200 } } });
 // var slides_count = document.getElementsByClassName("plate-slider__link-block");
@@ -305,7 +317,7 @@ $( document ).ready(function() {
         // move the code here
     }
 
-    // Notification
+    // Form notification
     $(".notify button").click(function(){
     $(".notify").removeClass("--visible");
     });
