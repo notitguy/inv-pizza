@@ -72,14 +72,15 @@
 
               <div class="swiper-slide is--plate-slider">
                 <div class="plate-slider__image-wrapper">
-                  <img sizes="100vw" srcset="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-500.png 500w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-800.png 800w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-1080.png 1080w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png 1566w" src="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png" alt="" class="plate-slider__image" />
+                  <img src="assets/img/header/plate-pizza-dark.webp" alt="" class="plate-slider__image" />
                 </div>
                 <a href="menu" class="link plate-slider__content-block is--plate-slider">
                   <div class="text--mask">
-                    <h2 class="plate-slider__title is--slider-home">Menu</h2></div>
+                    <h2 class="plate-slider__title is--slider-home">Our Menu</h2></div>
                   <div class="text--mask">
+                    <p class="plate-slider__subtitle">Authentic Italian cuisine in the center of Prague</p>
                     <div class="plate-slider__btn-block">
-                      <span class="plate-slider__btn">More</span>
+                      <span class="plate-slider__btn">See menu</span>
                       <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" /></div>
                   </div>
                 </a>
@@ -87,7 +88,7 @@
 
               <div class="swiper-slide is--plate-slider">
                 <div class="plate-slider__image-wrapper">
-                  <img sizes="100vw" srcset="assets/img/611373bcf89e750ff7d38421_wills-p-500.png 500w, assets/img/611373bcf89e750ff7d38421_wills.png 1566w" src="assets/img/611373bcf89e750ff7d38421_wills.png" alt="" class="plate-slider__image is--rijks" />
+                  <img src="assets/img/header/plate-pizza.webp" alt="" class="plate-slider__image is--rijks" />
                 </div>
                 <a href="about" class="link plate-slider__content-block is--plate-slider">
                   <div class="text--mask">
@@ -104,7 +105,7 @@
 
               <div class="swiper-slide is--plate-slider">
                 <div class="plate-slider__image-wrapper">
-                  <img sizes="100vw" srcset="assets/img/611373bdc832dc0f1c380f47_rijks-p-500.png 500w, assets/img/611373bdc832dc0f1c380f47_rijks-p-800.png 800w, assets/img/611373bdc832dc0f1c380f47_rijks.png 1566w" src="assets/img/611373bdc832dc0f1c380f47_rijks.png" alt="" class="plate-slider__image" />
+                  <img src="assets/img/header/plate-seafood.webp" alt="" class="plate-slider__image" />
                 </div>
                 <a href="contact" class="link plate-slider__content-block is--plate-slider">
                   <div class="text--mask">

@@ -107,7 +107,7 @@ if ($("body").hasClass("is--home")) {
 // const fullWidthSlider = new Swiper(".full-width-slider", { slidesPerView: 1, speed: 1200, loop: !0, breakpoints: { 0: { shortSwipes: !1, speed: 500 }, 991: { shortSwipes: !1, speed: 1200 } } });
 // var slides_count = document.getElementsByClassName("plate-slider__link-block");
 const plateSlider = new Swiper(".plate-slider__slider", {
-        centeredSlides: !0,
+        centeredSlides: true,
         slidesPerView: "auto",
         speed: 1200,
         simulateTouch: false,
