@@ -52,7 +52,7 @@
             <div class="is--plate-slider">
               <div class="swiper-slide is--plate-slider">
                 <div style="top: -9px;" class="plate-slider__image-wrapper">
-                  <img sizes="100vw" srcset="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-500.png 500w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-800.png 800w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk-p-1080.png 1080w, assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png 1566w" src="assets/img/611373bc45c6e61e374c543b_joris-bijdendijk.png" alt="" class="plate-slider__image" />
+                  <img src="assets/img/header/plate-pizza-dark.webp" alt="" class="plate-slider__image" />
                 </div>
                 <div class="plate-slider__content-block is--plate-slider">
                   <div class="text--mask">

@@ -27,7 +27,7 @@
         <a href="#">IT</a>
       </div>
 
-      <ul class="mobile-menu_list">
+      <ul class="mobile-menu_list m-b">
         <li><a href="/">Home</a></li>
         <li><a href="menu">Menu</a></li>
         <li><a href="about">About</a></li>
@@ -35,13 +35,13 @@
       </ul>
       <a href="/reservation" class="primary">Make a reservation</a>
       <div class="small-divider"></div>
-      <h3>Invitaly EnoTrattoria</h3>
+      <h3>Invitaly Pizzeria e Cucina Italiana</h3>
       <address>
         <ul class="m-b">
-          <li>Vězeňská 4, 110 00 Praha, Czechia</li>
-          <li><a href="tel:+420222313185">+420 222 313 185</a></li>
+          <li>Vladislavova 26, 110 00 Praha, Czechia</li>
+          <li><a href="tel:+420773069490">+420 773 069 490</a></li>
           <li class="m-b"><a href="mailto:hello@invitaly.cz">hello@invitaly.cz</a></li>
-          <li>Útery - Sobota</li>
+          <li>Ponděli - Pátek</li>
           <li class="m-b">11:00 - 22:00</li>
         </ul>
         <a href="https://www.instagram.com/invitaly_enotrattoria/" target="_blank">

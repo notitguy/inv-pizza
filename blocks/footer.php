@@ -4,18 +4,18 @@
           <!-- <a href="/">
             <img class="footer_logo_img" src="assets/img/logo.png" alt="Logo">
           </a> -->
-          <h3>Invitaly EnoTrattoria</h3>
+          <h3>Invitaly Pizzeria</h3>
           <address>
             <ul class="m-b">
-              <li>Vězeňská 4, 110 00 Praha, Czechia</li>
+              <li>Vladislavova 26, 110 00 Praha, Czechia</li>
               <li>
-                <a href="tel:+420222313185">+420 222 313 185</a>
+                <a href="tel:+420773069490">+420 773 069 490</a>
               </li>
               <li>
                 <a href="mailto:hello@invitaly.cz">hello@invitaly.cz</a>
               </li>
             </ul>
-            <a href="https://www.instagram.com/invitaly_enotrattoria/" target="_blank">
+            <a href="https://www.instagram.com/invitaly_pizza/" target="_blank">
               <img src="assets/img/icons/instagram.svg"> Fresh and tasty updates on our Instagram
             </a>
           </address>
@@ -23,7 +23,7 @@
         
         <div class="col-md-3">
           <h3>Otevírací doba</h3>
-          <p>Útery - Sobota</p>
+          <p>Ponděli - Pátek</p>
           <p class="m-b">11:00 - 22:00</p>
           <a href="/reservation" class="primary">Make a reservation</a>
         </div>
@@ -50,12 +50,12 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <?php
     if (stripos($_SERVER['PHP_SELF'], 'index.php')) {
-        echo '<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>';
+        echo '<script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>';
     }
     elseif (stripos($_SERVER['PHP_SELF'], 'reservation.php')) {
-        echo '<script src="https://cdn.jsdelivr.net/npm/litepicker@2.0.12/dist/nocss/litepicker.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/plugins/mobilefriendly.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.1/build/global/luxon.min.js"></script>';
+        echo '<script defer src="https://cdn.jsdelivr.net/npm/litepicker@2.0.12/dist/nocss/litepicker.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/litepicker/dist/plugins/mobilefriendly.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/luxon@2.3.1/build/global/luxon.min.js"></script>';
     }
   ?>
-  <script src="assets/js/main.js"></script>
+  <script defer src="assets/js/main.js"></script>

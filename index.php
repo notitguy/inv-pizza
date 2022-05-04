@@ -75,10 +75,10 @@
                   <img src="assets/img/header/plate-pizza-dark.webp" alt="" class="plate-slider__image" />
                 </div>
                 <a href="menu" class="link plate-slider__content-block is--plate-slider">
+                  <div class="text--mask"><i class="plate-slider__subtitle">Delicious pizzas</i></div>
                   <div class="text--mask">
-                    <h2 class="plate-slider__title is--slider-home">Our Menu</h2></div>
+                    <h2 class="plate-slider__title is--slider-home">Just like<br>in Italy</h2></div>
                   <div class="text--mask">
-                    <p class="plate-slider__subtitle">Authentic Italian cuisine in the center of Prague</p>
                     <div class="plate-slider__btn-block">
                       <span class="plate-slider__btn">See menu</span>
                       <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" /></div>
@@ -92,11 +92,11 @@
                 </div>
                 <a href="about" class="link plate-slider__content-block is--plate-slider">
                   <div class="text--mask">
-                    <h2 class="plate-slider__title is--slider-home">About</h2>
+                    <h2 class="plate-slider__title is--slider-home">Why<br>Invitaly?</h2>
                   </div>
                   <div class="text--mask">
                     <div class="plate-slider__btn-block">
-                      <span class="plate-slider__btn"></span>
+                      <span class="plate-slider__btn">About us</span>
                       <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" />
                     </div>
                   </div>
@@ -139,6 +139,19 @@
       </section>
 
       <section class="main_wrapper">
+        <h2>Today's Lunch Menu</h2>
+        <i>11:30-15:00</i>
+        <ul class="daily-menu">
+          <li><span>Creamy mushroom soup with crispy bacon</span><span class="price">70,- Kč</span></li>
+          <li><span>Tagliatelle alla Bolognese</span><span class="price">170,- Kč</span></li>
+          <li><span>Squid ink taglioni with tune, cherry tomatoes and fresh chili</span><span class="price">180,- Kč</span></li>
+          <li><span>Beaf sirloan steak served with mixed salad, cherry tomatoes, Grana Padano and balsamic glaze</span><span class="price">180,- Kč</span></li>
+          <li><span>Four Cheese Pizza with tomato base</span><span class="price">190,- Kč</span></li>
+          <li><span>Orange flavored Tiramisu</span><span class="price">80,- Kč</span></li>
+        </ul>
+      </section>
+
+      <section class="main_wrapper">
         <div class="grid three-elements-layout__grid">
           <div class="three-elements-heading">
             <h1 class="heading--xlarge">Lorem ipsum dolor sit amet, consectetur</h1>
@@ -151,8 +164,8 @@
             <img src="assets/img/616fcd16cb902a14e81c1acf_rijks-diner-wit-bord-groen-sausje1-1.jpg" loading="lazy" alt="" />
           </div>
       </div>
-
       </section>
+
       <section class="main_wrapper">
         <div class="grid three-elements-layout__grid is--reversed">
           <div class="three-elements-heading">

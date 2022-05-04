@@ -54,7 +54,7 @@
             <div class="swiper-wrapper is--plate-slider" style="justify-content: center;">
               <div class="swiper-slide is--plate-slider">
                 <div style="top: -9px;" class="plate-slider__image-wrapper">
-                  <img sizes="100vw" srcset="assets/img/611373bcf89e750ff7d38421_wills-p-500.png 500w, assets/img/611373bcf89e750ff7d38421_wills.png 1566w" src="assets/img/611373bcf89e750ff7d38421_wills.png" alt="" class="plate-slider__image">
+                  <img src="assets/img/header/plate-pizza.webp" alt="" class="plate-slider__image">
                 </div>
                 <div class="plate-slider__content-block is--plate-slider">
                   <div class="text--mask">

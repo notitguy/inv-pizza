@@ -111,7 +111,7 @@ const plateSlider = new Swiper(".plate-slider__slider", {
         slidesPerView: "auto",
         speed: 1200,
         simulateTouch: false,
-        breakpoints: { 0: { shortSwipes: !0, speed: 500 }, 991: { shortSwipes: !1, speed: 1200 } },
+        breakpoints: { 0: { shortSwipes: true, speed: 800 }, 991: { shortSwipes: false, speed: 1200 } },
        navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
