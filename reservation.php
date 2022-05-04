@@ -2,18 +2,8 @@
 <html lang="cs">
 
 <head>
-  <meta charset="utf-8" />
   <title>Reserve a table</title>
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/litepicker/dist/css/litepicker.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/cookie/cookieconsent.css" media="print" onload="this.media='all'">
-  <script defer src="assets/cookie/cookieconsent.js"></script>
-  <script defer src="assets/cookie/cookieconsent-init.js"></script>
+  <?php include 'blocks/base-head.php'; ?>
   <style type="text/css">
     .plate-slider__image {
       transform: rotate(0deg);

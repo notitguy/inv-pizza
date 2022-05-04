@@ -2,40 +2,8 @@
 <html lang="cs">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Title</title>
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet"href="assets/css/swiper-bundle.min.css"/>
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
-  <link rel="stylesheet" href="assets/cookie/cookieconsent.css" media="print" onload="this.media='all'">
-  <script defer src="assets/cookie/cookieconsent.js"></script>
-  <script defer src="assets/cookie/cookieconsent-init.js"></script>
-
-  <!-- <style>
-        .plate-slider__title,
-        .plate-slider__number,
-        .plate-slider__btn-block{
-          transform: translateY(200px);
-          transition: transform ease-in-out 0.7s;
-        }
-      .title_show .plate-slider__title,
-      .title_show .plate-slider__number,
-      .title_show .plate-slider__btn-block{
-        transform: translateY(0px);
-        transition: transform ease-in-out 0.7s;
-      }
-      .fade_out.swiper-slide-next,
-      .fade_out.swiper-slide-prev,
-      .fade_out.slider_buttons_,
-      .fade_out.plate-slider-pagination {
-        opacity: 0;
-        transition: opacity ease-in-out 0.7s;
-      }
-  </style> -->
+  <title>Pizzeria Invitaly Prague</title>
+  <?php include 'blocks/base-head.php'; ?>
 </head>
 
 

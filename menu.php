@@ -2,42 +2,8 @@
 <html lang="cs">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Menu</title>
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
-  <link rel="stylesheet" href="assets/cookie/cookieconsent.css" media="print" onload="this.media='all'">
-  <script defer src="assets/cookie/cookieconsent.js"></script>
-  <script defer src="assets/cookie/cookieconsent-init.js"></script>
-
-  <!-- <style type="text/css">
-    .plate-slider__image{
-      transform: rotate(0deg);
-    }
-
-    .plate-slider__title{
-    transform: translateY(200px);
-    transition: transform ease-in-out 0.7s;
-    }
-
-    .title_show{
-      transform: translateY(0px);
-      transition: transform ease-in-out 0.7s;
-    }
-    
-    .change_right{
-      transform: translateX(120px) !important;
-      transition: transform ease-in-out 0.7s;
-    }
-
-    .plate-slider__image-wrapper{
-      transition: transform ease-in-out 0.7s;
-    }
-  </style> -->
+  <title>Menu ~ Pizzeria Invitaly Prague</title>
+  <?php include 'blocks/base-head.php'; ?>
 </head>
 
 <body class="has--plate-header body--dark">
@@ -51,7 +17,7 @@
           <div class="plate-slider__slider" >
             <div class="is--plate-slider">
               <div class="swiper-slide is--plate-slider">
-                <div style="top: -9px;" class="plate-slider__image-wrapper">
+                <div style="top: -42px;" class="plate-slider__image-wrapper">
                   <img src="assets/img/header/plate-pizza-dark.webp" alt="" class="plate-slider__image" />
                 </div>
                 <div class="plate-slider__content-block is--plate-slider">

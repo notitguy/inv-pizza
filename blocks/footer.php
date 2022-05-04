@@ -58,4 +58,6 @@
         <script defer src="https://cdn.jsdelivr.net/npm/luxon@2.3.1/build/global/luxon.min.js"></script>';
     }
   ?>
+  <script defer src="assets/cookie/cookieconsent.js"></script>
+  <script defer src="assets/cookie/cookieconsent-init.js"></script>
   <script defer src="assets/js/main.js"></script>
