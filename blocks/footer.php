@@ -1,4 +1,4 @@
-  <footer class="footer main_wrapper">
+  <footer class="footer main-wrapper">
       <div class="row">
         <div class="col-md-3">
           <!-- <a href="/">

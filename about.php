@@ -18,7 +18,7 @@
           <div class="plate-slider__slider" >
             <div class="swiper-wrapper is--plate-slider" style="justify-content: center;">
               <div class="swiper-slide is--plate-slider">
-                <div style="top: -42px;" class="plate-slider__image-wrapper">
+                <div class="plate-slider__image-wrapper">
                   <img src="assets/img/header/plate-pizza.webp" alt="" class="plate-slider__image">
                 </div>
                 <div class="plate-slider__content-block is--plate-slider">
@@ -33,7 +33,7 @@
       </section>
 
 
-      <section class="main_wrapper">
+      <section class="main-wrapper">
         <div class="grid three-elements-layout__grid">
           <div class="three-elements-heading">
             <h1 class="heading--xlarge">Lorem ipsum dolor sit amet, consectetur</h1>
@@ -48,7 +48,7 @@
         </div>
       </section>
 
-      <section class="main_wrapper">
+      <section class="main-wrapper">
         <div class="grid three-elements-layout__grid is--reversed">
           <div class="three-elements-heading">
             <h1 class="heading--xlarge">Lorem ipsum dolor sit 2019 amet, nostrud</h1>

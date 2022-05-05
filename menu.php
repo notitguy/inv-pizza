@@ -17,7 +17,7 @@
           <div class="plate-slider__slider" >
             <div class="is--plate-slider">
               <div class="swiper-slide is--plate-slider">
-                <div style="top: -42px;" class="plate-slider__image-wrapper">
+                <div class="plate-slider__image-wrapper">
                   <img src="assets/img/header/plate-pizza-dark.webp" alt="" class="plate-slider__image" />
                 </div>
                 <div class="plate-slider__content-block is--plate-slider">
@@ -34,7 +34,7 @@
       </section>
 
 
-      <section class="main_wrapper">
+      <section class="main-wrapper">
         <div class="grid three-elements-layout__grid">
             <div class="three-elements-heading">
               <h1 class="heading--xlarge">Lorem ipsum dolor sit amet, consectetur</h1>
@@ -48,7 +48,7 @@
             </div>
         </div>
       </section>
-      <section class="main_wrapper">
+      <section class="main-wrapper">
         <div class="grid three-elements-layout__grid is--reversed">
           <div class="three-elements-heading">
             <h1 class="heading--xlarge">Lorem ipsum dolor sit 2019 amet, nostrud</h1>
@@ -63,7 +63,7 @@
         </div>
       </section>
 
-      <section class="d_center main_wrapper">
+      <section class="d_center main-wrapper">
         <!-- En -->
         <h2 class="text-center">Daily menu En</h2>
          <?php $menu = json_decode(file_get_contents("https://opensheet.elk.sh/1NAzk3LL_Co-AyhUvog7hz0uNLo-eJzR3LkilEtzu03w/english"));?>
@@ -77,7 +77,7 @@
           <?php } ?>
       </section>
 
-       <section class="d_center main_wrapper">
+       <section class="d_center main-wrapper">
         <!-- En -->
         <h2 class="text-center">Daily menu It</h2>
          <?php $menu = json_decode(file_get_contents("https://opensheet.elk.sh/1NAzk3LL_Co-AyhUvog7hz0uNLo-eJzR3LkilEtzu03w/italian"));?>

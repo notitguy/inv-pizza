@@ -200,7 +200,7 @@ body:hover .cursor  {
 
 /* Utility classes */
 
-.main_wrapper  {
+.main-wrapper  {
     padding: 8vw;
     overflow: hidden;
 }
@@ -235,8 +235,31 @@ body:hover .cursor  {
     /* grid-row-gap: 16px;
     grid-column-gap: 16px; */
 }
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .m-b {
     margin-bottom: 2.4rem;
+}
+.parallax {
+    position: relative;
+    height: 60vh;
+    perspective: 1px;
+}
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(1.5);
+    z-index: -1;
+    background-image: url(/assets/img/patterns/pizza1.svg);
+    background-size: 20%;
+    background-repeat: no-repeat;
 }
 
 /* Header and menu */
@@ -390,29 +413,29 @@ header .burger {
 /* Swiper */
 
 body.is--home .slider, /* needed to avoid slider flick */
-.main_wrapper /* fade-in effect */ { 
+.main-wrapper /* fade-in effect */ { 
     opacity:0;
 }
 
 body.is--home .slider.--fade-in,
-.main_wrapper.--fade-in {
+.main-wrapper.--fade-in {
     opacity: 1;
 }
 
 /* Fade in effects */
-.main_wrapper {
+.main-wrapper {
     transform: translate3d(0,4rem,0);
     transition: all var(--easing) 0.4s 0.4s;
 }
-.main_wrapper.--fade-in {
+.main-wrapper.--fade-in {
     transform: translate3d(0,0,0);
 }
-.main_wrapper img {
+.main-wrapper img {
     clip-path: inset(0 100% 0 0);
     transform: rotate(0.001deg);
     transition: all var(--easing) 0.6s;
 }
-.main_wrapper.--fade-in img {
+.main-wrapper.--fade-in img {
     clip-path: inset(0 0 0 0);
 }
 
@@ -583,7 +606,7 @@ body.is--home .slider.--fade-in,
 .plate-slider__title {
     color: hsl(0deg 0% 95%);
     font-size: 10rem;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
 }
 .plate-slider__subtitle {
@@ -693,6 +716,9 @@ body:not(.is--home) .plate-slider__image {
 body:not(.is--home) .change_right .plate-slider__image {
     transform: rotate(10deg); 
 }
+body:not(.is--home) .is--plate-slider {
+    height: 100%;
+}
 
 .plate-slider__title,
 .plate-slider__subtitle {
@@ -737,7 +763,7 @@ body:not(.is--home) .change_right .plate-slider__image {
 }
 
 .is--home .swiper-slide a {
-    transition: opacity 0.6s ease-in-out;
+    transition: opacity 0.6s ease-in-out, filter 0.6s var(--easing);
     opacity: 0;
 }
 .is--home .swiper-slide-active a {
@@ -774,7 +800,7 @@ body:not(.is--home) .change_right .plate-slider__image {
     }
 
     .plate-slider__title  {
-        font-size:  8vw;
+        font-size:  6vw;
     }
 }
 
@@ -816,6 +842,10 @@ html.wf-design-mode .swiper-wrapper  {
 } */
 
 /* Body */
+
+main {
+    perspective: 2px; /*for parallax*/
+}
 
 .reservation main {
     margin-top: 70px;
@@ -868,16 +898,14 @@ ul.daily-menu {
 }
 .daily-menu li {
     display: flex;
+    column-gap: 2rem;
     flex: 0 0 100%;
     justify-content: space-between;
     padding: 1rem 2rem;
-}
-.daily-menu li {
     background-color: var(--body-dark-bg-2nd);
 }
 .daily-menu span.price {
     min-width: 60px;
-    margin-left: 1rem;
     height: fit-content;
     position: relative;
     z-index: 1;
@@ -885,9 +913,9 @@ ul.daily-menu {
 .daily-menu span.price::after {
     content: '';
     position: absolute;
-    top: 0.1rem;
+    top: 0.3rem;
     left: -1rem;
-    width: 70px;
+    width: 81px;
     height: 30px;
     background-color: #912833;
     background-color: var(--accent-color-dark);
@@ -1297,17 +1325,20 @@ textarea:not(.error-field):focus-visible {
     h1, h2, h3 {
         line-height: initial;
     }
-    .main_wrapper  {
-        padding: 10vw 6vw;
-    }
     header {
         padding:  0px 6vw;
+    }
+    .logo img {
+        max-width: 70px;
     }
     nav.menu {
         display: none;
     }
     .mobile-menu {
         width: 100vw;
+    }
+    .main-wrapper  {
+        padding: 10vw 6vw;
     }
     .col-md-3 {
         padding: 0 0 8vw;
@@ -1383,9 +1414,6 @@ textarea:not(.error-field):focus-visible {
 }
 @media only screen and (max-width: 767px)  {
 
-    .logo img {
-        max-width: 70px;
-    }
     h2 {
         font-size: 3rem;
         margin-bottom: 1.4rem;

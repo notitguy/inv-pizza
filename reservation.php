@@ -37,7 +37,7 @@
 
     <main>
 
-      <section class="reservation main_wrapper">
+      <section class="reservation main-wrapper">
         <div class="row main_row">
           <div class="col-md-6 left_div">
             <div class="rigt_img"></div>

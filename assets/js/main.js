@@ -153,7 +153,7 @@ $( document ).ready(function() {
     // if ($("body").hasClass("has--plate-header")) {
 
         $(".plate-slider__title").addClass("title_show");
-        $(".main_wrapper").addClass("--fade-in");
+        $(".main-wrapper").addClass("--fade-in");
 
 
         setTimeout(function(){
@@ -165,7 +165,7 @@ $( document ).ready(function() {
             $("header").removeClass("header_down");
             $(".plate-slider__title").removeClass("title_show");
             $(".plate-slider__image-wrapper").removeClass("change_right");
-            $(".main_wrapper").removeClass("--fade-in");
+            $(".main-wrapper").removeClass("--fade-in");
             
                 e.preventDefault();
                  setTimeout(function(url) {

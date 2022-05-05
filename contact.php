@@ -24,7 +24,7 @@
           <div class="plate-slider__slider" >
             <div class="swiper-wrapper is--plate-slider" style="justify-content: center;">
               <div class="swiper-slide is--plate-slider">
-                <div style="margin-top: -9px;" class="plate-slider__image-wrapper">
+                <div class="plate-slider__image-wrapper">
                   <img sizes="100vw" srcset="assets/img/611373bdc832dc0f1c380f47_rijks-p-500.png 500w, assets/img/611373bdc832dc0f1c380f47_rijks-p-800.png 800w, assets/img/611373bdc832dc0f1c380f47_rijks.png 1566w" src="assets/img/611373bdc832dc0f1c380f47_rijks.png" alt="" class="plate-slider__image" />
                 </div>
                 <div class="plate-slider__content-block is--plate-slider">
@@ -40,7 +40,7 @@
 
       </section>
 
-      <section class="main_wrapper">
+      <section class="main-wrapper">
         <div class="row">
           <div class="col-md-6">
             <h1 class="heading--xlarge">Come and enjoy true Italian Food</h1>
@@ -68,7 +68,7 @@
         </div>
       </section>
 
-      <section class="main_wrapper">
+      <section class="main-wrapper">
         <div class="row">
           <div class="col-md-6">
             <!-- <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=INVITALY%20Pizza%20%D0%BF%D1%80%D0%B0%D0%B3%D0%B0%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->

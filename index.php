@@ -106,20 +106,22 @@
 
       </section>
 
-      <section class="main_wrapper">
-        <h2>Today's Lunch Menu</h2>
-        <i>11:30-15:00</i>
-        <ul class="daily-menu">
-          <li><span>Creamy mushroom soup with crispy bacon</span><span class="price">70,- Kč</span></li>
-          <li><span>Tagliatelle alla Bolognese</span><span class="price">170,- Kč</span></li>
-          <li><span>Squid ink taglioni with tune, cherry tomatoes and fresh chili</span><span class="price">180,- Kč</span></li>
-          <li><span>Beaf sirloan steak served with mixed salad, cherry tomatoes, Grana Padano and balsamic glaze</span><span class="price">180,- Kč</span></li>
-          <li><span>Four Cheese Pizza with tomato base</span><span class="price">190,- Kč</span></li>
-          <li><span>Orange flavored Tiramisu</span><span class="price">80,- Kč</span></li>
-        </ul>
+      <section class="main-wrapper">
+        <div class="parallax center">
+          <h2>Today's Lunch Menu</h2>
+          <i>11:30-15:00</i>
+          <ul class="daily-menu">
+            <li><span>Creamy mushroom soup with crispy bacon</span><span class="price">70,- Kč</span></li>
+            <li><span>Tagliatelle alla Bolognese</span><span class="price">170,- Kč</span></li>
+            <li><span>Squid ink taglioni with tune, cherry tomatoes and fresh chili</span><span class="price">180,- Kč</span></li>
+            <li><span>Beaf sirloan steak served with mixed salad, cherry tomatoes, Grana Padano and balsamic glaze</span><span class="price">180,- Kč</span></li>
+            <li><span>Four Cheese Pizza with tomato base</span><span class="price">190,- Kč</span></li>
+            <li><span>Orange flavored Tiramisu</span><span class="price">80,- Kč</span></li>
+          </ul>
+        </div>
       </section>
 
-      <section class="main_wrapper">
+      <section class="main-wrapper">
         <div class="grid three-elements-layout__grid">
           <div class="three-elements-heading">
             <h1 class="heading--xlarge">Lorem ipsum dolor sit amet, consectetur</h1>
@@ -134,7 +136,7 @@
       </div>
       </section>
 
-      <section class="main_wrapper">
+      <section class="main-wrapper">
         <div class="grid three-elements-layout__grid is--reversed">
           <div class="three-elements-heading">
             <h1 class="heading--xlarge">Lorem ipsum dolor sit 2019 amet, nostrud</h1>
