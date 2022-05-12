@@ -39,10 +39,10 @@
         </div>
 
         <div class="col-md-3 chain">
-          <img class="backdrop" src="/assets/img/food/photo_2022-02-19_10-16-20.jpg" alt="Pizzeria">
+          <!-- <img class="backdrop" src="/assets/img/food/photo_2022-02-19_10-16-20.jpg" alt="Pizzeria">
           <h2>Pizzeria e Cucina Italiana</h2>
           <p class="m-b">Try delicious pizzas just like you are in Italy!</p>
-          <a href="#" class="primary">Visit Pizzeria</a>
+          <a href="#" class="primary">Visit Pizzeria</a> -->
         </div>
       </div>
   </footer>

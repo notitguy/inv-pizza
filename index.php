@@ -2,7 +2,7 @@
 <html lang="cs">
 
 <head>
-  <title>Pizzeria Invitaly Prague</title>
+  <title>Pizzeria Invitaly - Real Italian Pizzas in Prague</title>
   <?php include 'blocks/base-head.php'; ?>
 </head>
 
@@ -11,10 +11,6 @@
 
   <?php include 'blocks/header.php'; ?>
 
-  <!-- <div class="global">
-    <div class="css w-embed"></div>
-    <div class="page-transition"></div>
-  </div> -->
     <main>
       <section class="slider">
 
@@ -106,8 +102,10 @@
 
       </section>
 
-      <section class="main-wrapper">
-        <div class="parallax center">
+      <section class="main-wrapper is--centered parallax">
+        <img src="/assets/img/patterns/pizza1.svg" alt="" width="300" class="pattern pizzas one">
+        <img src="/assets/img/patterns/pizza2.svg" alt="" width="300" class="pattern pizzas two">
+        <!-- <img src="/assets/img/patterns/pizza3.svg" alt="" width="300" class="pattern pizzas three"> -->
           <h2>Today's Lunch Menu</h2>
           <i>11:30-15:00</i>
           <ul class="daily-menu">
@@ -118,13 +116,12 @@
             <li><span>Four Cheese Pizza with tomato base</span><span class="price">190,- Kč</span></li>
             <li><span>Orange flavored Tiramisu</span><span class="price">80,- Kč</span></li>
           </ul>
-        </div>
       </section>
 
       <section class="main-wrapper">
         <div class="grid three-elements-layout__grid">
           <div class="three-elements-heading">
-            <h1 class="heading--xlarge">Lorem ipsum dolor sit amet, consectetur</h1>
+            <h1 class="heading--xlarge">Invitaly Pizzeria - Authentic Italian cuisine in Prague</h1>
           </div>
           <div>
             <div class="small-divider"></div>
@@ -136,7 +133,7 @@
       </div>
       </section>
 
-      <section class="main-wrapper">
+      <!-- <section class="main-wrapper">
         <div class="grid three-elements-layout__grid is--reversed">
           <div class="three-elements-heading">
             <h1 class="heading--xlarge">Lorem ipsum dolor sit 2019 amet, nostrud</h1>
@@ -149,38 +146,33 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
+      </section> -->
+      <section class="main-wrapper two-blocks grid">
+      <h2 class="heading--xlarge">Are you ready to try?</h2>
+        <div class="two-blocks__card">
+          <img src="/assets/img/food/photo_2022-02-19_10-16-17.jpg" alt="Invitaly" loading="lazy">
+          <h3>See our menu</h3>
+          <p class="m-b">Come and enjoy food in our restaurant.</p>
+          <a href="#" class="primary">See menu</a>
+        </div>
+        <div class="two-blocks__card">
+          <img src="/assets/img/food/photo_2022-02-19_10-16-20.jpg" alt="Invitaly" loading="lazy">
+          <h3>Want it at home?</h3>
+          <p class="m-b">Get it delivered. While it is hot.</p>
+          <a href="#" class="primary">Order now</a>
+        </div>
       </section>
     </main>
 
     <?php include 'blocks/footer.php'; ?>
 
-  <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
-  <!-- <script src="assets/js/main.js"></script> -->
-  <script type="text/javascript">
-
-    // $( document ).ready(function() {
-        
-    //   $("header").addClass("header_down");
-    //   $("main").addClass("main_up");
-    //   $(".plate-slider__content-block").addClass("title_show");
-
-    // $('.link').click(function(e) {
-
-    // $("header").removeClass("header_down");
-    // $(".plate-slider__content-block").removeClass("title_show");
-    // $(".swiper-slide-next, .swiper-slide-prev, .slider_buttons_, .plate-slider-pagination").addClass("fade_out");
-
-    //     e.preventDefault();
-    //      setTimeout(function(url) {
-        
-    //         window.location = url
-    //     }, 1100, this.href);
-    // });
-        
-    // });
-
-  </script>
-
+<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+<script>
+  const patterns = document.querySelectorAll('.pizzas');
+  new simpleParallax(patterns, {
+    overflow: true,
+  });
+</script>
 </body>
 
 </html>
