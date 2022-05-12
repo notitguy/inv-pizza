@@ -128,7 +128,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="three-elements-layout__image-wrapper">
-            <img src="assets/img/616fcd16cb902a14e81c1acf_rijks-diner-wit-bord-groen-sausje1-1.jpg" loading="lazy" alt="" />
+            <img src="assets/img/food/about-invitaly.webp" alt="" loading="lazy" />
           </div>
       </div>
       </section>
@@ -148,7 +148,7 @@
         </div>
       </section> -->
       <section class="main-wrapper two-blocks grid">
-      <h2 class="heading--xlarge">Are you ready to try?</h2>
+      <h2 class="heading--xlarge is--centered">Are you ready to try?</h2>
         <div class="two-blocks__card">
           <img src="/assets/img/food/photo_2022-02-19_10-16-17.jpg" alt="Invitaly" loading="lazy">
           <h3>See our menu</h3>
@@ -171,6 +171,10 @@
   const patterns = document.querySelectorAll('.pizzas');
   new simpleParallax(patterns, {
     overflow: true,
+  });
+  const framed = document.querySelectorAll('.three-elements-layout__image-wrapper img');
+  new simpleParallax(framed, {
+    scale: 1.2
   });
 </script>
 </body>
