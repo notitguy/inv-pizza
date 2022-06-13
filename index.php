@@ -2,12 +2,12 @@
 <html lang="cs">
 
 <head>
-  <title>Pizzeria Invitaly - Real Italian Pizzas in Prague</title>
+  <title>Pizzeria Invitaly - Real Italian Pizza in Prague</title>
   <?php include 'blocks/base-head.php'; ?>
 </head>
 
 
-<body class="body--dark is--home">
+<body class="body--dark is--home" id="top">
 
   <?php include 'blocks/header.php'; ?>
 
@@ -23,9 +23,9 @@
               <div class="swiper-slide is--bg-slider">
                 <div class="bg is--02"></div>
               </div>
-              <div class="swiper-slide is--bg-slider">
+              <!-- <div class="swiper-slide is--bg-slider">
                 <div class="bg is--03"></div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@
                 <div class="plate-slider__image-wrapper">
                   <img src="assets/img/header/plate-pizza-dark.webp" alt="" class="plate-slider__image" />
                 </div>
-                <a href="menu" class="link plate-slider__content-block is--plate-slider">
+                <a href="#menu" class="link plate-slider__content-block is--plate-slider">
                   <div class="text--mask"><i class="plate-slider__subtitle">Delicious pizzas</i></div>
                   <div class="text--mask">
                     <h2 class="plate-slider__title is--slider-home">Just like<br>in Italy</h2></div>
@@ -54,7 +54,7 @@
                 <div class="plate-slider__image-wrapper">
                   <img src="assets/img/header/plate-pizza.webp" alt="" class="plate-slider__image is--rijks" />
                 </div>
-                <a href="about" class="link plate-slider__content-block is--plate-slider">
+                <a href="#about" class="link plate-slider__content-block is--plate-slider">
                   <div class="text--mask">
                     <h2 class="plate-slider__title is--slider-home">Why<br>Invitaly?</h2>
                   </div>
@@ -67,7 +67,7 @@
                 </a>
               </div>
 
-              <div class="swiper-slide is--plate-slider">
+              <!-- <div class="swiper-slide is--plate-slider">
                 <div class="plate-slider__image-wrapper">
                   <img src="assets/img/header/plate-seafood.webp" alt="" class="plate-slider__image" />
                 </div>
@@ -82,7 +82,7 @@
                     </div>
                   </div>
                 </a>
-              </div>
+              </div> -->
 
             </div>
           </div>
@@ -102,24 +102,27 @@
 
       </section>
 
-      <section class="main-wrapper is--centered parallax">
+      <section class="main-wrapper daily-menu parallax is--centered">
         <img src="/assets/img/patterns/pizza1.svg" alt="" width="300" class="pattern pizzas one">
         <img src="/assets/img/patterns/pizza2.svg" alt="" width="300" class="pattern pizzas two">
-        <!-- <img src="/assets/img/patterns/pizza3.svg" alt="" width="300" class="pattern pizzas three"> -->
+        <img src="/assets/img/patterns/pizza3.svg" alt="" width="300" class="pattern pizzas three">
           <h2>Today's Lunch Menu</h2>
-          <i>11:30-15:00</i>
-          <ul class="daily-menu">
-            <li><span>Creamy mushroom soup with crispy bacon</span><span class="price">70,- Kč</span></li>
-            <li><span>Tagliatelle alla Bolognese</span><span class="price">170,- Kč</span></li>
-            <li><span>Squid ink taglioni with tune, cherry tomatoes and fresh chili</span><span class="price">180,- Kč</span></li>
-            <li><span>Beaf sirloan steak served with mixed salad, cherry tomatoes, Grana Padano and balsamic glaze</span><span class="price">180,- Kč</span></li>
-            <li><span>Four Cheese Pizza with tomato base</span><span class="price">190,- Kč</span></li>
-            <li><span>Orange flavored Tiramisu</span><span class="price">80,- Kč</span></li>
+          <i>11:30 - 15:00</i>
+          <ul class="daily-menu__list">
+            <?php $menu = json_decode(file_get_contents("https://opensheet.elk.sh/1XW32FBLBLWsKdcg6fK6C0PB5-kNJXbGytTWnSNNaSmA/English"));?>
+            <ul class="daily_menu_list">
+            <?php if (isset($menu)) {
+              foreach ($menu as $item) { ?>
+              <li>
+                <span><?php if (isset($item->name)) {echo $item->name;} ?></span>
+                <span class="price"><?php if (isset($item->price)) {echo $item->price;} ?>,- Kč</span>                
+              </li>
+            <?php }} ?>
           </ul>
       </section>
 
-      <section class="main-wrapper">
-        <div class="grid three-elements-layout__grid">
+      <section id="about" class="main-wrapper">
+        <div class="grid three-elements-layout__grid m-b" style="--mb: 6rem">
           <div class="three-elements-heading">
             <h1 class="heading--xlarge">Invitaly Pizzeria - Authentic Italian cuisine in Prague</h1>
           </div>
@@ -130,7 +133,22 @@
           <div class="three-elements-layout__image-wrapper">
             <img src="assets/img/food/about-invitaly.webp" alt="" loading="lazy" />
           </div>
-      </div>
+        </div>
+        <div class="gallery parallax grid">
+          <img src="/assets/img/patterns/pizza4.svg" alt="" width="300" class="pattern pizzas four">
+          <img src="/assets/img/patterns/pizza5.svg" alt="" width="300" class="pattern pizzas five">
+          <img src="/assets/img/patterns/pizza6.svg" alt="" width="300" class="pattern pizzas six">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.css">
+          <h2>Photos</h2>
+          <div class="food" href="#">
+            <img src="/assets/img/food/photo_2022-02-19_10-16-17 (2).jpg" class="m-b" alt="Invitaly" loading="lazy">
+            <h3>Food</h3>
+          </div>
+          <div class="vibe" href="#">
+            <img src="/assets/img/food/photo_2022-02-19_10-16-18 (2).jpg" class="m-b" alt="Invitaly" loading="lazy">
+            <h3>Vibe</h3>
+          </div>
+        </div>
       </section>
 
       <!-- <section class="main-wrapper">
@@ -147,7 +165,7 @@
           </div>
         </div>
       </section> -->
-      <section class="main-wrapper two-blocks grid">
+      <section id="menu" class="main-wrapper two-blocks grid">
       <h2 class="heading--xlarge is--centered">Are you ready to try?</h2>
         <div class="two-blocks__card">
           <img src="/assets/img/food/photo_2022-02-19_10-16-17.jpg" alt="Invitaly" loading="lazy">
@@ -176,6 +194,41 @@
   new simpleParallax(framed, {
     scale: 1.2
   });
+</script>
+<script type="module">
+import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe-lightbox.esm.min.js';
+
+const options = {
+  dataSource: [
+    {
+      src: 'assets/img/food/photo_2022-02-19_10-16-16.jpg',
+      width: 633,
+      height: 875,
+      alt: 'Pizzeria Invitaly'
+    },
+    {
+      src: 'assets/img/food/photo_2022-02-19_10-16-17.jpg',
+      width: 1280,
+      height: 813,
+      alt: 'Pizzeria Invitaly'
+    },
+    {
+      src: 'assets/img/food/photo_2022-02-19_10-16-18.jpg',
+      width: 635,
+      height: 871,
+      alt: 'Pizzeria Invitaly',
+    }
+  ],
+  showHideAnimationType: 'fade',
+  pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.esm.min.js'),
+};
+
+const lightbox = new PhotoSwipeLightbox(options);
+lightbox.init();
+
+document.querySelector('.food').onclick = () => {
+  lightbox.loadAndOpen(0); // defines start slide index
+};
 </script>
 </body>
 
