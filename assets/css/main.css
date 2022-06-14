@@ -202,7 +202,7 @@ body:hover .cursor  {
 /* Utility classes */
 
 .main-wrapper  {
-    padding: 6vw;
+    padding: 6vw 10vw;
     overflow: hidden;
 }
 .row {
@@ -250,7 +250,6 @@ body:hover .cursor  {
 
 .parallax {
     position: relative;
-    overflow: visible;
 }
 .parallax .pattern {
     position: absolute;
@@ -1616,6 +1615,9 @@ textarea:not(.error-field):focus-visible {
     }
     .is--reversed .three-elements-heading {
         justify-self: right;
+    }
+    .parallax {
+        overflow: visible;
     }
     ul.daily-menu {
         max-width: 50vw;
