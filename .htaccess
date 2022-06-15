@@ -1,3 +1,12 @@
+# Password protect - https://kb.wedos.com/cs/webhosting/htaccess/htaccess-zaheslovani-adresare
+# AuthUserFile /data/web/virtuals/257696/virtual/www/subdom/pizzeria/.htpasswd
+# AuthGroupFile /dev/null
+# AuthName "Hidden Pizzeria"
+# AuthType Basic
+# Require valid-user
+# Order deny,allow
+
+# Remove .php, .html extensions
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]

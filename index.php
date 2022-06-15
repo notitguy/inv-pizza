@@ -106,11 +106,13 @@
         <img src="/assets/img/patterns/pizza1.svg" alt="" width="300" class="pattern pizzas one">
         <img src="/assets/img/patterns/pizza2.svg" alt="" width="300" class="pattern pizzas two">
         <img src="/assets/img/patterns/pizza3.svg" alt="" width="300" class="pattern pizzas three">
-          <h2>Today's Lunch Menu</h2>
+        <h2>Lunch Menu</h2>
+        <?php $menu = json_decode(file_get_contents("https://opensheet.elk.sh/1XW32FBLBLWsKdcg6fK6C0PB5-kNJXbGytTWnSNNaSmA/English"));?>
+          <?php if (isset($menu)) { foreach ($menu as $item) { ?>
+            <span><?php if (isset($item->date)) {echo $item->date;} ?></span>
+          <?php }} ?>
           <i>11:30 - 15:00</i>
           <ul class="daily-menu__list">
-            <?php $menu = json_decode(file_get_contents("https://opensheet.elk.sh/1XW32FBLBLWsKdcg6fK6C0PB5-kNJXbGytTWnSNNaSmA/English"));?>
-            <ul class="daily_menu_list">
             <?php if (isset($menu)) {
               foreach ($menu as $item) { ?>
               <li>
@@ -134,19 +136,25 @@
             <img src="assets/img/food/about-invitaly.webp" alt="" loading="lazy" />
           </div>
         </div>
-        <div class="gallery parallax grid">
+        <div class="gallery parallax">
           <img src="/assets/img/patterns/pizza4.svg" alt="" width="300" class="pattern pizzas four">
           <img src="/assets/img/patterns/pizza5.svg" alt="" width="300" class="pattern pizzas five">
           <img src="/assets/img/patterns/pizza6.svg" alt="" width="300" class="pattern pizzas six">
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.css">
           <h2>Photos</h2>
-          <div class="food" href="#">
-            <img src="/assets/img/food/photo_2022-02-19_10-16-17 (2).jpg" class="m-b" alt="Invitaly" loading="lazy">
-            <h3>Food</h3>
-          </div>
-          <div class="vibe" href="#">
-            <img src="/assets/img/food/photo_2022-02-19_10-16-18 (2).jpg" class="m-b" alt="Invitaly" loading="lazy">
-            <h3>Vibe</h3>
+          <div class="grid">
+            <div class="food">
+              <img src="assets/img/food/140422/InV3-DSCF7939.jpg" class="m-b" alt="Invitaly" loading="lazy">
+              <h3>Food</h3>
+            </div>
+            <div class="vibe">
+              <img src="assets/img/food/140422/InV3-DSCF8146.jpg" class="m-b" alt="Invitaly" loading="lazy">
+              <h3>Vibe</h3>
+            </div>
+            <div class="ugc">
+              <img src="assets/img/food/photo_2022-02-19_10-16-20.jpg" class="m-b" alt="Invitaly" loading="lazy">
+              <h3>From you 😍</h3>
+            </div>
           </div>
         </div>
       </section>
@@ -201,21 +209,27 @@ import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/di
 const options = {
   dataSource: [
     {
-      src: 'assets/img/food/photo_2022-02-19_10-16-16.jpg',
-      width: 633,
-      height: 875,
+      src: 'assets/img/food/140422/InV3-DSCF7939.jpg',
+      width: 1533,
+      height: 2300,
       alt: 'Pizzeria Invitaly'
     },
     {
-      src: 'assets/img/food/photo_2022-02-19_10-16-17.jpg',
-      width: 1280,
-      height: 813,
+      src: 'assets/img/food/140422/InV3-DSCF7547.jpg',
+      width: 1533,
+      height: 2300,
       alt: 'Pizzeria Invitaly'
     },
     {
-      src: 'assets/img/food/photo_2022-02-19_10-16-18.jpg',
-      width: 635,
-      height: 871,
+      src: 'assets/img/food/140422/InV3-DSCF7595.jpg',
+      width: 1533,
+      height: 2300,
+      alt: 'Pizzeria Invitaly',
+    },
+    {
+      src: 'assets/img/food/140422/InV3-DSCF7951.jpg',
+      width: 1533,
+      height: 2300,
       alt: 'Pizzeria Invitaly',
     }
   ],

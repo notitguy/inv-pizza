@@ -950,38 +950,38 @@ ul.daily-menu__list {
 
 /* Gallery block */
 
-.gallery {
+.gallery .grid{
     /* grid-template-columns: repeat(2, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 15ch), 1fr));
     grid-template-rows: 1fr;
-    gap: 3rem;
+    gap: 2rem;
 }
 .gallery.parallax .pattern.pizzas.four {
     top: 3vw;
-    right: 6vw;
+    left: 6vw;
 }
 .gallery.parallax .pattern.pizzas.five {
-    top: 0;
-    right: -35vw;
+    bottom: -2vw;
+    left: 23vw;
 }
 .gallery.parallax .pattern.pizzas.six {
-    bottom: -4vw;
-    right: -14vw;
+    bottom: 12vw;
+    right: -2vw;
 }
 .gallery h2 {
-    grid-column: 1/3;
+    margin-bottom: 2.8rem;
 }
-.gallery div {
+.gallery .grid div {
     display: flex;
     flex-direction: column;
     max-width: 340px;
     cursor: pointer;
     transition: 0.6s filter var(--easing);
 }
-.gallery div:hover {
+.gallery .grid div:hover {
     filter: brightness(0.8);
 }
-.gallery div img {
+.gallery .grid div img {
     object-fit: cover;
     height: 100%;
     width: 100%;
@@ -1006,7 +1006,7 @@ ul.daily-menu__list {
 }
 .two-blocks__card img {
     position: absolute;
-    filter: brightness(0.3) grayscale(1);
+    filter: brightness(0.4) grayscale(1);
     z-index: -1;
     transition-duration: 3s;
     transition-property: filter, transform;
@@ -1623,7 +1623,7 @@ textarea:not(.error-field):focus-visible {
         max-width: 50vw;
     }
     .gallery {
-        max-width: 50vw;
+        max-width: 60vw;
     }      
 }
 @media screen and (min-width: 768px) {
@@ -1638,6 +1638,9 @@ textarea:not(.error-field):focus-visible {
     }
     .two-blocks__card {
         grid-row: 2;
+    }
+    .gallery .grid {
+        gap: 3rem;
     }  
 }
 
