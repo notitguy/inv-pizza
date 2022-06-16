@@ -1004,7 +1004,7 @@ ul.daily-menu__list {
     overflow: hidden;
     text-shadow: 0 0 20px black;
 }
-.two-blocks__card img {
+.two-blocks__card > img {
     position: absolute;
     filter: brightness(0.4) grayscale(1);
     z-index: -1;
@@ -1014,7 +1014,7 @@ ul.daily-menu__list {
     height: 100%;
     width: 100%;
 }
-.two-blocks__card:hover img {
+.two-blocks__card:hover > img {
     transform: scale(1.05);
     filter: brightness(0.4) grayscale(0);
 }

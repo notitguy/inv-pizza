@@ -136,7 +136,7 @@ $( document ).ready(function() {
     // For homepage
     if ($("body").hasClass("is--home")) {
         $(".slider").addClass("--fade-in");
-        $('a:not([href^="\#"])').click(function(e) {
+        $('a:not([href^="\#"]):not([target="_blank"])').click(function(e) {
   
         $("header").removeClass("header_down");
         $(".plate-slider__content-block").removeClass("title_show");
@@ -160,7 +160,7 @@ $( document ).ready(function() {
             $(".plate-slider__image-wrapper").addClass("change_right");
         }, 200);
 
-        $('a:not([href^="\#"])').click(function(e) {
+        $('a:not([href^="\#"]):not([target="_blank"])').click(function(e) {
   
             $("header").removeClass("header_down");
             $(".plate-slider__title").removeClass("title_show");
@@ -325,3 +325,13 @@ $( document ).ready(function() {
   // end document ready  
   });
 
+  // Simple parallax
+
+  const patterns = document.querySelectorAll('.pizzas');
+  new simpleParallax(patterns, {
+    overflow: true,
+  });
+  const framed = document.querySelectorAll('.three-elements-layout__image-wrapper img');
+  new simpleParallax(framed, {
+    scale: 1.2
+  });

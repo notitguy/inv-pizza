@@ -14,7 +14,7 @@
     <!-- <li><a class="reservation" href="reservation">Reservation</a></li> -->
   </ul>
 </nav>
-<a href="tel:+420773060490" class="call" title="Telefon Invitaly Pizzeria">
+<a href="tel:+420773060490" target="_blank" class="call" title="Telefon Invitaly Pizzeria">
   <img src="assets/img/icons/phone.svg" alt="Telefon Invitaly pizzeria">
 </a>
 <div class="burger" id="burger">
@@ -51,8 +51,8 @@
     </ul>
     <ul>
       <li>RESERVATIONS:</li>
-      <li><a href="tel:+420773069490">+420 773 069 490</a></li>
-      <li class="m-b"><a href="mailto:hello@invitaly.cz">hello@invitaly.cz</a></li>
+      <li><a href="tel:+420773069490" target="_blank">+420 773 069 490</a></li>
+      <li class="m-b"><a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a></li>
 
     </ul>
     <a href="https://www.instagram.com/invitaly_enotrattoria/" target="_blank">

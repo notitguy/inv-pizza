@@ -28,10 +28,10 @@
             <h3>Reservations:</h3>
               <ul>
                 <li>
-                  <a href="tel:+420773069490">+420 773 069 490</a>
+                  <a href="tel:+420773069490" target="_blank">+420 773 069 490</a>
                 </li>
                 <li>
-                  <a href="mailto:hello@invitaly.cz">hello@invitaly.cz</a>
+                  <a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a>
                 </li>
               </ul>
             <!-- <a href="/reservation" class="primary">Make a reservation</a> -->
@@ -56,7 +56,7 @@
       </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <?php
     if (stripos($_SERVER['PHP_SELF'], 'index.php')) {
         echo '<script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>';
@@ -67,6 +67,8 @@
         <script defer src="https://cdn.jsdelivr.net/npm/luxon@2.3.1/build/global/luxon.min.js"></script>';
     }
   ?>
+  <script defer src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
   <script defer src="assets/cookie/cookieconsent.js"></script>
   <script defer src="assets/cookie/cookieconsent-init.js"></script>
+  <script type="module" src="assets/js/gallery.js"></script>
   <script defer src="assets/js/main.js"></script>
