@@ -17,7 +17,7 @@
                 </li>
               </ul>
               <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link">
-                <img src="assets/img/icons/instagram.svg"> Fresh and tasty updates on our Instagram
+                <img src="assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
               </a>
             </address>
           </div>

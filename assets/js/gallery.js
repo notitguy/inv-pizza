@@ -21,9 +21,9 @@ const foodImages = [
   { src: 'assets/img/food/140422/InV3-DSCF8250.jpg', width: 1533, height: 2300, alt: 'Pizzeria Invitaly' },
 ];
 const interiorImages = [
+  { src: 'assets/img/interior/invitaly-praha-11.jpg', width: 2000, height: 1336, alt: 'Pizzeria Invitaly' },
   { src: 'assets/img/interior/invitaly-praha-9.jpg', width: 2000, height: 1336, alt: 'Pizzeria Invitaly' },
   { src: 'assets/img/interior/invitaly-praha-10.jpg', width: 2000, height: 1336, alt: 'Pizzeria Invitaly' },
-  { src: 'assets/img/interior/invitaly-praha-11.jpg', width: 2000, height: 1336, alt: 'Pizzeria Invitaly' },
   { src: 'assets/img/interior/invitaly-praha-12.jpg', width: 2000, height: 1336, alt: 'Pizzeria Invitaly' },
   { src: 'assets/img/interior/invitaly-praha-13.jpg', width: 2000, height: 1336, alt: 'Pizzeria Invitaly' },
   { src: 'assets/img/interior/invitaly-praha-14.jpg', width: 2000, height: 1336, alt: 'Pizzeria Invitaly' },

@@ -125,6 +125,24 @@ const plateSlider = new Swiper(".plate-slider__slider", {
     }),
     bgSlider = new Swiper(".bg-slider__container", { centeredSlides: !0, slidesPerView: "auto", breakpoints: { 0: { speed: 500 }, 991: { speed: 1200 } } });
     plateSlider.controller.control = bgSlider;
+
+    const reviewsSlider = new Swiper(".reviews__slider", {
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+      },
+      speed: 800,
+      effect: 'fade', 
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true, 
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: { 0: { shortSwipes: true}, 991: { shortSwipes: false } },
+    });
 }
 
 
