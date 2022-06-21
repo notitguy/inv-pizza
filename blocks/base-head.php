@@ -13,4 +13,4 @@
 ?>
 <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 <link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
-<link rel="stylesheet" href="assets/cookie/cookieconsent.css" media="print" onload="this.media='all'">
+<!-- <link rel="stylesheet" href="assets/cookie/cookieconsent.css" media="print" onload="this.media='all'"> -->

@@ -68,7 +68,7 @@
     }
   ?>
   <script defer src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
-  <script defer src="assets/cookie/cookieconsent.js"></script>
-  <script defer src="assets/cookie/cookieconsent-init.js"></script>
+  <!-- <script defer src="assets/cookie/cookieconsent.js"></script>
+  <script defer src="assets/cookie/cookieconsent-init.js"></script> -->
   <script type="module" src="assets/js/gallery.js"></script>
   <script defer src="assets/js/main.js"></script>

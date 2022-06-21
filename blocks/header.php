@@ -8,8 +8,8 @@
 <nav class="menu">
   <ul>
     <li><a href="#top">Home</a></li>
-    <li><a href="#menu">Menu</a></li>
     <li><a href="#about">About</a></li>
+    <li><a href="#menu">Menu</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#contact" class="reservation">Reservation</a></li>
   </ul>
@@ -32,8 +32,8 @@
 
   <ul class="mobile-menu_list">
     <li><a href="#top">Home</a></li>
-    <li><a href="#menu">Menu</a></li>
     <li><a href="#about">About</a></li>
+    <li><a href="#menu">Menu</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <a href="#contact" class="primary">Make a reservation</a>

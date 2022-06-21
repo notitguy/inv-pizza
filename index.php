@@ -136,32 +136,31 @@
           <p>As always, best enjoyed with wine!</p>
         </div>
         <div class="three-elements-layout__image-wrapper">
-          <img src="assets/img/food/about-invitaly.webp" alt="" loading="lazy" width="591" height="394"/>
+          <img src="assets/img/food/about-invitaly.webp" alt="" loading="lazy" width="975" height="650"/>
         </div>
       </div>
+    </section>
 
-      <div class="gallery parallax">
-        <img src="/assets/img/patterns/pizza4.svg" alt="" width="300" class="pattern pizzas four">
-        <img src="/assets/img/patterns/pizza5.svg" alt="" width="300" class="pattern pizzas five">
-        <img src="/assets/img/patterns/pizza6.svg" alt="" width="300" class="pattern pizzas six">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.css">
-        <h2>How it looks</h2>
-        <div class="grid">
-          <div class="food">
-            <img src="assets/img/food/140422/21-03Invitaly_10.jpg" class="m-b" alt="Invitaly" loading="lazy" width="320" height="480" >
-            <h3>Food</h3>
-          </div>
-          <div class="interior">
-            <img src="assets/img/interior/invitaly-praha-11.jpg" class="m-b" alt="Invitaly" loading="lazy" width="320" height="480" >
-            <h3>Interior</h3>
-          </div>
-          <div class="ugc">
-            <img src="assets/img/food/140422/InV3-DSCF8146.jpg" class="m-b" alt="Invitaly" loading="lazy" width="320" height="480" >
-            <h3>From you 😍</h3>
-          </div>
+    <section class="gallery parallax main-wrapper">
+      <img src="/assets/img/patterns/pizza4.svg" alt="" width="300" class="pattern pizzas four">
+      <img src="/assets/img/patterns/pizza5.svg" alt="" width="300" class="pattern pizzas five">
+      <img src="/assets/img/patterns/pizza6.svg" alt="" width="300" class="pattern pizzas six">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.css">
+      <h2>How it looks</h2>
+      <div class="grid">
+        <div class="food">
+          <img src="assets/img/food/140422/21-03Invitaly_10.jpg" class="m-b" alt="Invitaly" loading="lazy" width="320" height="480" >
+          <h3>Food</h3>
+        </div>
+        <div class="interior">
+          <img src="assets/img/interior/invitaly-praha-11.jpg" class="m-b" alt="Invitaly" loading="lazy" width="320" height="480" >
+          <h3>Interior</h3>
+        </div>
+        <div class="ugc">
+          <img src="assets/img/food/140422/InV3-DSCF8146.jpg" class="m-b" alt="Invitaly" loading="lazy" width="320" height="480" >
+          <h3>From you 😍</h3>
         </div>
       </div>
-
     </section>
 
     <section class="reviews grid main-wrapper">
@@ -180,10 +179,10 @@
                 <img src="assets/img/avatars/gr-pic1.png" alt="Invitaly reviews" width="41" height="41" >
                 <span>Bourgeoise Curdlesnoot (Local Guide)</span>
               </figcaption>
-              <blockqoute>
+              <blockquote>
                 <p>I wish I could give 6 stars!
                   This place is beyond amazing. I'm Italian, but I had the best pizza of my whole life here in Prague. Seriously. It's the best pizza in Prague and beyond. I've been here 3 times already in about 2 weeks!</p>
-              </blockqoute>
+              </blockquote>
               </figure>
             <figure class="swiper-slide">
               <figcaption class="m-b">
@@ -194,10 +193,19 @@
                 <p>My favourite Italian restaurant in Prague. Like it so much. Staff is very friendly. The atmosphere is cozy. Food is tasty and delicious. A lot of variants in the menu. And every day a different lunch menu is a must try :)</p>
               </blockquote>
             </figure>
+            <figure class="swiper-slide">
+              <figcaption class="m-b">
+                <img src="assets/img/avatars/gr-pic3.png" alt="Invitaly reviews" width="41" height="41" >
+                <span>Kristina Kunz (Local Guide)</span>
+              </figcaption>
+              <blockquote>
+                <p>Really really good pizza with thin crust and the right amount of topping. I added blue cheese to my funghi pizza and the kids shared a pizza and we ended with leftovers which we bring home. Great service and ambiance.</p>
+              </blockquote>
+            </figure>
           </div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
-          <div class="swiper-pagination"></div>
+          <div class="swiper-pagination-dots"></div>
         </div>
 
     </section>
@@ -217,7 +225,7 @@
       </div>
     </section> -->
     <section id="menu" class="main-wrapper two-blocks grid">
-    <h2 class="heading--xlarge is--centered">Are you ready to try?</h2>
+    <h2 class="is--centered">Are you ready to try?</h2>
       <div class="two-blocks__card">
         <img src="/assets/img/food/photo_2022-02-19_10-16-17.jpg" alt="Invitaly" loading="lazy" width="687" height="300" >
         <h3>See our menu</h3>
