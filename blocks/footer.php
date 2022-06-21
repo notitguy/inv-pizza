@@ -4,7 +4,24 @@
             <img class="footer_logo_img" src="assets/img/logo.png" alt="Logo">
           </a> -->
           <div class="col-md-6">
-            <h3>Invitaly Pizzeria</h3>
+            <h3 style="color: var(--accent-color);">For reservations:</h3>
+              <ul class="m-b" style="--mb: 3.4rem">
+                <li>
+                  Call: <a href="tel:+420773069490" target="_blank">+420 773 069 490</a>
+                </li>
+                <li>
+                  Email: <a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a>
+                </li>
+              </ul>
+            <h3>Otevírací doba</h3>
+            <p>Ponděli - Pátek<br>
+            11:00 - 22:00</p>
+            <p>Sobota - Neděle<br>
+            Závřeno</p>
+            <!-- <a href="/reservation" class="primary">Make a reservation</a> -->
+          </div>
+          <div class="col-md-6">
+            <h3>Invitaly Pizza</h3>
             <address>
               <ul>
                 <li>Vladislavova 26, 110 00 Praha, Czechia (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> 📍 see on map</a>)
@@ -20,21 +37,6 @@
                 <img src="assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
               </a>
             </address>
-          </div>
-          <div class="col-md-6">
-            <h3>Otevírací doba</h3>
-            <p>Ponděli - Pátek</p>
-            <p class="m-b" style="--mb: 3.4rem">11:00 - 22:00</p>
-            <h3>Reservations:</h3>
-              <ul>
-                <li>
-                  <a href="tel:+420773069490" target="_blank">+420 773 069 490</a>
-                </li>
-                <li>
-                  <a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a>
-                </li>
-              </ul>
-            <!-- <a href="/reservation" class="primary">Make a reservation</a> -->
           </div>
 
         <!-- <div class="col-md-3">
