@@ -14,10 +14,12 @@
                 </li>
               </ul>
             <h3>Otevírací doba</h3>
-            <p>Ponděli - Pátek<br>
-            11:00 - 22:00</p>
-            <p>Sobota - Neděle<br>
-            Závřeno</p>
+            <div class="opening-hours">
+              <p>Ponděli - Pátek:<br>
+              Sobota - Neděle:</p>
+              <p>11:00 - 22:00<br>
+              Závřeno</p>
+            </div>
             <!-- <a href="/reservation" class="primary">Make a reservation</a> -->
           </div>
           <div class="col-md-6">
