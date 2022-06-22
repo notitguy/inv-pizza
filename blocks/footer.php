@@ -26,7 +26,8 @@
             <h3>Invitaly Pizza</h3>
             <address>
               <ul>
-                <li>Vladislavova 26, 110 00 Praha, Czechia (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> 📍 see on map</a>)
+                <li>Vladislavova 26, 110 00 Praha, Czechia <br>
+                (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> Open map 📍</a>)
                 </li>
                 <li>
                   <a href="tel:+420773069490">+420 773 069 490</a>

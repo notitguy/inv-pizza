@@ -43,24 +43,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </ul>
   <a href="#contact" class="primary">Make a reservation</a>
   <div class="small-divider m-b"></div>
-  <h3>Invitaly Pizzeria e Cucina Italiana</h3>
+  <h3>Invitaly Pizza</h3>
   <address>
     <ul class="m-b">
-      <li class="m-b">Vladislavova 26, 110 00 Praha, Czechia (
-        <a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> 📍 see on map</a>
-        )
+      <li class="m-b">Vladislavova 26, 110 00 Praha, Czechia <br> 
+      (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> Open map 📍</a>)
       </li>
-      <li>RESERVATIONS:</li>
+      <li><h3 style="color: var(--accent-color);">RESERVATIONS:</h3></li>
       <li><a href="tel:+420773069490" target="_blank">+420 773 069 490</a></li>
       <li><a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a></li>
     </ul>
-    <div class="opening-hours m-b">
+    <div class="opening-hours">
       <p>Ponděli - Pátek:<br>
       Sobota - Neděle:</p>
       <p>11:00 - 22:00<br>
       Závřeno</p>
     </div>
-    <a href="https://www.instagram.com/invitaly_enotrattoria/" target="_blank">
+    <a href="https://www.instagram.com/invitaly_enotrattoria/" target="_blank" class="social-link">
       <img src="assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
     </a>
   </address>

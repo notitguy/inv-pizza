@@ -127,7 +127,10 @@
     <section id="about" class="main-wrapper">
       <div class="grid three-elements-layout__grid">
         <div class="three-elements-heading">
-          <h1 class="heading--xlarge">Invitaly Pizzeria - Authentic Italian cuisine in Prague</h1>
+          <h1 class="heading--xlarge">
+            Invitaly Pizzeria & Restaurant
+            <span>Authentic Italian cuisine in Prague</span>
+          </h1>
         </div>
         <div>
           <div class="small-divider"></div>
