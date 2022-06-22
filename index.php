@@ -131,7 +131,7 @@
         </div>
         <div>
           <div class="small-divider"></div>
-          <p>Invitaly  restaurant & pizzeria is located in the heart of Prague - right in front of rotating Franz Kafka head. It is a perfect spot to gather your friends & family to enjoy delicious Italian meals from our chefs.</p>
+          <p>Invitaly pizzeria & restaurant is located in the heart of Prague - right in front of rotating Franz Kafka head. It is a perfect spot to gather your friends & family to enjoy delicious Italian meals from our chefs.</p>
           <p>Passion for good food and wine runs deep in our veins and our  kitchen is fully inspired by italian tradition  passed down through the generations. The Invitaly kitchen relies mostly on imported products from Italy to meet the authenticity of Italian  cuisine.</p>
           <p>As always, best enjoyed with wine!</p>
         </div>
