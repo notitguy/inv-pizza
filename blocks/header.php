@@ -59,7 +59,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <p>11:00 - 22:00<br>
       Závřeno</p>
     </div>
-    <a href="https://www.instagram.com/invitaly_enotrattoria/" target="_blank" class="social-link">
+    <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link">
       <img src="assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
     </a>
   </address>
