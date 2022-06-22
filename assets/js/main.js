@@ -128,9 +128,9 @@ const plateSlider = new Swiper(".plate-slider__slider", {
 
     const reviewsSlider = new Swiper(".reviews__slider", {
       centeredSlides: true,
-      // autoplay: {
-      //   delay: 5000,
-      // },
+      autoplay: {
+        delay: 5000,
+      },
       speed: 800,
       // effect: 'fade', 
       pagination: {

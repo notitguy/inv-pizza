@@ -30,13 +30,13 @@ const interiorImages = [
 ];
 
 const options = {
-  dataSource: foodImages,
   showHideAnimationType: 'fade',
   pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.esm.min.js'),
 };
 
 document.querySelector('.food').onclick = () => {
   const foodGallery = new PhotoSwipeLightbox(options);
+  foodGallery.options.dataSource = foodImages;
   foodGallery.init();
   foodGallery.loadAndOpen(0); // defines start slide index
 };

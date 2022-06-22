@@ -7,7 +7,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    
 <div class="logo">
   <a href="/">
-    <img src="assets/img/invitaly_logo.png" alt="Invitaly" width="100" height="59" />
+    <img src="assets/img/invitaly_logo.png" alt="Invitaly" width="100" />
   </a>
 </div>
 <nav class="menu">

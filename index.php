@@ -125,7 +125,7 @@
     </section>
 
     <section id="about" class="main-wrapper">
-      <div class="grid three-elements-layout__grid m-b" style="--mb: 6rem">
+      <div class="grid three-elements-layout__grid">
         <div class="three-elements-heading">
           <h1 class="heading--xlarge">Invitaly Pizzeria - Authentic Italian cuisine in Prague</h1>
         </div>
@@ -136,7 +136,7 @@
           <p>As always, best enjoyed with wine!</p>
         </div>
         <div class="three-elements-layout__image-wrapper">
-          <img src="assets/img/food/about-invitaly.webp" alt="" loading="lazy" width="975" height="650"/>
+          <img src="assets/img/food/about-invitaly.webp" alt="" loading="lazy" width="975" />
         </div>
       </div>
     </section>
@@ -145,7 +145,7 @@
       <img src="/assets/img/patterns/pizza4.svg" alt="" width="300" class="pattern pizzas four">
       <img src="/assets/img/patterns/pizza5.svg" alt="" width="300" class="pattern pizzas five">
       <img src="/assets/img/patterns/pizza6.svg" alt="" width="300" class="pattern pizzas six">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.css" >
       <h2>How it looks</h2>
       <div class="grid">
         <div class="food">
