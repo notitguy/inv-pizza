@@ -46,19 +46,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h3>Invitaly Pizzeria e Cucina Italiana</h3>
   <address>
     <ul class="m-b">
-      <li>Vladislavova 26, 110 00 Praha, Czechia (
+      <li class="m-b">Vladislavova 26, 110 00 Praha, Czechia (
         <a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> 📍 see on map</a>
         )
       </li>
-      <li>_</li>
-      <li>Ponděli - Pátek</li>
-      <li>11:00 - 22:00</li>
-    </ul>
-    <ul>
       <li>RESERVATIONS:</li>
       <li><a href="tel:+420773069490" target="_blank">+420 773 069 490</a></li>
-      <li class="m-b"><a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a></li>
+      <li><a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a></li>
     </ul>
+    <div class="opening-hours m-b">
+      <p>Ponděli - Pátek:<br>
+      Sobota - Neděle:</p>
+      <p>11:00 - 22:00<br>
+      Závřeno</p>
+    </div>
     <a href="https://www.instagram.com/invitaly_enotrattoria/" target="_blank">
       <img src="assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
     </a>

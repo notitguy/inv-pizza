@@ -74,11 +74,11 @@
               </div>
               <a href="#contact" class="link plate-slider__content-block is--plate-slider">
                 <div class="text--mask">
-                  <h2 class="plate-slider__title is--slider-home">Contact</h2>
+                  <h2 class="plate-slider__title is--slider-home">Reservations</h2>
                 </div>
                 <div class="text--mask">
                   <div class="plate-slider__btn-block">
-                    <span class="plate-slider__btn">Contact</span>
+                    <span class="plate-slider__btn">Contact us</span>
                     <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" width="34" height="24" />
                   </div>
                 </div>
@@ -136,7 +136,7 @@
           <p>As always, best enjoyed with wine!</p>
         </div>
         <div class="three-elements-layout__image-wrapper">
-          <img src="assets/img/food/about-invitaly.webp" alt="" loading="lazy" width="975" />
+          <img src="assets/img/food/about-invitaly.webp" alt="" loading="lazy" width="975" height="650"/>
         </div>
       </div>
     </section>
