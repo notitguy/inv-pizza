@@ -1085,7 +1085,7 @@ footer  {
     
     .social-link {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         gap: 1rem;
         margin-top: 2rem;
     }
@@ -1416,6 +1416,9 @@ textarea:not(.error-field):focus-visible {
     } */
     .m_hide  {
         display: none;
+    }
+    .mobile-menu {
+        padding: 10vw;
     }
     .mobile-menu-show  {
         width: 100%;
