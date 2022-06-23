@@ -18,6 +18,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li><a href="#contact">Kontakty</a></li>
     <li><a href="#contact" class="reservation">Rezervace</a></li>
   </ul>
+  <div class="languages">
+    <a href="/">CS</a>
+    <a href="/en">EN</a>
+  </div>
 </nav>
 <a href="tel:+420773060490" target="_blank" class="call" title="Telefon Invitaly Pizzeria">
   <img src="/assets/img/icons/phone.svg" alt="Telefon Invitaly pizzeria">
