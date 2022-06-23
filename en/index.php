@@ -107,6 +107,7 @@
       <img src="/assets/img/patterns/pizza1.svg" alt="" width="300" class="pattern pizzas one">
       <img src="/assets/img/patterns/pizza2.svg" alt="" width="300" class="pattern pizzas two">
       <img src="/assets/img/patterns/pizza3.svg" alt="" width="300" class="pattern pizzas three">
+      <span class="daily-menu__label">New every day!</span>
       <h2>Lunch Menu</h2>
       <?php $menu = json_decode(file_get_contents("https://opensheet.elk.sh/1XW32FBLBLWsKdcg6fK6C0PB5-kNJXbGytTWnSNNaSmA/English"));?>
         <?php if (isset($menu)) { foreach ($menu as $item) { ?>
@@ -144,13 +145,17 @@
       </div>
     </section>
 
-    <section class="gallery parallax main-wrapper">
+    <section class="gallery grid parallax main-wrapper">
       <img src="/assets/img/patterns/pizza4.svg" alt="" width="300" class="pattern pizzas four">
       <img src="/assets/img/patterns/pizza5.svg" alt="" width="300" class="pattern pizzas five">
       <img src="/assets/img/patterns/pizza6.svg" alt="" width="300" class="pattern pizzas six">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.css" >
-      <h2>How it looks</h2>
-      <div class="grid">
+      <div class="gallery__header">
+        <h2>How it looks</h2>
+        <p>Taka a look at the food and interior pictures of Invitaly Pizza.</p>
+        <p>Make sure to follow us on <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="bottomline">Instagram</a> for more.</p>
+      </div>
+      <div class="gallery__list grid">
         <div class="food">
           <img src="/assets/img/food/140422/21-03Invitaly_10.jpg" class="m-b" alt="Invitaly" loading="lazy" width="320" height="480" >
           <h3>Food</h3>

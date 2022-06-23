@@ -6,7 +6,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header>
    
 <div class="logo">
-  <a href="/">
+  <a href="/en">
     <img src="/assets/img/invitaly_logo.png" alt="Invitaly" width="100" />
   </a>
 </div>
