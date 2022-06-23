@@ -18,14 +18,14 @@
 </noscript>
 <?php 
   if (stripos($_SERVER['PHP_SELF'], 'index.php')) {
-    echo '<link rel="stylesheet"href="assets/css/swiper-bundle.min.css"/>';
+    echo '<link rel="stylesheet" href="/assets/css/swiper-bundle.min.css"/>';
   }
   elseif (stripos($_SERVER['PHP_SELF'], 'reservation.php')) {
     echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/litepicker/dist/css/litepicker.css" />';
   }
 ?>
-<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-<link rel="icon" type="image/x-icon" href="assets/img/logoicon.ico">
+<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+<link rel="icon" type="image/x-icon" href="/assets/img/logoicon.ico">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

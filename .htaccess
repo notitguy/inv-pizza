@@ -7,7 +7,27 @@
 # Order deny,allow
 
 # Remove .php, .html extensions
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+# RewriteEngine On
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^([^\.]+)$ $1.php [NC,L]
+# RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteEngine on 
+
+# Redirect www and http to https - non-www
+   #RewriteCond %{HTTPS} off [OR]
+   RewriteCond %{HTTP_HOST} ^www\. [NC]
+   RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+   RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+
+# Start php extension remove
+   RewriteCond %{REQUEST_FILENAME} !-d 
+   RewriteCond %{REQUEST_FILENAME}\.php -f 
+   RewriteRule ^(.*)$ $1.php
+# End php extension remove    
+
+# Start html extension remove
+   RewriteCond %{REQUEST_FILENAME} !-d 
+   RewriteCond %{REQUEST_FILENAME}\.html -f 
+   RewriteRule ^(.*)$ $1.html
+# End html extension remove

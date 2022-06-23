@@ -1,7 +1,7 @@
   <footer id="contact" class="footer main-wrapper">
       <div class="row col-md-12">
           <!-- <a href="/">
-            <img class="footer_logo_img" src="assets/img/logo.png" alt="Logo">
+            <img class="footer_logo_img" src="/assets/img/logo.png" alt="Logo">
           </a> -->
           <div class="col-md-6">
             <h3 style="color: var(--accent-color);">Reservations:</h3>
@@ -37,7 +37,7 @@
                 </li>
               </ul>
               <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link">
-                <img src="assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
+                <img src="/assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
               </a>
             </address>
           </div>
@@ -73,7 +73,7 @@
     }
   ?>
   <script defer src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
-  <!-- <script defer src="assets/cookie/cookieconsent.js"></script>
-  <script defer src="assets/cookie/cookieconsent-init.js"></script> -->
-  <script type="module" src="assets/js/gallery.js"></script>
-  <script defer src="assets/js/main.js"></script>
+  <!-- <script defer src="/assets/cookie/cookieconsent.js"></script>
+  <script defer src="/assets/cookie/cookieconsent-init.js"></script> -->
+  <script type="module" src="/assets/js/gallery.js"></script>
+  <script defer src="/assets/js/main.js"></script>

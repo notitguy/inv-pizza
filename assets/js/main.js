@@ -141,7 +141,7 @@ const plateSlider = new Swiper(".plate-slider__slider", {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-      breakpoints: { 0: { shortSwipes: true}, 991: { shortSwipes: false } },
+      breakpoints: { 0: { shortSwipes: true, speed: 500 }, 991: { shortSwipes: false, speed: 500 } },
     });
 }
 

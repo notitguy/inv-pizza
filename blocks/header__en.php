@@ -12,11 +12,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <nav class="menu">
   <ul>
-    <li><a href="#top">Úvod</a></li>
-    <li><a href="#about">O nás</a></li>
+    <li><a href="#top">Home</a></li>
+    <li><a href="#about">About</a></li>
     <li><a href="#menu">Menu</a></li>
-    <li><a href="#contact">Kontakty</a></li>
-    <li><a href="#contact" class="reservation">Rezervace</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="reservation">Reservation</a></li>
   </ul>
 </nav>
 <a href="tel:+420773060490" target="_blank" class="call" title="Telefon Invitaly Pizzeria">
@@ -36,20 +36,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
   <ul class="mobile-menu_list">
-    <li><a href="#top">Úvod</a></li>
-    <li><a href="#about">O nás</a></li>
+    <li><a href="#top">Home</a></li>
+    <li><a href="#about">About</a></li>
     <li><a href="#menu">Menu</a></li>
-    <li><a href="#contact">Kontakty</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
-  <a href="#contact" class="primary">Rezervace</a>
+  <a href="#contact" class="primary">Make a reservation</a>
   <div class="small-divider m-b"></div>
   <h3>Invitaly Pizza</h3>
   <address>
     <ul class="m-b">
-      <li class="m-b">Vladislavova 26, 110 00 Praha, Česká republika <br> 
-      (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> Mapa 📍</a>)
+      <li class="m-b">Vladislavova 26, 110 00 Praha, Czechia <br> 
+      (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> Open map 📍</a>)
       </li>
-      <li><h3 style="color: var(--accent-color);">Rezervace:</h3></li>
+      <li><h3 style="color: var(--accent-color);">Reservations:</h3></li>
       <li><a href="tel:+420773069490" target="_blank">+420 773 069 490</a></li>
       <li><a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a></li>
     </ul>
