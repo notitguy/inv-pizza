@@ -61,6 +61,36 @@
       </div>
   </footer>
 
+<script type='application/ld+json'>
+  {
+    "@context": "http://www.schema.org",
+    "@type": "Restaurant",
+    "name": "Invitaly Pizza",
+    "url": "https://pizza.invitaly.cz/",
+    "sameAs": [
+      "https://www.instagram.com/invitaly_pizza/"
+    ],
+    "logo": "https://pizza.invitaly.cz/assets/img/invitaly_logo.png",
+    "priceRange": "$$",
+    "description": "Authentic Italian pizzeria & restaurant in the center of Prague.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Vladislavova 26",
+      "addressLocality": "Prague",
+      "postalCode": "11000",
+      "addressCountry": "Czechia"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "50.081600",
+      "longitude": "14.421300"
+    },
+    "hasMap": "https://goo.gl/maps/Hyk2hotsKMwWe1EL9",
+    "openingHours": "Mo 11:00-22:00 Tu 11:00-22:00 We 11:00-22:00 Th 11:00-22:00 Fr 11:00-22:00",
+    "telephone": "+420 773 069 490"
+  }
+</script>
+
   <script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <?php
     if (stripos($_SERVER['PHP_SELF'], 'index.php')) {
