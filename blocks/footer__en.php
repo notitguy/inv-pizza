@@ -4,21 +4,21 @@
             <img class="footer_logo_img" src="/assets/img/logo.png" alt="Logo">
           </a> -->
           <div class="col-md-6">
-            <h3 style="color: var(--accent-color);">Rezervace:</h3>
+            <h3 style="color: var(--accent-color);">Reservations:</h3>
               <ul class="m-b" style="--mb: 3.4rem">
                 <li>
-                  Zavolejte: <a href="tel:+420773069490" target="_blank">+420 773 069 490</a>
+                  Call: <a href="tel:+420773069490" target="_blank">+420 773 069 490</a>
                 </li>
                 <li>
                   Email: <a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a>
                 </li>
               </ul>
-            <h3>Otevírací doba</h3>
+            <h3>Opening hours</h3>
             <div class="opening-hours">
-              <p>Pondělí - Pátek:<br>
-              Sobota - Neděle:</p>
+              <p>Monday - Friday:<br>
+              Saturday - Sunday:</p>
               <p>11:00 - 22:00<br>
-              Zavřeno</p>
+              Closed</p>
             </div>
             <!-- <a href="/reservation" class="primary">Make a reservation</a> -->
           </div>
@@ -26,8 +26,8 @@
             <h3>Invitaly Pizza</h3>
             <address>
               <ul>
-                <li>Vladislavova 26, 110 00 Praha, Česká republika <br>
-                (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> Mapa 📍</a>)
+                <li>Vladislavova 26, 110 00 Prague, Czechia <br>
+                (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> Open map 📍</a>)
                 </li>
                 <li>
                   <a href="tel:+420773069490">+420 773 069 490</a>
@@ -37,7 +37,7 @@
                 </li>
               </ul>
               <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link">
-                <img src="/assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Čerstvé a chutné novinky na našem Instagramu
+                <img src="/assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
               </a>
             </address>
           </div>

@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <title>English Pizzeria Invitaly - Real Italian Pizza in Prague</title>
-  <meta name="description" content="Invitaly restaurant & pizzeria is located in the heart of Prague, in front of rotating Franz Kafka head. We serve real traditional Italian food.">
+  <title>Pizzeria Invitaly - Real Italian Pizza in Prague</title>
+  <meta name="description" content="Invitaly pizzeria & restaurant is located in the heart of Prague, in front of rotating Franz Kafka head. We serve real traditional Italian food.">
   <?php include '../blocks/base-head.php'; ?>
 </head>
 
@@ -152,7 +152,7 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.css" >
       <div class="gallery__header">
         <h2>How it looks</h2>
-        <p>Taka a look at the food and interior pictures of Invitaly Pizza.</p>
+        <p>Take a look at the food and interior pictures of Invitaly Pizza.</p>
         <p>Make sure to follow us on <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="bottomline">Instagram</a> for more.</p>
       </div>
       <div class="gallery__list grid">
@@ -249,7 +249,7 @@
     </section>
   </main>
 
-  <?php include '../blocks/footer.php'; ?>
+  <?php include '../blocks/footer__en.php'; ?>
 </body>
 
 </html>

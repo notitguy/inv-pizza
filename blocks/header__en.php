@@ -36,7 +36,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <nav class="mobile-menu">
   <div class="languages m-b">
     <a href="/">CS</a>
-    <a href="/en">EN</a>
+    <a href="/en" class="language--active">EN</a>
   </div>
 
   <ul class="mobile-menu_list">
@@ -58,10 +58,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a></li>
     </ul>
     <div class="opening-hours">
-      <p>Ponděli - Pátek:<br>
-      Sobota - Neděle:</p>
+      <p>Monday - Friday:<br>
+      Saturday - Sunday:</p>
       <p>11:00 - 22:00<br>
-      Závřeno</p>
+      Closed</p>
     </div>
     <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link">
       <img src="/assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
