@@ -222,20 +222,6 @@
 
     </section>
 
-    <!-- <section class="main-wrapper">
-      <div class="grid three-elements-layout__grid is--reversed">
-        <div class="three-elements-heading">
-          <h1 class="heading--xlarge">Lorem ipsum dolor sit 2019 amet, nostrud</h1>
-        </div>
-        <div class="three-elements-layout__image-wrapper">
-          <img src="assets/img/616fcd1ead014f224b85d31b_rijks-diner-champignon-1-1.jpg" loading="lazy" alt="img" />
-      </div>
-        <div>
-          <div class="small-divider"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-    </section> -->
     <section id="menu" class="main-wrapper two-blocks grid">
     <h2 class="is--centered">Chcete ochutnat?</h2>
       <div class="two-blocks__card">
