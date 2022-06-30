@@ -113,7 +113,7 @@
         <?php if (isset($menu)) { foreach ($menu as $item) { ?>
           <span><?php if (isset($item->date)) {echo $item->date;} ?></span>
         <?php }} ?>
-        <i>11:30 - 15:00</i>
+        <i>11:30 - 15:00 (Mon-Fri)</i>
         <ul class="daily-menu__list">
           <?php if (isset($menu)) {
             foreach ($menu as $item) { ?>

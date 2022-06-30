@@ -113,7 +113,7 @@
         <?php if (isset($menu)) { foreach ($menu as $item) { ?>
           <span><?php if (isset($item->date)) {echo $item->date;} ?></span>
         <?php }} ?>
-        <i>11:30 - 15:00</i>
+        <i>11:30 - 15:00 (Po-Pá)</i>
         <ul class="daily-menu__list">
           <?php if (isset($menu)) {
             foreach ($menu as $item) { ?>
@@ -211,7 +211,7 @@
               <blockquote>
                 <p>Dnes jsme měly v tyhle restauraci oběd. Mini kuřátka byli excelentni a mořské plody delikatesou. ☺️</p>
                 <p>Servírky usměvavé a zdvořilé.</p>
-                <p>Poměr cena kvalita naprosto ideální</p>
+                <p>Poměr cena kvalita naprosto ideální.</p>
               </blockquote>
             </figure>
           </div>
@@ -227,7 +227,7 @@
       <div class="two-blocks__card">
         <img src="/assets/img/food/photo_2022-02-19_10-16-17.jpg" alt="Invitaly" loading="lazy" width="687" height="300" >
         <h3>Podívejte se na naši nabídku</h3>
-        <p class="m-b">Přijďte si pochutnat na jídle do naší restaurace.</p>
+        <p class="m-b">Přijďte si pochutnat na italském jídle do naší restaurace.</p>
         <a href="https://www.invitaly.cz/files/menu_vladislavova.pdf" target="_blank" class="primary">Otěvřít menu <img src="assets/img/icons/pdf.svg" width="25px" style="margin: -0.4rem 0 0 1rem;" alt="Menu Invitaly"></a>
       </div>
       <div class="two-blocks__card">
