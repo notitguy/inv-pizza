@@ -20,7 +20,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </ul>
   <div class="languages">
     <a href="/">CS</a>
-    <a href="/en">EN</a>
+    <a href="/en" class="language--active">EN</a>
   </div>
 </nav>
 <a href="tel:+420773060490" target="_blank" class="call" title="Telefon Invitaly Pizzeria">

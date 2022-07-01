@@ -45,7 +45,7 @@
                   <h2 class="plate-slider__title is--slider-home">Stejně jako<br>v Itálii</h2></div>
                 <div class="text--mask">
                   <div class="plate-slider__btn-block">
-                    <span class="plate-slider__btn">Viz menu</span>
+                    <span class="plate-slider__btn">Menu</span>
                     <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" width="34" height="24" /></div>
                 </div>
               </a>
@@ -113,7 +113,7 @@
         <?php if (isset($menu)) { foreach ($menu as $item) { ?>
           <span><?php if (isset($item->date)) {echo $item->date;} ?></span>
         <?php }} ?>
-        <i>11:30 - 15:00</i>
+        <i>11:30 - 15:00 (Po-Pá)</i>
         <ul class="daily-menu__list">
           <?php if (isset($menu)) {
             foreach ($menu as $item) { ?>
@@ -153,8 +153,8 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.css" >
       <div class="gallery__header">
         <h2>Jak to u nás vypadá</h2>
-        <p>Podívejte se na fotky jídla a interiéru Invitaly Pizza.</p>
-        <p>Sledujte nás na <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="bottomline">Instagramu</a>.</p>
+        <p>Podívejte se na naše jídlo a na to, jak to u nás v Invitaly pizzerii vypadá.</p>
+        <p>Nezapomeňte nás sledovat na <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="bottomline">Instagramu</a>  pro více novinek.</p>
       </div>
       <div class="gallery__list grid">
         <div class="food">
@@ -175,8 +175,8 @@
     <section class="reviews grid main-wrapper">
 
         <div class="reviews__header">
-          <h2>Naši hosté říkají</h2>
-          <p>Jsme velmi hrdí, že můžeme splnit vaše očekávání. Každá recenze, kterou zanecháte, nás motivuje ke zlepšení.</p>
+          <h2>Co říkají naši hosté</h2>
+          <p>Jsme velmi pyšní na to, že jsme schopni naplnit Vaše představy. Každá recenze, kterou nám zanecháte, nás motivuje k tomu, abychom byli lepší.</p>
           <p>Děkujeme!</p>
           <a href="https://g.page/r/CWQq2MAFawinEB0/review" target="_blank" class="bottomline">Zanechte svou recenzi</a>
         </div>
@@ -211,7 +211,7 @@
               <blockquote>
                 <p>Dnes jsme měly v tyhle restauraci oběd. Mini kuřátka byli excelentni a mořské plody delikatesou. ☺️</p>
                 <p>Servírky usměvavé a zdvořilé.</p>
-                <p>Poměr cena kvalita naprosto ideální</p>
+                <p>Poměr cena kvalita naprosto ideální.</p>
               </blockquote>
             </figure>
           </div>
@@ -222,32 +222,18 @@
 
     </section>
 
-    <!-- <section class="main-wrapper">
-      <div class="grid three-elements-layout__grid is--reversed">
-        <div class="three-elements-heading">
-          <h1 class="heading--xlarge">Lorem ipsum dolor sit 2019 amet, nostrud</h1>
-        </div>
-        <div class="three-elements-layout__image-wrapper">
-          <img src="assets/img/616fcd1ead014f224b85d31b_rijks-diner-champignon-1-1.jpg" loading="lazy" alt="img" />
-      </div>
-        <div>
-          <div class="small-divider"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-    </section> -->
     <section id="menu" class="main-wrapper two-blocks grid">
     <h2 class="is--centered">Chcete ochutnat?</h2>
       <div class="two-blocks__card">
         <img src="/assets/img/food/photo_2022-02-19_10-16-17.jpg" alt="Invitaly" loading="lazy" width="687" height="300" >
         <h3>Podívejte se na naši nabídku</h3>
-        <p class="m-b">Přijďte si pochutnat na jídle do naší restaurace.</p>
-        <a href="https://www.invitaly.cz/files/menu_vladislavova.pdf" target="_blank" class="primary">Otěvřit menu <img src="assets/img/icons/pdf.svg" width="25px" style="margin: -0.4rem 0 0 1rem;" alt="Menu Invitaly"></a>
+        <p class="m-b">Přijďte si pochutnat na italském jídle do naší restaurace.</p>
+        <a href="https://www.invitaly.cz/files/menu_vladislavova.pdf" target="_blank" class="primary">Otěvřít menu <img src="assets/img/icons/pdf.svg" width="25px" style="margin: -0.4rem 0 0 1rem;" alt="Menu Invitaly"></a>
       </div>
       <div class="two-blocks__card">
         <img src="/assets/img/food/photo_2022-02-19_10-16-20.jpg" alt="Invitaly" loading="lazy" width="687" height="300" >
         <h3>Chcete to doma?</h3>
-        <p class="m-b">Nechte si to doručit. While it is hot.</p>
+        <p class="m-b">Nechte si to doručit. Dokud je ještě čerstvé.</p>
         <a href="https://wolt.com/cs/cze/prague/restaurant/invitaly" target="_blank" class="primary" rel="nofollow">Objednat teď <img src="assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
       </div>
     </section>

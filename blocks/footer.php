@@ -4,7 +4,7 @@
             <img class="footer_logo_img" src="/assets/img/logo.png" alt="Logo">
           </a> -->
           <div class="col-md-6">
-            <h3 style="color: var(--accent-color);">Reservace:</h3>
+            <h3 style="color: var(--accent-color);">Rezervace:</h3>
               <ul class="m-b" style="--mb: 3.4rem">
                 <li>
                   Zavolejte: <a href="tel:+420773069490" target="_blank">+420 773 069 490</a>
@@ -15,10 +15,10 @@
               </ul>
             <h3>Otevírací doba</h3>
             <div class="opening-hours">
-              <p>Ponděli - Pátek:<br>
+              <p>Pondělí - Pátek:<br>
               Sobota - Neděle:</p>
               <p>11:00 - 22:00<br>
-              Závřeno</p>
+              Zavřeno</p>
             </div>
             <!-- <a href="/reservation" class="primary">Make a reservation</a> -->
           </div>
