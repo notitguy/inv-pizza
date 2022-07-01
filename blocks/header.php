@@ -19,7 +19,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li><a href="#contact" class="reservation">Rezervace</a></li>
   </ul>
   <div class="languages">
-    <a href="/">CS</a>
+    <a href="/" class="language--active">CS</a>
     <a href="/en">EN</a>
   </div>
 </nav>
@@ -35,7 +35,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <nav class="mobile-menu">
   <div class="languages m-b">
-    <a href="/">CS</a>
+    <a href="/" class="language--active">CS</a>
     <a href="/en">EN</a>
   </div>
 
@@ -64,7 +64,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       Závřeno</p>
     </div>
     <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link">
-      <img src="/assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
+      <img src="/assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Čerstvé a chutné novinky na našem Instagramu
     </a>
   </address>
 </nav>

@@ -353,6 +353,9 @@ a.call img {
 .menu .languages {
     margin-left: 2rem;
 }
+.language--active {
+    color: var(--accent-color);
+}
 
 .mobile-menu {
     position: absolute;
@@ -1115,6 +1118,9 @@ footer  {
         align-items: flex-start;
         gap: 1rem;
         margin-top: 2rem;
+    }
+    .social-link img {
+        margin-top: 0.3rem;
     }
 
 /* Forms */
