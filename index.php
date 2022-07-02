@@ -39,23 +39,28 @@
               <div class="plate-slider__image-wrapper">
                 <img src="assets/img/header/plate-pizza-dark.webp" alt="Invitaly Pizza" class="plate-slider__image" width="1224" height="935" />
               </div>
-              <a href="#menu" class="link plate-slider__content-block is--plate-slider">
+              <div class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask"><i class="plate-slider__subtitle">Lahodné pizzy</i></div>
                 <div class="text--mask">
                   <h2 class="plate-slider__title is--slider-home">Stejně jako<br>v Itálii</h2></div>
-                <div class="text--mask">
-                  <div class="plate-slider__btn-block">
+                <div class="two-buttons text--mask">
+                  <a href="#menu" class="plate-slider__btn-block">
                     <span class="plate-slider__btn">Menu</span>
-                    <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" width="34" height="24" /></div>
+                    <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" width="34" height="24" />
+                  </a>
+                  <a href="#lunch" class="plate-slider__btn-block" style="background-color: rgb(0 0 0 / 50%);">
+                    <span class="plate-slider__btn">Denní menu</span>
+                    <img src="assets/img/icons/arrow--white.svg" alt="icon" class="plate-slider__btn-icon" width="34" height="24" />
+                  </a>
                 </div>
-              </a>
+              </div>
             </div>
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
                 <img src="assets/img/header/plate-pizza.webp" alt="Invitaly Pizza" class="plate-slider__image"  width="1224" height="935" />
               </div>
-              <a href="#about" class="link plate-slider__content-block is--plate-slider">
+              <a href="#about" class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask">
                   <h2 class="plate-slider__title is--slider-home">Proč<br>Invitaly?</h2>
                 </div>
@@ -72,7 +77,7 @@
               <div class="plate-slider__image-wrapper">
                 <img src="assets/img/header/plate-seafood.webp" alt="Invitaly Pizza" class="plate-slider__image"  width="1224" height="935" style="min-width: 66vw;" />
               </div>
-              <a href="#contact" class="link plate-slider__content-block is--plate-slider">
+              <a href="#contact" class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask">
                   <h2 class="plate-slider__title is--slider-home">Rezervace</h2>
                 </div>
@@ -103,7 +108,7 @@
 
     </section>
 
-    <section class="main-wrapper daily-menu parallax is--centered">
+    <section id="lunch" class="main-wrapper daily-menu parallax is--centered">
       <img src="/assets/img/patterns/pizza1.svg" alt="" width="300" class="pattern pizzas one">
       <img src="/assets/img/patterns/pizza2.svg" alt="" width="300" class="pattern pizzas two">
       <img src="/assets/img/patterns/pizza3.svg" alt="" width="300" class="pattern pizzas three">

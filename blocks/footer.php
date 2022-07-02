@@ -12,6 +12,9 @@
                 <li>
                   Email: <a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a>
                 </li>
+                <li>
+                  Objednat online: <a href="https://wolt.com/cs/cze/prague/restaurant/invitaly" target="_blank" rel="nofollow"><img src="/assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
+                </li>
               </ul>
             <h3>Otevírací doba</h3>
             <div class="opening-hours">

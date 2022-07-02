@@ -16,7 +16,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li><a href="#about">About</a></li>
     <li><a href="#menu">Menu</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#contact" class="reservation">Reservation</a></li>
+    <li><a href="#menu" class="reservation">Delivery</a></li>
   </ul>
   <div class="languages">
     <a href="/">CS</a>
@@ -41,11 +41,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <ul class="mobile-menu_list">
     <li><a href="#top">Home</a></li>
-    <li><a href="#about">About</a></li>
+    <li><a href="#lunch">Lunch Menu</a></li>
     <li><a href="#menu">Menu</a></li>
+    <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <a href="#contact" class="primary">Make a reservation</a>
+  <a href="https://wolt.com/en/cze/prague/restaurant/invitaly" target="_blank" rel="nofollow" class="primary">Delivery <img src="/assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
   <div class="small-divider m-b"></div>
   <h3>Invitaly Pizza</h3>
   <address>
