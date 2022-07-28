@@ -117,7 +117,7 @@
       <?php $menu = json_decode(file_get_contents("https://opensheet.elk.sh/1XW32FBLBLWsKdcg6fK6C0PB5-kNJXbGytTWnSNNaSmA/English"));?>
         <?php if (isset($menu)) { foreach ($menu as $item) { ?>
           <span><?php if (isset($item->date)) {echo $item->date;} ?></span>
-        <?php }} ?>
+        <?php  break; }} ?>
         <i>11:30 - 15:00 (Mon-Fri)</i>
         <ul class="daily-menu__list">
           <?php if (isset($menu)) {
