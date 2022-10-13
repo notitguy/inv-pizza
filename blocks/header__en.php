@@ -6,7 +6,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header>
    
 <div class="logo">
-  <a href="/en">
+  <a href="/en/">
     <img src="/assets/img/invitaly_logo.png" alt="Invitaly" width="100" />
   </a>
 </div>
@@ -20,7 +20,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </ul>
   <div class="languages">
     <a href="/">CS</a>
-    <a href="/en" class="language--active">EN</a>
+    <a href="/en/" class="language--active">EN</a>
   </div>
 </nav>
 <a href="tel:+420773060490" target="_blank" class="call" title="Telefon Invitaly Pizzeria">
@@ -36,7 +36,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <nav class="mobile-menu">
   <div class="languages m-b">
     <a href="/">CS</a>
-    <a href="/en" class="language--active">EN</a>
+    <a href="/en/" class="language--active">EN</a>
   </div>
 
   <ul class="mobile-menu_list">
