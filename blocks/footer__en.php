@@ -10,7 +10,7 @@
                   Call: <a href="tel:+420773069490" target="_blank">+420 773 069 490</a>
                 </li>
                 <li>
-                  Email: <a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a>
+                  Email: <a href="mailto:piazzetta@invitaly.cz" target="_blank">piazzetta@invitaly.cz</a>
                 </li>
                 <li>
                   Order online: <a href="https://wolt.com/en/cze/prague/restaurant/invitaly" target="_blank" rel="nofollow"><img src="/assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
@@ -36,7 +36,7 @@
                   <a href="tel:+420773069490">+420 773 069 490</a>
                 </li>
                 <li>
-                  <a href="mailto:hello@invitaly.cz">hello@invitaly.cz</a>
+                  <a href="mailto:piazzetta@invitaly.cz">piazzetta@invitaly.cz</a>
                 </li>
               </ul>
               <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link">
