@@ -243,7 +243,6 @@
       </div>
     </section>
   </main>
-
   <?php include 'blocks/footer.php'; ?>
 </body>
 
