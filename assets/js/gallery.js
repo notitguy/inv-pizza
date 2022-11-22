@@ -29,6 +29,12 @@ const interiorImages = [
   { src: '/assets/img/interior/invitaly-praha-14.jpg', width: 2000, height: 1336, alt: 'Pizzeria Invitaly' },
 ];
 const ugcImages = [
+  { src: '/assets/img/ugc/2022-11-22-5.jpeg', width: 768, height: 1024, alt: 'Pizzeria Invitaly' },
+  { src: '/assets/img/ugc/2022-11-22-4.jpeg', width: 768, height: 1024, alt: 'Pizzeria Invitaly' },
+  { src: '/assets/img/ugc/2022-11-22-3.jpeg', width: 768, height: 1024, alt: 'Pizzeria Invitaly' },
+  { src: '/assets/img/ugc/2022-11-22-2.jpeg', width: 768, height: 1024, alt: 'Pizzeria Invitaly' },
+  { src: '/assets/img/ugc/2022-11-22-1.jpeg', width: 768, height: 1024, alt: 'Pizzeria Invitaly' },
+  { src: '/assets/img/ugc/2022-11-22.jpeg', width: 768, height: 1024, alt: 'Pizzeria Invitaly' },
   { src: '/assets/img/ugc/pizza-spinach.jpeg', width: 1536, height: 2048, alt: 'Pizzeria Invitaly' },
   { src: '/assets/img/ugc/pizza1.jpeg', width: 768, height: 1024, alt: 'Pizzeria Invitaly' },
   { src: '/assets/img/ugc/pasta-and-pizza.jpeg', width: 768, height: 1024, alt: 'Pizzeria Invitaly' },

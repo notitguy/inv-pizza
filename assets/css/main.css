@@ -591,7 +591,7 @@ body.is--home .slider.--fade-in,
     max-width: 150rem;
     margin-top: 35vh;
     padding: 0 8rem;
-    text-shadow: 0 0 20px #222;
+    text-shadow: 0 0 20px #444;
     color: var(--body-dark-color-2nd);
 }
 .plate-slider__content-block.is--detail-page {

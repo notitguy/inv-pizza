@@ -37,7 +37,7 @@
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
-                <img src="assets/img/header/plate-pizza-dark.webp" alt="Invitaly Pizza" class="plate-slider__image" width="1224" height="935" />
+                <img src="assets/img/header/plate-pizza.webp" alt="Invitaly Pizza" class="plate-slider__image" width="1224" height="935" />
               </div>
               <div class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask"><i class="plate-slider__subtitle">Lahodné pizzy</i></div>
@@ -58,7 +58,7 @@
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
-                <img src="assets/img/header/plate-pizza.webp" alt="Invitaly Pizza" class="plate-slider__image"  width="1224" height="935" />
+                <img src="assets/img/header/plate-meat.webp" alt="Invitaly Pizza" class="plate-slider__image"  width="1224" height="935" />
               </div>
               <a href="#about" class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask">
