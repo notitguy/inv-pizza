@@ -18,8 +18,8 @@
               </ul>
             <h3>Opening hours</h3>
             <div class="opening-hours">
-              <p>Monday - Friday:<br>
-              Saturday - Sunday:</p>
+              <p>Monday - Saturday:<br>
+              Sunday:</p>
               <p>11:00 - 22:00<br>
               Closed</p>
             </div>

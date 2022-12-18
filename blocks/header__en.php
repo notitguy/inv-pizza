@@ -59,8 +59,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a></li>
     </ul>
     <div class="opening-hours">
-      <p>Monday - Friday:<br>
-      Saturday - Sunday:</p>
+      <p>Monday - Saturday:<br>
+      Sunday:</p>
       <p>11:00 - 22:00<br>
       Closed</p>
     </div>
