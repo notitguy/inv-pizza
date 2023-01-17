@@ -20,7 +20,7 @@
             <div class="opening-hours">
               <p>Monday - Saturday:<br>
               Sunday:</p>
-              <p>11:00 - 22:00<br>
+              <p>11:45 - 22:00<br>
               Closed</p>
             </div>
             <!-- <a href="/reservation" class="primary">Make a reservation</a> -->

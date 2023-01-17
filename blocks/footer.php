@@ -20,7 +20,7 @@
             <div class="opening-hours">
               <p>Pondělí - Sobota:<br>
               Neděle:</p>
-              <p>11:00 - 22:00<br>
+              <p>11:45 - 22:00<br>
               Zavřeno</p>
             </div>
             <!-- <a href="/reservation" class="primary">Make a reservation</a> -->

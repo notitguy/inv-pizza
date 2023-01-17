@@ -61,7 +61,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="opening-hours">
       <p>Monday - Saturday:<br>
       Sunday:</p>
-      <p>11:00 - 22:00<br>
+      <p>11:45 - 22:00<br>
       Closed</p>
     </div>
     <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link">

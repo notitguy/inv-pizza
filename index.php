@@ -118,7 +118,7 @@
         <?php if (isset($menu)) { foreach ($menu as $item) { ?>
           <span><?php if (isset($item->date)) {echo $item->date;} ?></span>
         <?php break; }} ?>
-        <i>11:30 - 15:00 (Po-Pá)</i>
+        <i>11:45 - 15:00 (Po-Pá)</i>
         <ul class="daily-menu__list">
           <?php if (isset($menu)) {
             foreach ($menu as $item) { ?>
