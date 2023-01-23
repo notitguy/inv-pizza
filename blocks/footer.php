@@ -7,7 +7,7 @@
             <h3 style="color: var(--accent-color);">Rezervace:</h3>
               <ul class="m-b" style="--mb: 3.4rem">
                 <li>
-                  Zavolejte: <a href="tel:+420773069490" target="_blank">+420 773 069 490</a>
+                  Zavolejte: <a href="tel:+420773060490" target="_blank">+420 773 060 490</a>
                 </li>
                 <li>
                   Email: <a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a>
@@ -33,7 +33,7 @@
                 (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> Mapa 📍</a>)
                 </li>
                 <li>
-                  <a href="tel:+420773069490">+420 773 069 490</a>
+                  <a href="tel:+420773060490">+420 773 060 490</a>
                 </li>
                 <li>
                   <a href="mailto:hello@invitaly.cz">hello@invitaly.cz</a>
@@ -89,8 +89,8 @@
       "longitude": "14.421300"
     },
     "hasMap": "https://goo.gl/maps/Hyk2hotsKMwWe1EL9",
-    "openingHours": "Mo 11:00-22:00 Tu 11:00-22:00 We 11:00-22:00 Th 11:00-22:00 Fr 11:00-22:00",
-    "telephone": "+420 773 069 490"
+    "openingHours": "Mo 11:45-22:00 Tu 11:45-22:00 We 11:45-22:00 Th 11:45-22:00 Fr 11:45-22:00",
+    "telephone": "+420 773 060 490"
   }
 </script>
 
