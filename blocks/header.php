@@ -56,7 +56,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </li>
       <li><h3 style="color: var(--accent-color);">Rezervace:</h3></li>
       <li><a href="tel:+420773060490" target="_blank">+420 773 060 490</a></li>
-      <li><a href="mailto:hello@invitaly.cz" target="_blank">hello@invitaly.cz</a></li>
+      <li><a href="mailto:piazzetta@invitaly.cz" target="_blank">piazzetta@invitaly.cz</a></li>
     </ul>
     <div class="opening-hours">
       <p>Pondělí - Sobota:<br>
