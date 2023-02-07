@@ -233,7 +233,7 @@
         <img src="/assets/img/food/photo_2022-02-19_10-16-17.jpg" alt="Invitaly" loading="lazy" width="687" height="300" >
         <h3>Podívejte se na naši nabídku</h3>
         <p class="m-b">Přijďte si pochutnat na italském jídle do naší restaurace.</p>
-        <a href="https://www.invitaly.cz/files/menu_vladislavova.pdf" target="_blank" class="primary">Otěvřít menu <img src="assets/img/icons/pdf.svg" width="25px" style="margin: -0.4rem 0 0 1rem;" alt="Menu Invitaly"></a>
+        <a href="https://www.invitaly.cz/files/menu_vezenska.pdf" target="_blank" class="primary">Otěvřít menu <img src="assets/img/icons/pdf.svg" width="25px" style="margin: -0.4rem 0 0 1rem;" alt="Menu Invitaly"></a>
       </div>
       <div class="two-blocks__card">
         <img src="/assets/img/food/photo_2022-02-19_10-16-20.jpg" alt="Invitaly" loading="lazy" width="687" height="300" >
