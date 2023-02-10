@@ -158,7 +158,7 @@
       <div class="gallery__header">
         <h2>How it looks</h2>
         <p>Take a look at the food and interior pictures of Invitaly Pizza.</p>
-        <p>Make sure to follow us on <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="bottomline">Instagram</a> for more.</p>
+        <p>Make sure to follow us on <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="bottomline" id="instagramClick">Instagram</a> for more.</p>
       </div>
       <div class="gallery__list grid">
         <div class="food">
@@ -182,7 +182,7 @@
           <h2>Our guests say</h2>
           <p>We are very proud to meet your expectations. Every review you leave motivates us to become better.</p>
           <p>Thank you!</p>
-          <a href="https://g.page/r/CWQq2MAFawinEB0/review" target="_blank" class="bottomline">Leave your review</a>
+          <a href="https://g.page/r/CWQq2MAFawinEB0/review" target="_blank" class="bottomline" id="reviewClick">Leave your review</a>
         </div>
         <div class="reviews__slider swiper">
           <div class="swiper-wrapper">
@@ -229,13 +229,13 @@
         <img src="/assets/img/food/photo_2022-02-19_10-16-17.jpg" alt="Invitaly" loading="lazy" width="687" height="300" >
         <h3>See our menu</h3>
         <p class="m-b">Come and enjoy food in our restaurant.</p>
-        <a href="https://www.invitaly.cz/files/menu_vezenska.pdf" target="_blank" class="primary">See menu <img src="/assets/img/icons/pdf.svg" width="25px" style="margin: -0.4rem 0 0 1rem;" alt="Menu Invitaly"></a>
+        <a href="https://www.invitaly.cz/files/menu_vezenska.pdf" target="_blank" class="primary" id="menuDownload">See menu <img src="/assets/img/icons/pdf.svg" width="25px" style="margin: -0.4rem 0 0 1rem;" alt="Menu Invitaly"></a>
       </div>
       <div class="two-blocks__card">
         <img src="/assets/img/food/photo_2022-02-19_10-16-20.jpg" alt="Invitaly" loading="lazy" width="687" height="300" >
         <h3>Want it at home?</h3>
         <p class="m-b">Get it delivered. While it is hot.</p>
-        <a href="https://wolt.com/en/cze/prague/restaurant/invitaly" target="_blank" class="primary" rel="nofollow">Order now <img src="/assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
+        <a href="https://wolt.com/en/cze/prague/restaurant/invitaly" target="_blank" class="primary" id="orderClickSection" rel="nofollow">Order now <img src="/assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
       </div>
     </section>
   </main>

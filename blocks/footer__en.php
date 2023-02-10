@@ -7,13 +7,13 @@
             <h3 style="color: var(--accent-color);">Reservations:</h3>
               <ul class="m-b" style="--mb: 3.4rem">
                 <li>
-                  Call: <a href="tel:+420773060490" target="_blank">+420 773 060 490</a>
+                  Call: <a href="tel:+420773060490" target="_blank" id="callClick">+420 773 060 490</a>
                 </li>
                 <li>
-                  Email: <a href="mailto:piazzetta@invitaly.cz" target="_blank">piazzetta@invitaly.cz</a>
+                  Email: <a href="mailto:piazzetta@invitaly.cz" target="_blank" id="emailClick">piazzetta@invitaly.cz</a>
                 </li>
                 <li>
-                  Order online: <a href="https://wolt.com/en/cze/prague/restaurant/invitaly" target="_blank" rel="nofollow"><img src="/assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
+                  Order online: <a href="https://wolt.com/en/cze/prague/restaurant/invitaly" target="_blank" rel="nofollow" id="orderClickFooter"><img src="/assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
                 </li>
               </ul>
             <h3>Opening hours</h3>
@@ -30,16 +30,16 @@
             <address>
               <ul>
                 <li>Vladislavova 26, 110 00 Prague, Czechia <br>
-                (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank"> Open map 📍</a>)
+                (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank" id="mapClick"> Open map 📍</a>)
                 </li>
                 <li>
-                  <a href="tel:+420773060490">+420 773 060 490</a>
+                  <a href="tel:+420773060490" id="callClick">+420 773 060 490</a>
                 </li>
                 <li>
-                  <a href="mailto:piazzetta@invitaly.cz">piazzetta@invitaly.cz</a>
+                  <a href="mailto:piazzetta@invitaly.cz" id="emailClick">piazzetta@invitaly.cz</a>
                 </li>
               </ul>
-              <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link">
+              <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link" id="instagramClick">
                 <img src="/assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
               </a>
             </address>
@@ -89,7 +89,7 @@
       "longitude": "14.421300"
     },
     "hasMap": "https://goo.gl/maps/Hyk2hotsKMwWe1EL9",
-    "openingHours": "Mo 11:45-22:00 Tu 11:45-22:00 We 11:45-22:00 Th 11:45-22:00 Fr 11:45-22:00",
+    "openingHours": "Mo 11:45-22:00 Tu 11:45-22:00 We 11:45-22:00 Th 11:45-22:00 Fr 11:45-22:00 Sa 11:45-22:00",
     "telephone": "+420 773 060 490"
   }
 </script>
