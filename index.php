@@ -159,7 +159,7 @@
       <div class="gallery__header">
         <h2>Jak to u nás vypadá</h2>
         <p>Podívejte se na naše jídlo a na to, jak to u nás v Invitaly pizzerii vypadá.</p>
-        <p>Nezapomeňte nás sledovat na <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="bottomline" id="instagramClick">Instagramu</a>  pro více novinek.</p>
+        <p>Nezapomeňte nás sledovat na <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="bottomline" data-event="instagramClick">Instagramu</a>  pro více novinek.</p>
       </div>
       <div class="gallery__list grid">
         <div class="food">
@@ -183,7 +183,7 @@
           <h2>Co říkají naši hosté</h2>
           <p>Jsme velmi pyšní na to, že jsme schopni naplnit Vaše představy. Každá recenze, kterou nám zanecháte, nás motivuje k tomu, abychom byli lepší.</p>
           <p>Děkujeme!</p>
-          <a href="https://g.page/r/CWQq2MAFawinEB0/review" target="_blank" class="bottomline" id="reviewClick">Zanechte svou recenzi</a>
+          <a href="https://g.page/r/CWQq2MAFawinEB0/review" target="_blank" class="bottomline" data-event="reviewClick">Zanechte svou recenzi</a>
         </div>
         <div class="reviews__slider swiper">
           <div class="swiper-wrapper">
@@ -233,13 +233,13 @@
         <img src="/assets/img/food/photo_2022-02-19_10-16-17.jpg" alt="Invitaly" loading="lazy" width="687" height="300" >
         <h3>Podívejte se na naši nabídku</h3>
         <p class="m-b">Přijďte si pochutnat na italském jídle do naší restaurace.</p>
-        <a href="https://www.invitaly.cz/files/menu_vezenska.pdf" target="_blank" class="primary" id="menuDownload">Otěvřít menu <img src="assets/img/icons/pdf.svg" width="25px" style="margin: -0.4rem 0 0 1rem;" alt="Menu Invitaly"></a>
+        <a href="https://www.invitaly.cz/files/menu_vezenska.pdf" target="_blank" class="primary" data-event="menuDownload">Otěvřít menu <img src="assets/img/icons/pdf.svg" width="25px" style="margin: -0.4rem 0 0 1rem;" alt="Menu Invitaly"></a>
       </div>
       <div class="two-blocks__card">
         <img src="/assets/img/food/photo_2022-02-19_10-16-20.jpg" alt="Invitaly" loading="lazy" width="687" height="300" >
         <h3>Chcete to doma?</h3>
         <p class="m-b">Nechte si to doručit. Dokud je ještě čerstvé.</p>
-        <a href="https://wolt.com/cs/cze/prague/restaurant/invitaly" target="_blank" class="primary" id="orderClickSection" rel="nofollow">Objednat teď <img src="assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
+        <a href="https://wolt.com/cs/cze/prague/restaurant/invitaly" target="_blank" class="primary" data-event="orderClickSection" rel="nofollow">Objednat teď <img src="assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
       </div>
     </section>
   </main>
