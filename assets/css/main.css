@@ -334,6 +334,17 @@ header .burger {
     text-decoration:  none;
 }
 
+header a.primary {
+    display: inline-flex;
+    max-height: 52px;
+    align-items: center;
+    gap: 1rem;
+}
+
+a.primary.cta {
+    margin-left: auto;
+} 
+
 a.call {
     margin-left: auto;
     padding: 0.5rem;
@@ -1504,6 +1515,9 @@ textarea:not(.error-field):focus-visible {
 
 @media screen and (min-width: 990px) {
     header a.call {
+        display: none;
+    }
+    header a.cta.mobile {
         display: none;
     }
     .is--reversed .three-elements-heading {
