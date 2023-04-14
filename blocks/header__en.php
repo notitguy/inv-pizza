@@ -18,14 +18,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#menu" class="reservation">Delivery</a></li>
   </ul>
-  <a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" class="primary cta" data-event="reserveClickTop">Rezervation <img src="/assets/img/icons/icon-reserve.svg" width="36px" height="36px" alt="Reserve Invitaly">
+  <a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" class="primary cta" data-event="reserveClickTop">Rezervation <img src="/assets/img/icons/icon-reserve.svg" width="32px" height="32px" alt="Reserve Invitaly">
   </a>
   <div class="languages">
     <a href="/">CS</a>
     <a href="/en/" class="language--active">EN</a>
   </div>
 </nav>
-<a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" class="primary cta mobile" data-event="reserveClickTop">Rezervation <img src="/assets/img/icons/icon-reserve.svg" width="36px" height="36px" alt="Reserve Invitaly">
+<a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" class="primary cta mobile" data-event="reserveClickTop">Rezervation <img src="/assets/img/icons/icon-reserve.svg" width="32px" height="32px" alt="Reserve Invitaly">
 </a>
 <!-- <a href="tel:+420773060490" target="_blank" class="call" data-event="callButtonClick" title="Telefon Invitaly Pizzeria">
   <img src="/assets/img/icons/phone.svg" alt="Telefon Invitaly pizzeria">
@@ -51,7 +51,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <a href="https://wolt.com/en/cze/prague/restaurant/invitaly" target="_blank" rel="nofollow" class="primary" data-event="orderClickTop">Delivery <img src="/assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
-  <a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" class="primary cta" data-event="reserveClickTop">Rezervation <img src="/assets/img/icons/icon-reserve.svg" width="36px" height="36px" alt="Reserve Invitaly">
+  <a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" class="primary cta" data-event="reserveClickTop">Rezervation <img src="/assets/img/icons/icon-reserve.svg" width="32px" height="32px" alt="Reserve Invitaly">
   </a>
   <div class="small-divider m-b"></div>
   <h3>Invitaly Pizza</h3>

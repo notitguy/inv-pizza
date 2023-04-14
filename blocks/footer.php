@@ -7,7 +7,7 @@
             <h3 style="color: var(--accent-color);">Rezervace:</h3>
               <ul class="m-b" style="--mb: 3.4rem">
                 <li>
-                  Rezervujte stůl: <a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" data-event="reserveClickFooter"><img src="/assets/img/icons/icon-reserve.svg" width="36px" height="36px" style="margin: -0.4rem 0 0 1rem;" alt="Reserve Invitaly"></a>
+                  Rezervujte stůl: <a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" data-event="reserveClickFooter"><img src="/assets/img/icons/icon-reserve.svg" width="32px" height="32px" style="margin: -0.4rem 0 0 1rem;" alt="Reserve Invitaly"></a>
                 <li>
                   Objednat online: <a href="https://wolt.com/cs/cze/prague/restaurant/invitaly" target="_blank" rel="nofollow" data-event="orderClickFooter"><img src="/assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
                 </li>
