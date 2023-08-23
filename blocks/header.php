@@ -57,6 +57,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <h3>Invitaly Pizza</h3>
   <address>
     <ul class="m-b">
+    <li class="social-link" style="margin: 0 0 1rem;"><img src="/assets/img/icons/air-cond.svg" alt="Invitaly instagram" width="28" height="28" > Restaurace je plně klimatizovaná.</li>
       <li class="m-b">Vladislavova 26, 110 00 Praha, Česká republika <br> 
       (<a href="https://goo.gl/maps/Hyk2hotsKMwWe1EL9" target="_blank" data-event="mapClick"> Mapa 📍</a>)
       </li>
