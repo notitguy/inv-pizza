@@ -66,10 +66,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="mailto:piazzetta@invitaly.cz" target="_blank" data-event="emailClick">piazzetta@invitaly.cz</a></li>
     </ul>
     <div class="opening-hours">
-      <p>Pondělí - Sobota:<br>
-      Neděle:</p>
-      <p>11:45 - 22:00<br>
-      Zavřeno</p>
+      <p>Otevřeno každý den:<br></p>
+      <p>11:45 - 22:00<br></p>
     </div>
     <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link" data-event="instagramClick">
       <img src="/assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Čerstvé a chutné novinky na našem Instagramu
