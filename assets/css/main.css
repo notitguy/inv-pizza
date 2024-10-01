@@ -289,7 +289,6 @@ header {
 }
 .header_down {
     background-color: transparent;
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.25);
     transition: background-color var(--easing) 0.3s;
 }
 .header_down.sticky_top  {
