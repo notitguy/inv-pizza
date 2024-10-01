@@ -239,7 +239,7 @@
         <img src="/assets/img/food/photo_2022-02-19_10-16-20.jpg" alt="Invitaly" loading="lazy" width="687" height="300" >
         <h3>Chcete to doma?</h3>
         <p class="m-b">Nechte si to doručit. Dokud je ještě čerstvé.</p>
-        <a href="https://wolt.com/cs/cze/prague/restaurant/invitaly" target="_blank" class="primary" data-event="orderClickSection" rel="nofollow">Objednat teď <img src="assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
+        <a href="https://invitaly.choiceqr.com/delivery/online-menu" target="_blank" class="primary" data-event="orderClickSection" rel="nofollow">Objednat teď <img src="assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
       </div>
     </section>
   </main>
