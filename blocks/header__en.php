@@ -50,7 +50,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <a href="https://invitaly.choiceqr.com/delivery/online-menu" target="_blank" rel="nofollow" class="primary" data-event="orderClickTop">Delivery <img src="/assets/img/icons/wolt.png" width="55px" height="20px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
+  <a href="https://invitaly.choiceqr.com/delivery/online-menu" target="_blank" rel="nofollow" class="primary" data-event="orderClickTop">Delivery <img src="/assets/img/icons/delivery.svg" width="32px" height="32px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
   <a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" class="primary cta" data-event="reserveClickTop">Rezervation <img src="/assets/img/icons/icon-reserve.svg" width="32px" height="32px" alt="Reserve Invitaly">
   </a>
   <div class="small-divider m-b"></div>

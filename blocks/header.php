@@ -50,7 +50,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li><a href="#about">O nás</a></li>
     <li><a href="#contact">Kontakty</a></li>
   </ul>
-  <a href="https://invitaly.choiceqr.com/delivery/online-menu" target="_blank" rel="nofollow" class="primary" data-event="orderClickTop">Objednat <img src="/assets/img/icons/wolt.png" width="55px" height="20px" alt="Order Invitaly"></a>
+  <a href="https://invitaly.choiceqr.com/delivery/online-menu" target="_blank" rel="nofollow" class="primary" data-event="orderClickTop">Objednat <img src="assets/img/icons/delivery.svg" width="32px" height="32px" alt="Order Invitaly"></a>
   <a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" class="primary cta" data-event="reserveClickTop">Rezervace <img src="/assets/img/icons/icon-reserve.svg" width="32px" height="32px" alt="Reserve Invitaly">
   </a>
   <div class="small-divider m-b"></div>
