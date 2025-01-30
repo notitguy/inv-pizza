@@ -20,7 +20,7 @@
             <!-- <a href="/reservation" class="primary">Make a reservation</a> -->
           </div>
           <div class="col-md-6">
-            <h3>Invitaly Pizza</h3>
+            <h3>Invitaly Piazetta</h3>
             <address>
               <ul>
                 <li class="social-link" style="margin: 0 0 1rem;"><img src="/assets/img/icons/air-cond.svg" alt="Invitaly instagram" width="28" height="28" > Restaurace je plně klimatizovaná.</li>
@@ -34,7 +34,7 @@
                   <a href="mailto:piazzetta@invitaly.cz" data-event="emailClick">piazzetta@invitaly.cz</a>
                 </li>
               </ul>
-              <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link" data-event="instagramClick">
+              <a href="https://www.instagram.com/invitaly_piazzetta/" target="_blank" class="social-link" data-event="instagramClick">
                 <img src="/assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Čerstvé a chutné novinky na našem Instagramu
               </a>
             </address>
@@ -63,10 +63,10 @@
   {
     "@context": "http://www.schema.org",
     "@type": "Restaurant",
-    "name": "Invitaly Pizza",
+    "name": "Invitaly Piazetta",
     "url": "https://pizza.invitaly.cz/",
     "sameAs": [
-      "https://www.instagram.com/invitaly_pizza/"
+      "https://www.instagram.com/invitaly_piazzetta/"
     ],
     "logo": "https://pizza.invitaly.cz/assets/img/invitaly_logo.png",
     "priceRange": "$$",

@@ -2,7 +2,7 @@
 <html lang="cs">
 
 <head>
-  <title>Contact us ~ Pizzeria Invitaly Prague</title>
+  <title>Contact us ~ Invitaly Piazetta Prague</title>
   <?php include 'blocks/base-head.php'; ?>
 </head>
 

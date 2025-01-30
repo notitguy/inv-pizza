@@ -10,7 +10,7 @@
                   Reserve your table: <a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" data-event="reserveClickFooter"><img src="/assets/img/icons/icon-reserve.svg" width="32px" height="32px" style="margin: -0.4rem 0 0 1rem;" alt="Reserve Invitaly"></a>
                 <li>
                 <li>
-                  Order online: <a href="https://invitaly.choiceqr.com/delivery/online-menu" target="_blank" rel="nofollow" data-event="orderClickFooter"><img src="assets/img/icons/delivery.svg" width="32px" height="32px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
+                  Order online: <a href="https://invitaly.choiceqr.com/delivery/online-menu" target="_blank" rel="nofollow" data-event="orderClickFooter"><img src="/assets/img/icons/delivery.svg" width="32px" height="32px" style="margin: -0.4rem 0 0 1rem;" alt="Order Invitaly"></a>
                 </li>
               </ul>
             <h3>Opening hours</h3>
@@ -21,7 +21,7 @@
             <!-- <a href="/reservation" class="primary">Make a reservation</a> -->
           </div>
           <div class="col-md-6">
-            <h3>Invitaly Pizza</h3>
+            <h3>Invitaly Piazetta</h3>
             <address>
               <ul>
                 <li class="social-link" style="margin: 0 0 1rem;"><img src="/assets/img/icons/air-cond.svg" alt="Invitaly instagram" width="28" height="28" > The restaurant is fully air conditioned.</li>
@@ -35,7 +35,7 @@
                   <a href="mailto:piazzetta@invitaly.cz" data-event="emailClick">piazzetta@invitaly.cz</a>
                 </li>
               </ul>
-              <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link" data-event="instagramClick">
+              <a href="https://www.instagram.com/invitaly_piazzetta/" target="_blank" class="social-link" data-event="instagramClick">
                 <img src="/assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Fresh and tasty updates on our Instagram
               </a>
             </address>
@@ -64,10 +64,10 @@
   {
     "@context": "http://www.schema.org",
     "@type": "Restaurant",
-    "name": "Invitaly Pizza",
+    "name": "Invitaly Piazetta",
     "url": "https://pizza.invitaly.cz/",
     "sameAs": [
-      "https://www.instagram.com/invitaly_pizza/"
+      "https://www.instagram.com/invitaly_piazzetta/"
     ],
     "logo": "https://pizza.invitaly.cz/assets/img/invitaly_logo.png",
     "priceRange": "$$",

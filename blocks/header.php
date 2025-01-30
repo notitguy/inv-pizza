@@ -54,7 +54,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" class="primary cta" data-event="reserveClickTop">Rezervace <img src="/assets/img/icons/icon-reserve.svg" width="32px" height="32px" alt="Reserve Invitaly">
   </a>
   <div class="small-divider m-b"></div>
-  <h3>Invitaly Pizza</h3>
+  <h3>Invitaly Piazetta</h3>
   <address>
     <ul class="m-b">
     <li class="social-link" style="margin: 0 0 1rem;"><img src="/assets/img/icons/air-cond.svg" alt="Invitaly instagram" width="28" height="28" > Restaurace je plně klimatizovaná.</li>
@@ -69,7 +69,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <p>Otevřeno každý den:<br></p>
       <p>11:45 - 22:00<br></p>
     </div>
-    <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="social-link" data-event="instagramClick">
+    <a href="https://www.instagram.com/invitaly_piazzetta/" target="_blank" class="social-link" data-event="instagramClick">
       <img src="/assets/img/icons/instagram.svg" alt="Invitaly instagram" width="28" height="28" > Čerstvé a chutné novinky na našem Instagramu
     </a>
   </address>

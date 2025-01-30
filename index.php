@@ -2,8 +2,8 @@
 <html lang="cs">
 
 <head>
-  <title>Pizzerie Invitaly - pravá italská pizza v Praze</title>
-  <meta name="description" content="Pizzerie & restaurace Invitaly se nachází v srdci Prahy, před rotující hlavou Franze Kafky. Podáváme pravé tradiční italské jídlo.">
+  <title>Invitaly Piazetta - pravá italská pizza v Praze</title>
+  <meta name="description" content="Pizzerie & restaurace Invitaly Piazetta se nachází v srdci Prahy, před rotující hlavou Franze Kafky. Podáváme pravé tradiční italské jídlo.">
   <?php include 'blocks/base-head.php'; ?>
 </head>
 
@@ -37,7 +37,7 @@
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
-                <img src="assets/img/header/plate-pizza.webp" alt="Invitaly Pizza" class="plate-slider__image" width="1224" height="935" />
+                <img src="assets/img/header/plate-pizza.webp" alt="Invitaly Piazetta" class="plate-slider__image" width="1224" height="935" />
               </div>
               <div class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask"><i class="plate-slider__subtitle">Lahodné pizzy</i></div>
@@ -58,7 +58,7 @@
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
-                <img src="assets/img/header/plate-meat.webp" alt="Invitaly Pizza" class="plate-slider__image"  width="1224" height="935" />
+                <img src="assets/img/header/plate-meat.webp" alt="Invitaly Piazetta" class="plate-slider__image"  width="1224" height="935" />
               </div>
               <a href="#about" class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask">
@@ -75,7 +75,7 @@
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
-                <img src="assets/img/header/plate-seafood.webp" alt="Invitaly Pizza" class="plate-slider__image"  width="1224" height="935" style="min-width: 66vw;" />
+                <img src="assets/img/header/plate-seafood.webp" alt="Invitaly Piazetta" class="plate-slider__image"  width="1224" height="935" style="min-width: 66vw;" />
               </div>
               <a href="#contact" class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask">
@@ -134,7 +134,7 @@
       <div class="grid three-elements-layout__grid">
         <div class="three-elements-heading">
           <h1 class="heading--xlarge">
-            Pizzeria & Restaurace Invitaly
+            Restaurace Invitaly Piazetta
             <span>Autentická italská kuchyně v Praze</span>
           </h1>
         </div>
@@ -159,7 +159,7 @@
       <div class="gallery__header">
         <h2>Jak to u nás vypadá</h2>
         <p>Podívejte se na naše jídlo a na to, jak to u nás v Invitaly pizzerii vypadá.</p>
-        <p>Nezapomeňte nás sledovat na <a href="https://www.instagram.com/invitaly_pizza/" target="_blank" class="bottomline" data-event="instagramClick">Instagramu</a>  pro více novinek.</p>
+        <p>Nezapomeňte nás sledovat na <a href="https://www.instagram.com/invitaly_piazzetta/" target="_blank" class="bottomline" data-event="instagramClick">Instagramu</a>  pro více novinek.</p>
       </div>
       <div class="gallery__list grid">
         <div class="food">
