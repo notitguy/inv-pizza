@@ -141,8 +141,12 @@
         <div>
           <div class="small-divider"></div>
           <p>Invitaly Piazetta is located in the heart of Prague - right in front of rotating Franz Kafka head. It is a perfect spot to gather your friends & family to enjoy delicious Italian meals from our chefs.</p>
-          <p>Passion for good food and wine runs deep in our veins and our  kitchen is fully inspired by italian tradition  passed down through the generations. The Invitaly kitchen relies mostly on imported products from Italy to meet the authenticity of Italian  cuisine.</p>
+          <p>The Invitaly kitchen relies mostly on imported products from Italy to meet the authenticity of Italian  cuisine.</p>
           <p>As always, best enjoyed with wine!</p>
+          <div class="grid" style="gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));">
+            <img src="assets/press/press1.png" alt="" loading="lazy" width="150" height="150" />
+            <img src="assets/press/press2.png" alt="" loading="lazy" width="150" height="150" />
+          </div>
         </div>
         <div class="three-elements-layout__image-wrapper">
           <img src="/assets/img/food/about-invitaly.webp" alt="" loading="lazy" width="975" height="650"/>
@@ -176,7 +180,7 @@
       </div>
     </section>
 
-    <section class="reviews grid main-wrapper">
+    <section class="reviews grid main-wrapper" style="padding-bottom: 0;">
 
         <div class="reviews__header">
           <h2>Our guests say</h2>

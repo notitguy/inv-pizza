@@ -141,9 +141,12 @@
         <div>
           <div class="small-divider"></div>
           <p>Pizzerie a restaurace Invitaly se nachází v srdci Prahy hned naproti soše otáčející se hlavy Franze Kafky. Pokud si chcete užít skvělé Italské jídlo od našich kuchařů, naše restaurace je perfektní místo pro setkání s vaší rodinou a přáteli!</p>
-          <p>V našich žilách proudí vášeň pro skvělé jídlo a víno a naše kuchyně je inspirována tradiční kuchyní, která má tradici po generace.</p>
           <p>Naše restaurace Invitaly spoléhá zejména na dovezených produktech z Itálie, abychom dosáhli nejlepší autentičnosti italské kuchyně.</p>
           <p>Naši kuchyni si samozřejmě nejvíc vychutnáte s dobrým vínem!</p>
+          <div class="grid" style="gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));">
+            <img src="assets/press/press1.png" alt="" loading="lazy" width="150" height="150" />
+            <img src="assets/press/press2.png" alt="" loading="lazy" width="150" height="150" />
+          </div>
         </div>
         <div class="three-elements-layout__image-wrapper">
           <img src="assets/img/food/about-invitaly.webp" alt="" loading="lazy" width="975" height="650"/>
@@ -177,7 +180,7 @@
       </div>
     </section>
 
-    <section class="reviews grid main-wrapper">
+    <section class="reviews grid main-wrapper" style="padding-bottom: 0;">
 
         <div class="reviews__header">
           <h2>Co říkají naši hosté</h2>
