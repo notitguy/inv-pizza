@@ -144,8 +144,8 @@
           <p>The Invitaly kitchen relies mostly on imported products from Italy to meet the authenticity of Italian  cuisine.</p>
           <p>As always, best enjoyed with wine!</p>
           <div class="grid" style="gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));">
-            <img src="assets/press/press1.png" alt="" loading="lazy" width="150" height="150" />
-            <img src="assets/press/press2.png" alt="" loading="lazy" width="150" height="150" />
+            <img src="/assets/press/press1.png" alt="" loading="lazy" width="150" height="150" />
+            <img src="/assets/press/press2.png" alt="" loading="lazy" width="150" height="150" />
           </div>
         </div>
         <div class="three-elements-layout__image-wrapper">

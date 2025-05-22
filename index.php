@@ -144,12 +144,12 @@
           <p>Naše restaurace Invitaly spoléhá zejména na dovezených produktech z Itálie, abychom dosáhli nejlepší autentičnosti italské kuchyně.</p>
           <p>Naši kuchyni si samozřejmě nejvíc vychutnáte s dobrým vínem!</p>
           <div class="grid" style="gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));">
-            <img src="assets/press/press1.png" alt="" loading="lazy" width="150" height="150" />
-            <img src="assets/press/press2.png" alt="" loading="lazy" width="150" height="150" />
+            <img src="/assets/press/press1.png" alt="" loading="lazy" width="150" height="150" />
+            <img src="/assets/press/press2.png" alt="" loading="lazy" width="150" height="150" />
           </div>
         </div>
         <div class="three-elements-layout__image-wrapper">
-          <img src="assets/img/food/about-invitaly.webp" alt="" loading="lazy" width="975" height="650"/>
+          <img src="/assets/img/food/about-invitaly.webp" alt="" loading="lazy" width="975" height="650"/>
         </div>
       </div>
     </section>
