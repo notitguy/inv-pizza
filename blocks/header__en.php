@@ -54,7 +54,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="https://invitaly.choiceqr.com/booking" target="_blank" rel="nofollow" class="primary cta" data-event="reserveClickTop">Rezervation <img src="/assets/img/icons/icon-reserve.svg" width="32px" height="32px" alt="Reserve Invitaly">
   </a>
   <div class="small-divider m-b"></div>
-  <h3>Invitaly Piazetta</h3>
+  <h3>Invitaly Piazzetta</h3>
   <address>
     <ul class="m-b">
     <li class="social-link" style="margin: 0 0 1rem;"><img src="/assets/img/icons/air-cond.svg" alt="Invitaly instagram" width="28" height="28" > The restaurant is fully air conditioned.</li>

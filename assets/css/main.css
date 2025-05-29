@@ -1303,6 +1303,25 @@ textarea:not(.error-field):focus-visible {
     height: 2rem;
   }
 
+/* Press Page */
+
+.press {
+    div.press__row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 30ch), 1fr));
+        grid-template-rows: auto;
+        gap: 2.4rem;
+    }
+    div.press__item {
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 1.2rem;
+    }
+    img {
+        object-fit: cover;
+        height: 100%;
+    }
+}
 
 /* Responsive styles */
 

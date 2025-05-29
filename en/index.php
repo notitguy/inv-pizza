@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Invitaly Piazetta - Real Italian Pizza in Prague</title>
+  <title>Invitaly Piazzetta - Real Italian Pizza in Prague</title>
   <meta name="description" content="Invitaly pizzeria & restaurant is located in the heart of Prague, in front of rotating Franz Kafka head. We serve real traditional Italian food.">
   <?php include '../blocks/base-head.php'; ?>
 </head>
@@ -37,7 +37,7 @@
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
-                <img src="/assets/img/header/plate-pizza.webp" alt="Invitaly Piazetta" class="plate-slider__image" width="1224" height="935" />
+                <img src="/assets/img/header/plate-pizza.webp" alt="Invitaly Piazzetta" class="plate-slider__image" width="1224" height="935" />
               </div>
               <div class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask"><i class="plate-slider__subtitle">Delicious pizzas</i></div>
@@ -58,7 +58,7 @@
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
-                <img src="/assets/img/header/plate-meat.webp" alt="Invitaly Piazetta" class="plate-slider__image"  width="1224" height="935" />
+                <img src="/assets/img/header/plate-meat.webp" alt="Invitaly Piazzetta" class="plate-slider__image"  width="1224" height="935" />
               </div>
               <a href="#about" class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask">
@@ -75,7 +75,7 @@
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
-                <img src="/assets/img/header/plate-seafood.webp" alt="Invitaly Piazetta" class="plate-slider__image"  width="1224" height="935" style="min-width: 66vw;" />
+                <img src="/assets/img/header/plate-seafood.webp" alt="Invitaly Piazzetta" class="plate-slider__image"  width="1224" height="935" style="min-width: 66vw;" />
               </div>
               <a href="#contact" class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask">
@@ -140,7 +140,7 @@
         </div>
         <div>
           <div class="small-divider"></div>
-          <p>Invitaly Piazetta is located in the heart of Prague - right in front of rotating Franz Kafka head. It is a perfect spot to gather your friends & family to enjoy delicious Italian meals from our chefs.</p>
+          <p>Invitaly Piazzetta is located in the heart of Prague - right in front of rotating Franz Kafka head. It is a perfect spot to gather your friends & family to enjoy delicious Italian meals from our chefs.</p>
           <p>The Invitaly kitchen relies mostly on imported products from Italy to meet the authenticity of Italian  cuisine.</p>
           <p>As always, best enjoyed with wine!</p>
           <div class="grid" style="gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));">
@@ -161,7 +161,7 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.2.7/dist/photoswipe.css" >
       <div class="gallery__header">
         <h2>How it looks</h2>
-        <p>Take a look at the food and interior pictures of Invitaly Piazetta.</p>
+        <p>Take a look at the food and interior pictures of Invitaly Piazzetta.</p>
         <p>Make sure to follow us on <a href="https://www.instagram.com/invitaly_piazzetta/" target="_blank" class="bottomline" data-event="instagramClick">Instagram</a> for more.</p>
       </div>
       <div class="gallery__list grid">

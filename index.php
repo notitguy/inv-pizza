@@ -2,8 +2,8 @@
 <html lang="cs">
 
 <head>
-  <title>Invitaly Piazetta - pravá italská pizza v Praze</title>
-  <meta name="description" content="Pizzerie & restaurace Invitaly Piazetta se nachází v srdci Prahy, před rotující hlavou Franze Kafky. Podáváme pravé tradiční italské jídlo.">
+  <title>Invitaly Piazzetta - pravá italská pizza v Praze</title>
+  <meta name="description" content="Pizzerie & restaurace Invitaly Piazzetta se nachází v srdci Prahy, před rotující hlavou Franze Kafky. Podáváme pravé tradiční italské jídlo.">
   <?php include 'blocks/base-head.php'; ?>
 </head>
 
@@ -37,7 +37,7 @@
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
-                <img src="assets/img/header/plate-pizza.webp" alt="Invitaly Piazetta" class="plate-slider__image" width="1224" height="935" />
+                <img src="assets/img/header/plate-pizza.webp" alt="Invitaly Piazzetta" class="plate-slider__image" width="1224" height="935" />
               </div>
               <div class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask"><i class="plate-slider__subtitle">Lahodné pizzy</i></div>
@@ -58,7 +58,7 @@
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
-                <img src="assets/img/header/plate-meat.webp" alt="Invitaly Piazetta" class="plate-slider__image"  width="1224" height="935" />
+                <img src="assets/img/header/plate-meat.webp" alt="Invitaly Piazzetta" class="plate-slider__image"  width="1224" height="935" />
               </div>
               <a href="#about" class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask">
@@ -75,7 +75,7 @@
 
             <div class="swiper-slide is--plate-slider">
               <div class="plate-slider__image-wrapper">
-                <img src="assets/img/header/plate-seafood.webp" alt="Invitaly Piazetta" class="plate-slider__image"  width="1224" height="935" style="min-width: 66vw;" />
+                <img src="assets/img/header/plate-seafood.webp" alt="Invitaly Piazzetta" class="plate-slider__image"  width="1224" height="935" style="min-width: 66vw;" />
               </div>
               <a href="#contact" class="plate-slider__content-block is--plate-slider">
                 <div class="text--mask">
@@ -134,7 +134,7 @@
       <div class="grid three-elements-layout__grid">
         <div class="three-elements-heading">
           <h1 class="heading--xlarge">
-            Restaurace Invitaly Piazetta
+            Restaurace Invitaly Piazzetta
             <span>Autentická italská kuchyně v Praze</span>
           </h1>
         </div>

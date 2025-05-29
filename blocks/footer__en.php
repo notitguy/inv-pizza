@@ -21,7 +21,7 @@
             <!-- <a href="/reservation" class="primary">Make a reservation</a> -->
           </div>
           <div class="col-md-6">
-            <h3>Invitaly Piazetta</h3>
+            <h3>Invitaly Piazzetta</h3>
             <address>
               <ul>
                 <li class="social-link" style="margin: 0 0 1rem;"><img src="/assets/img/icons/air-cond.svg" alt="Invitaly instagram" width="28" height="28" > The restaurant is fully air conditioned.</li>
@@ -64,7 +64,7 @@
   {
     "@context": "http://www.schema.org",
     "@type": "Restaurant",
-    "name": "Invitaly Piazetta",
+    "name": "Invitaly Piazzetta",
     "url": "https://pizza.invitaly.cz/",
     "sameAs": [
       "https://www.instagram.com/invitaly_piazzetta/"
