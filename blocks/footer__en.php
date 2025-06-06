@@ -15,8 +15,10 @@
               </ul>
             <h3>Opening hours</h3>
             <div class="opening-hours">
-              <p>Open daily:<br></p>
-              <p>11:45 - 22:00<br></p>
+              <p>Mon-Sat:</p>
+              <p>11:45 - 22:00</p>
+              <p>Sunday:</p>
+              <p>Closed</p>
             </div>
             <!-- <a href="/reservation" class="primary">Make a reservation</a> -->
           </div>

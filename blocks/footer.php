@@ -14,8 +14,10 @@
               </ul>
             <h3>Otevírací doba</h3>
             <div class="opening-hours">
-              <p>Každý den:<br></p>
-              <p>11:45 - 22:00<br></p>
+              <p>Po–So:</p>
+              <p>11:45 - 22:00</p>
+              <p>Neděle:</p>
+              <p>Zavřeno</p>
             </div>
             <!-- <a href="/reservation" class="primary">Make a reservation</a> -->
           </div>
